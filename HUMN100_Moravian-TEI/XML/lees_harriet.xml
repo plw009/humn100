@@ -140,7 +140,7 @@
                   Brief Memoir 
                   of the late <name type="emotion">happily</name> departed Sister
                   <persName>Harriett Lees</persName>,
-                  who fell asleep in Jesus
+                  who <name type="event">fell asleep in Jesus</name>
                   on the <date>17th of January 1842 </date>aged 30 - 
                   and was <name type="event">interred in the Burying Ground</name>
                   adjacent to the <placeName>Chapel</placeName> of the United Brethren
@@ -150,7 +150,7 @@
                   1811</date> at the <placeName>Woodford cum Membris</placeName> in the county of 
                   <placeName>Northampton</placeName>; she was brought up in the 
                   principles and doctrines of the established
-                  Church of England and by a pious mother 
+                  <orgName>Church of England</orgName> and by a pious mother 
                   was early trained in the path of virtue, and 
                   though she <name type="event">lost her mother in early age</name>, yet
                   the impressions she had perceived from that 
@@ -200,7 +200,7 @@
                </head>
                <p>    
                   the evening before, being thrown out of their 
-                  gig and very much hurt, she remarks,
+                  gig and <name type="emotion">very much hurt</name>, she remarks,
                   "Oh what a day is this, called upon to hear
                   of another accident, but God in his great
                   mercy has not seen fit that this should
@@ -223,7 +223,7 @@
                   <name type="emotion">happiness</name>. ----                   From that time 
                   her treasure was in heaven, and she took 
                   every opportunity of attending the preaching
-                  of the Gospel both of church and Chapel,
+                  of the Gospel both of <placeName>church</placeName> and <placeName>Chapel</placeName>,
                </p>
             </div>
             
@@ -233,12 +233,12 @@
                <p>   
                   and often explored the <name type="emotion">comfort</name> and 
                   <name type="emotion">happiness</name> she experienced in the house of
-                  God . --    Her health was delicate and she 
+                  God . --    Her health was <name type="health">delicate</name> and she 
                   was often subject to <name type="health">bad colds</name> attended
                   by <name type="health">severe cough</name>. -- In the spring of 
                   <date>1837</date> she had a violent <name type="health">inflammation of 
                   the lungs</name> which no doubt sowed the
-                  seeds of the pulmonary complaint
+                  seeds of the <name type="health">pulmonary complaint</name>
                   which caused her pilgrimage thro’ time to
                   be cut off in the bloom of life. ---
                   The following summer she was advised
@@ -263,7 +263,7 @@
                <head>Page 6 <seg ana="MemLon_300032-06" />
                </head>
                <p>     
-                  <name type="emotion">peace</name>, and draw our affections from the
+                  peace, and draw our affections from the
                   vanities of this world, to the joys of heaven 
                   and a Saviour's <name type="emotion">love</name>, and teach us strictly
                   to examine our wicked and deceitful hearts,
@@ -273,14 +273,14 @@
                   will refine the Jewels within, and at
                   length we shall be enabled from the heart
                   to say, it was good for us to be afflicted"
-                  On the <date>4th of June 1838</date> she was joined
-                  in holy matrimony to her surviving partner
+                  On the <date>4th of June 1838</date> she was <name type="event">joined
+                  in holy matrimony</name> to her surviving partner
                   13th. Br. <persName>William Lees</persName> of <placeName>Leominster</placeName>- After a residence
                   of a few months in that place, she was at 
                   her own earnest request admitted a member
                   of the <orgName>Brn's Church</orgName>, at a communion <name type="event">Lovefeast</name>
                   and having been a regular communicant in
-                  the Established Church, she partook of the
+                  <orgName>the Established Church</orgName>, she partook of the
                   Holy Sacrament at the same time. - She always
                   spoke of this as being a season of much
                   blessedness, and ever considered it a special
