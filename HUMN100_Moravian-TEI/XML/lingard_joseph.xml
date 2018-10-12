@@ -76,8 +76,8 @@
                <persName>Rosemary Rong</persName>
                <persName>Samantha Salazar</persName>
                <persName>Zakee Willis</persName>
-               <orgName>Bucknell University</orgName>              
-            </respStmt>   
+               <orgName>Bucknell University</orgName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>
@@ -112,9 +112,10 @@
    <text type="memoir">
       <body xml:lang="en">
          <div type="memoir">
-            <head>Joseph Lingard</head>
+            <head type="memoir">Joseph Lingard</head>
+            <docAuthor>ADD EDITOR NAMES BETWEEN THESE TAGS AND DELETE THIS TEXT</docAuthor>
             <div type="page" n="1">
-               <head>Page 1 <seg ana="MemBeth_0130-01" />
+               <head type="page" ana="MemBeth_0130-01">1
                </head>
                <p>
                   Age
@@ -131,9 +132,8 @@
                   In.
                </p>                 
             </div>
-            
             <div type="page" n="2">
-               <head>Page 2 <seg ana="MemBeth_0130-02" />
+               <head type="page" ana="MemBeth_0130-02">2
                </head>
                <p>
                   In <name type="event">the great Awakening</name> which happened here round
@@ -166,9 +166,8 @@
                   that he was forced as it were to seek his shelter at <placeName>Dukenfield</placeName>.
                </p>               
             </div>
-            
             <div type="page" n="3">
-               <head>Page 3 <seg ana="MemBeth_0130-03" />
+               <head type="page" ana="MemBeth_0130-03">3
                </head>
                <p>
                   <placeName>Dukenfield</placeName>. Whereover he shortly before his End, declared
@@ -200,9 +199,8 @@
                   Them
                </p>
             </div>
-            
             <div type="page" n="4">
-               <head>Page 4 <seg ana="MemBeth_0130-04" />
+               <head type="page" ana="MemBeth_0130-04">4
                </head>
                <p>
                   them, to keep close,very close to our <persName>Saviour</persName>, <name type="event">he
