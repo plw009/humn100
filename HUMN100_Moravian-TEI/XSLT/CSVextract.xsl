@@ -20,8 +20,8 @@
      <!--Match Root Node -->
     
     <xsl:template match="/">
-        <xsl:text>"elementName", "elementContent", "typeAttributeIfPresent"</xsl:text>
-        <xsl:for-each select="//text//persName | //text//placeName | //text//roleName | //text//orgName | //text//objectType | //text//date | //text//trait | //text//time | //text//state | text//name">
+        <xsl:text>"elementName", "typeAttributeIfPresent", "elementContent"</xsl:text>
+        <xsl:for-each select="//text//persName | //text//placeName | //text//roleName | //text//orgName | //text//name | //text//date">
             <xsl:sort select="name()"/>
             <xsl:sort select="."/>
             <xsl:sort select="@type"/>
@@ -40,6 +40,7 @@
     </xsl:template>-->
     
     
+    
     <!-- This function creates a string from the node provided to it --> 
     <xsl:function name="jc:createCSV" as="xs:string" >
         <!-- Take in the node as a parameter -->
@@ -52,16 +53,18 @@
       but call a function on its content to escape any double quotes.  
       For those which might have multiple instances, provide a separator; -->
         <xsl:variable name="elementName"><xsl:value-of select="$node/name()"/></xsl:variable>
+        <xsl:variable name="typeAttributeIfPresent"><xsl:value-of select="$node/@type/jc:csvEscapeDoubleQuotes(.)" />
+        </xsl:variable>
         <xsl:variable name="elementContent"><xsl:value-of select="$node/jc:csvEscapeDoubleQuotes(.)" /></xsl:variable>
-        <xsl:variable name="typeAttributeIfPresent"><xsl:value-of select="$node/@type/jc:csvEscapeDoubleQuotes(.)" /></xsl:variable>
+
         
         <!-- Assemble the output $terminal, all our variables separated with value of $sep, followed by the $terminal -->   
-        <xsl:variable name="output"><xsl:value-of select="$terminal"/><xsl:value-of select="$elementName, $elementContent, $typeAttributeIfPresent" separator="{$sep}"/><xsl:value-of select="$terminal"/></xsl:variable>    
+        <xsl:variable name="output"><xsl:value-of select="$terminal"/><xsl:value-of select="$elementName, $typeAttributeIfPresent, $elementContent" separator="{$sep}"/><xsl:value-of select="$terminal"/></xsl:variable>    
         <!-- Concatenated the normalize-spaced version of this with a newline at the beginning -->
         <xsl:value-of select="concat('&#xA;',normalize-space($output))"/>
     </xsl:function>
     
-    <!-- CSV doesn't like spare double quotes lying around. So you escape them by putting two double quotes instead -->  
+<!-- CSV doesn't like spare double quotes lying around. So you escape them by putting two double quotes instead -->
     <xsl:function name="jc:csvEscapeDoubleQuotes" as="xs:string">
         <xsl:param name="string"/>
         <xsl:value-of select="replace($string, '&quot;', '&quot;&quot;')"/>
