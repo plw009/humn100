@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+
+         <titleStmt>
+            <!-- This is the section of the TEI header that describes the file, the project, and who is involved in its production and publication -->
+            <title>The Taylor Murder Case: Key Witness Statements</title>
+            <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
+
+            <respStmt>
+               <!-- The responsibility statement serves as a recognition of the labor provided to produce the project, and in what capacity -->
+               <persName xml:id="jakacki">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Instructor, encoder-in-chief</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="brennan">Cade Brennan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="carroll">Ryan A. Carroll</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chakos">Jules M. Chakos</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chao">Claire T. Chao</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="crotta">Bella R. Crotta</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="estevez">Maria F. Estevez</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="fazio">Anna G. Fazio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="gehrig">John S. Gehrig</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="greenspan">Tess I. Greenspan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="halliburton">Devin T. Halliburton</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="herrold">Nathan T. Herrold</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="holsinger">Eric Holsinger</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="klimas"> Evan A. Klimas</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="lee">Audrey M. Lee</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="luciani">Ellie G. Luciani</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="mannion">Patrick O. Mannion</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="murphy">Jack C. Murphy</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="okin">Tyler E. Okin</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="quinn">Meghan E. Quinn</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="santoro">Ashley R. Santoro</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="settle">Elizabeth H. Settle</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="smart">Bennett C. Smart</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="tait">Christian R. Tait</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="witzmann">Olivia L. Witzmann</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="wnek">Christine M. Wnek</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <!-- The pbulication provides any kind of publisher, copyright information -->
+            <distributor>Bucknell University</distributor>
+            <address>
+               <street>One Dent Drive</street>
+               <settlement>Lewisburg</settlement>
+               <region>Pennsylvania</region>
+               <country>United States</country>
+               <postCode>17837</postCode>
+            </address>
+            <date from-iso="2021-02-01" to-iso="2021-05-30">Spring 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+                  Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <!-- The source description provides details about where the materials have come from -->
+            <p>Select transcriptions of witness statements at the coroner's inquest, to the police
+               and district attorney's office are drawn from the remarkable work done by Bruce Long
+               and other parties as part of the Taylorology website.</p>
+            <p>For more information, see Taylorology: http://taylorology.com/</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <!-- This is the section that includes unique identifiers for all of the people and places referred to in the documents. You will paste a completed list once the class has compiled it. -->
+         <particDesc>
+            <!-- Because there are multiple people with similar last names, we will use the convention lastname_firstname -->
+            <person xml:id="taylor_william">
+               <persName>William Desmond Taylor</persName>
+            </person>
+         </particDesc>
+         <settingDesc>
+            <place xml:id="alvarado">
+               <placeName>Alvarado Street</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- please fill out the template below, replacing text in square brackets with the actual information -->
+         <head>
+            <title>Witness Statement Provided by Mary Miles Minter</title> 
+            <date>February 7, 1922</date>
+            <orgName>Interview from DA</orgName>
+         </head>
+         <div>
+            <byline><persName ref= "Chakos">Jules Chakos</persName></byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+            
+            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
+            <!--<sp>[Part 3 - Jules Chakos]
+               STATEMENT OF 
+               MISS MARY MILES MINTER.
+               G.H BOONE
+               OFFICIAL REPORTER
+               IN THE DISTRICT ATTORNEY'S OFFICE, <date>February 7, 
+               1922</date>, at five o'clock P.M. 
+               
+               PRESENT: Mr. W.C. Doran, Deputy District Attorney, 
+               Miss Mary Miles Minter, John G. Mott, attorney for Miss 
+               Minter, and G. H. Boone, shorthand reporter.
+               
+               -\-\-o-\-\-
+               
+               STATEMENT OF MISS MARY MILES MINTER
+               
+               Questions by Mr. Doran: -->
+               
+               <sp><speaker>MR DORAN</speaker>
+               <ab>At that time, on <date>December 23d</date>, let's see, he was killed on <date>February 1st</date>. Who was directing you then?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>  
+               <ab>Why, no one was. I had finished a picture.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>Who directed the last one?</ab></sp>
+               
+              
+                  
+               <sp><speaker>MINTER</speaker>
+               <ab>My last director was <persName><roleName>Frank Urson</roleName></persName>. <persName>Mr. Taylor</persName> so often, often made the remark to me that he wished tbat he were younger; he wanted to be younger. We undoubtedly would have been married today bnd he been younger. He explained our not. being engaged in that way. I knew we never could be married; I also knew I never would love for another human being in the way I cared for him. So he would say, <quote>"You know, <persName>Mary</persName>, to me you are the morning <objectName>sun</objectName>, bright, beaut1ful, and with the <objectName>world</objectName> and a futune before you, and I am the setting <objectName>sun</objectName>, and don't you see, my dear, it simply cannot be.</quote>
+                   I hope tbat doesn't give you the impression that I begged him to marry me. I never did in my life. I couldn't do that. I never even called him <persName>"Billie"</persName> in my life. The man was too wonderful for that. He was wonderful. I don't care what anybody says or what they prove against him. I knew him as the finest thing in the <objectName>world</objectName>.</ab></sp>
+               
+               <sp><speaker>MR MOTT</speaker>
+               <ab>He as the embodyment of your ideal?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>Yes, and I can aay now that I can't truthfully --
+               I don't know any of those ugly things which have been aaid about him. I never found him so. He was glorious to me.</ab></sp>
+               
+               <sp><speaker>MR DORAN</speaker>
+               <ab>I read in the <objectName>paper</objectName> where you had been engaged to some other man.</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>To <persName>Mr Dickson</persName>. That is not entirely true.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>What is his first name?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab><persName>Thomas Dickson</persName>.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>Someone besides him, a director in the movies.</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab><persName>Marshall Neilan</persName>, engaged to him?</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>Yes, <persName>Marshall Neilan</persName>. Didn't I read in the <objectName>papers</objectName> that you had been engaged to him and the engagement had been broken off?</ab></sp> 
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>That is not true. <persName>Mr Dickson</persName> is the only one to whom I have been even remotely engaged, and that was a freak of despondency.</ab></sp> 
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>What about <persName>Marshall Neilan</persName>? Were you engaged to him?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+                <ab>No.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>Had you been going with <persName>Marshall Neilan</persName> during, say the last <time>thirty or sixty days prior to <persName>Taylor's</persName> death?</time></ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>Going with him?</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>Had you been out anywhere with him?</ab></sp>  
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>Yes; he had been to see me; I had been out with him; I am not sure whether it was <time>within the thirty days</time> or not, but in <time>the last two months</time>, yes sir; but going with him no more than I had for <time>years</time> off and on. <persName>Mr Neilan's</persName> traits [page 9] are well known; he comes to see you, and we are always glad to receive him, but we never know how long he is going to stay with us or how long he was going to stay with this one or that one. He flits here and there like a swallow. We are all charmed with his personality, but don't take him seriously.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>Has he proposed to you?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>Must I answer that? Yes, he did.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>Do you recall approximately when it was?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab><time>About two months ago.</time></ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>That would take it to <date>December 1st</date>, approximately or <date>in the middle of December</date>?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>Well, I think it was after that, Yes -- No, let me see, <date>December 1st</date> -- I wish I could tell you.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>With reference to this <date>December 23d</date> that you called on <persName>Taylor</persName>, when was it?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>It as <time>before the <date>1st of December</date></time>, I think.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>Q. <time>Before the <date>1st of December</date></time>?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>Yes; about <date>the last of November</date>.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>And you, of course, rejected im, I suppose?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>Yes; that is, I didn't exactly say, <quote>"No, I will not marry you."</quote> I didn't take him seriously. I joked with him at the time.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>Did he seem to be serious?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>You never know. I couldn't say whether ee was serious or not. I thought possibly he was joking, or had a few <objectName>cocktails</objectName>.</ab></sp>
+               
+               <sp><speaker>DORAN</speaker>
+               <ab>How many times after that did he mention the subject to you?</ab></sp>
+               
+               <sp><speaker>MINTER</speaker>
+               <ab>He didn't mention the subject. <quote>"May I marry you"</quote> again; he didn't say that, but he has been on very friendly terms with me and then suddenly go away to <placeName>San Francisco</placeName>. and I wouldn't hear from him and I would remark, <quote>"Isn't that just like <persName>Marshall</persName>?"</quote> and thought no more of it.</ab></sp>
+               
+            
+
+         </div>
+
+      </body>
+   </text>
+</TEI>
