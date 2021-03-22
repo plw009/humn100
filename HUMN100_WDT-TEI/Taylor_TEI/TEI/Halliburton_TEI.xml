@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         
+         <titleStmt>
+            <!-- This is the section of the TEI header that describes the file, the project, and who is involved in its production and publication -->
+            <title>The Taylor Murder Case: Key Witness Statements</title>
+            <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
+            
+            <respStmt>
+               <!-- The responsibility statement serves as a recognition of the labor provided to produce the project, and in what capacity -->
+               <persName xml:id="jakacki">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Instructor, encoder-in-chief</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="brennan">Cade Brennan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="carroll">Ryan A. Carroll</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chakos">Jules M. Chakos</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chao">Claire T. Chao</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="crotta">Bella R. Crotta</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="estevez">Maria F. Estevez</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="fazio">Anna G. Fazio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="gehrig">John S. Gehrig</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="greenspan">Tess I. Greenspan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="halliburton">Devin T. Halliburton</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="herrold">Nathan T. Herrold</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="holsinger">Eric Holsinger</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="klimas"> Evan A. Klimas</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="lee">Audrey M. Lee</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="luciani">Ellie G. Luciani</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="mannion">Patrick O. Mannion</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="murphy">Jack C. Murphy</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="okin">Tyler E. Okin</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="quinn">Meghan E. Quinn</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="santoro">Ashley R. Santoro</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="settle">Elizabeth H. Settle</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="smart">Bennett C. Smart</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="tait">Christian R. Tait</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="witzmann">Olivia L. Witzmann</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="wnek">Christine M. Wnek</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt>
+            <!-- The pbulication provides any kind of publisher, copyright information -->
+            <distributor>Bucknell University</distributor>
+            <address>
+               <street>One Dent Drive</street>
+               <settlement>Lewisburg</settlement>
+               <region>Pennsylvania</region>
+               <country>United States</country>
+               <postCode>17837</postCode>
+            </address>
+            <date from-iso="2021-02-01" to-iso="2021-05-30">Spring 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+                  Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <!-- The source description provides details about where the materials have come from -->
+            <p>Select transcriptions of witness statements at the coroner's inquest, to the police
+               and district attorney's office are drawn from the remarkable work done by Bruce Long
+               and other parties as part of the Taylorology website.</p>
+            <p>For more information, see Taylorology: http://taylorology.com/</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <!-- This is the section that includes unique identifiers for all of the people and places referred to in the documents. You will paste a completed list once the class has compiled it. -->
+         <particDesc>
+            <!-- Because there are multiple people with similar last names, we will use the convention lastname_firstname -->
+            <person xml:id="berger_marjorie">
+               <persName>Marjorie Berger</persName>
+            </person>
+            <person xml:id="davies_william">
+               <persName>William Davies</persName>
+            </person>
+            <person xml:id="doran_william">
+               <persName>William Doran</persName>
+            </person>
+            <person xml:id="eaton_chauncy">
+               <persName>Chauncy Eaton</persName>
+            </person>
+            <person xml:id="eyton_charles">
+               <persName>Charles Eyton</persName>
+            </person>
+            <person xml:id="fellows_harry">
+               <persName>Harry Fellows</persName>
+            </person>
+            <person xml:id="fellows_howard">
+               <persName>Howard Fellows</persName>
+            </person>
+            <person xml:id="ivors_julia">
+               <persName>Julia Crawford Ivors</persName>
+            </person>
+            <person xml:id="maclean_douglas">
+               <persName>Douglas MacLean</persName>
+            </person>
+            <person xml:id="maclean_faith">
+               <persName>Faith MacLean</persName>
+            </person>
+            <person xml:id="maigne_charles">
+               <persName>Charles Maigne</persName>
+            </person>
+            <person xml:id="miles_juliet">
+               <persName>Juliet Miles</persName>
+            </person>
+            <person xml:id="minter_mary">
+               <persName>Mary Miles Minter</persName>
+            </person>
+            <person xml:id="mott_john">
+               <persName>John Mott</persName>
+            </person>
+            <person xml:id="nance_charles">
+               <persName>Charles Nance</persName>
+            </person>
+            <person xml:id="neilan_marshall">
+               <persName>Marshall Neilan</persName>
+            </person>
+            <person xml:id="normand_mabel">
+               <persName>Mabel Normand</persName>
+            </person>
+            <person xml:id="owens_mamie">
+               <persName>Mamie Owens</persName>
+            </person>
+            <person xml:id="peavey_henry">
+               <persName>Henry Peavey</persName>
+            </person>
+            <person xml:id="pickford_mary">
+               <persName>Mary Pickford</persName>
+            </person>
+            <person xml:id="pickford_jack">
+               <persName>Jack Pickford</persName>
+            </person>
+            <person xml:id="sands_edward">
+               <persName>Edward Sands</persName>
+            </person>
+            <person xml:id="shelby_charlotte">
+               <persName>Charlotte Shelby</persName>
+            </person>
+            <person xml:id="shelby_margaret">
+               <persName>Margaret Shelby</persName>
+            </person>
+            <person xml:id="stockdale_carl">
+               <persName>Carl Stockdale</persName>
+            </person>
+            <person xml:id="swanson_gloria">
+               <persName>Gloria Swanson</persName>
+            </person>
+            <person xml:id="taylor_william">
+               <persName>William Desmond Taylor</persName>
+            </person>
+            <person xml:id="vantrees_james">
+               <persName>James Van Trees</persName>
+            </person>
+            <person xml:id="whitney_charlotte">
+               <persName>Charlotte Whitney</persName>
+            </person>
+            <person xml:id="ziegler_thomas">
+               <persName>Thomas Ziegler</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- please fill out the template below, replacing text in square brackets with the actual information -->
+         <head>
+            <title>Witness Statement Provided by <persName ref = 'Minter'>Mary Miles Minter</persName></title>
+            <date>February 7, 1922</date>
+            <orgName><persName ref = 'Boone'>G.H BOONE</persName> OFFICIAL REPORTER (POLICE, CORONER, DA)</orgName>
+         </head>
+         <div>
+            <byline><persName ref = "Halliburton">Devin Halliburton</persName></byline>
+            <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+
+            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
+            <head>STATEMENT OF MISS <persName ref = 'Minter'>MARY MILES MINTER</persName>. <persName ref = 'Boone'>G.H
+                  BOONE</persName> OFFICIAL REPORTER IN THE <placeName>DISTRICT ATTORNEY'S
+                  OFFICE</placeName>, <date>February 7, 1922</date>, at <time>five o'clock
+                  P.M.</time></head>
+
+            <sp>
+               <ab>PRESENT: <persName ref = 'Doran'>Mr. W.C. Doran</persName>, Deputy District Attorney, Miss
+                     <persName ref = 'Minter'>Mary Miles Minter</persName>, <persName ref = 'Mott'>John G. Mott</persName>,
+                  attorney for <persName ref = 'Minter'>Miss Minter</persName>, and <persName ref = 'Boone'>G. H.
+                     Boone</persName>, shorthand reporter.</ab>
+            </sp>
+
+            <sp>
+               <ab>---o---</ab>
+            </sp>
+
+            <sp>
+               <ab>STATEMENT OF <persName ref='Minter'>MISS MARY MILES MINTER</persName></ab>
+            </sp>
+
+            <sp>
+               <ab>Questions by <persName ref = 'Doran'>Mr. Doran</persName>:</ab>
+            </sp>
+
+            <sp>
+               <ab select="statement">MINTER: She must have been 50. Her son was <persName ref='Taylor'>Mr Taylor's</persName>
+                  camera man. <persName ref='Vantrees'>Jimmy</persName> was my camera man,
+                     <persName ref='Vantrees'>Jim Vantrees</persName>. I don't hate the woman, but she annoys me.
+                  She is one of the few people in the world I dislike to see. In fact, the irony of
+                  fate it was when I was in <placeName>France</placeName> after looking at the
+                  beautifUl Venus de Muile in <placeName>Paris</placeName> at the Louvre, and after
+                  I had walked a few steps done a long hall, thinking of this excellent statue, who
+                  should I see but <persName ref='Ivers'>Julia Crawford Ivers</persName>, a very, fat, large
+                  woman. She did some more of these Christian Science things, and she had a very
+                  unpleasant habit of whenever she would be with me and <persName ref='Taylor'>Mr
+                     Taylor</persName>, she would always come and twit my chin. So I said, in really
+                  a joking manner -- I don't want to accuse the woman, because I don't think she had
+                  anything to do with the matter -- I said <quote>"I don't know anyone who would
+                     kill him but <persName ref='Ivers'>Ju1ia Crawford Ivers</persName>."</quote>
+                  <quote>"I always suspected the woman of being in love with him herself or she
+                     might have killed him for that reason."</quote> He said, <quote>"My goodness!
+                     You mustn't say that out loud; somebody will believe you."</quote> I said,
+                     <quote>"I don't care if they do."</quote> I was in such a wild mood, Then, --
+                  What else did we talk about? Oh! He talked about his
+                     <objectName>productions</objectName><!-- @Devin - interesting ... we should talk about how constructs and objects play together. I've removed @type "Film" for now, but we can revisit --> and said, <quote>"I certainly have a
+                     terrible time, working <time>day</time> and <time>night</time> and a great deal
+                     depended upon <date>Saturday</date> and we must get certain work finished <time>Friday</time>."</quote> We
+                  talked of <date>Friday</date>
+                  <time>night</time> and that he had to get up at <time when-iso='8:00:00'>eight o'clock</time>; he
+                  wasn't going to <objectName type='furniture'>bed</objectName> at all; that the boys were calling
+                  for him at <time when-iso='8:00:00'>eight o'clock</time>, he said, and he knew if they didn't call he
+                  would never get up out of his slumbers. They were going somewhere on
+                     <placeName>location</placeName>, I understood, possibly at the
+                     <placeName>studio</placeName>. He was just going <placeName>home</placeName>
+                  and take a <placeName>shower</placeName>, get a shave if he felt like it, and go
+                  on back and work some more. He said, <quote>"I am dog tired. I was never so
+                     exhausted, just dead."</quote> Finally I said, <quote>"Do you rea1ize this
+                     looks awful, being here all this time?"</quote> And he said, <quote>"I can't
+                     help it if it does. I had to tell you these things and wanted to find out what
+                     you knew about this case. That I know you knew <persName ref='Bill'>Bill</persName> very
+                     well, probably better than any of us and"</quote> -- Oh, yes. He also asked me
+                  to tel1 him my feelings toward <persName ref='Taylor'>Mr Taylor</persName>, exactly what
+                  everybody has been asking me, and I told him as I have been telling you, I loved
+                  him deeply, sincerely and absolutely; that I loved him truly, loved him in an
+                  all-around way, I cared for his health; his health came before my happiness and
+                  when he was ill -- and he didn't like to see anyone when he was ill-- my natural
+                  impulse was to go to him and be with him and sit up night after night with him, if
+                  necessary. l didn't do it; I didn t even attempt to, because he didn't want me to,
+                  and although I had sat in the dark, not knowing anything and worrying about it, I
+                  did that rather than intrude myself upon him when he didn't want me.</ab>
+            </sp>
+
+            <sp>
+               <ab>DORAN: What time of <time>night</time> did you first meet -- What is this man's
+                  name?</ab>
+            </sp>
+
+            <sp>
+               <ab>MINTER: <persName ref='Neilan'>Mr Neilan</persName>?</ab>
+            </sp>
+
+            <sp>
+               <ab>DORAN: <persName ref='Neilan'>Mr Neilan</persName>, this particular <time>night</time>.</ab>
+            </sp>
+
+            <sp>
+               <ab>MINTER: We went down to the <placeName>Salt Lake station</placeName> after
+                  one.</ab>
+            </sp>
+
+            <sp>
+               <ab>DORAN: And you arrived at your <placeName>home</placeName>, was it, or his
+                     <placeName>home</placeName> or whose <placeName>home</placeName> was it where
+                  you were frying the <objectName type="food_drink">eggs</objectName>?</ab>
+            </sp>
+
+            <sp>
+               <ab>MINTER: His <placeName>home</placeName>, <date>Friday</date>
+                  <time>night</time>; it was really <date>Saturday</date>
+                  <time>morning</time>, wasn't it? I call lt <date>Friday</date>
+                  <time>night</time>, because it was still <time>nighttime</time>. The five of us
+                  arrived there, oh, I don't know, he didn't finish work until between
+                     <time when-iso='2:30:00'>two-thirty</time> and <time when-iso='3:00:00'>three o'c1ock</time>, maybe after <time when-iso='3:00:00'>three</time>; I
+                  didn't have a watch at that <time>time</time>.</ab>
+            </sp>
+
+            <sp>
+               <ab>DORAN: How long approximatey do you suppose you spent talking in the
+                     <placeName>studio</placeName>?</ab>
+            </sp>
+
+            <sp>
+               <ab>MINTER: Now, let me see, we stayed at <placeName><persName ref='Marshall'>Marshall</persName>'s house</placeName>
+                  with the <objectName type="food_drink">eggs</objectName> and things at least an <time>hour</time>,
+                  maybe <time>two hours</time>; I am not certain of that at all; I don't think much
+                  more than an <time>hour</time>. Then we went right on to the
+                     <placeName>studio</placeName>.</ab>
+            </sp>
+            <ab/>
+         </div>
+      </body>
+   </text>
+</TEI>

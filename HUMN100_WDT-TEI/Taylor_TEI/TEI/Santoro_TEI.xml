@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -270,19 +270,194 @@
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by [NAME]</title> 
-            <date>[DATE OF STATEMENT]</date>
-            <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
+            <title>Witness Statement Provided by [Charles Eyton]</title>
+            <date>[Feburary, 4, 1922]</date>
+            <orgName>[Coroners inquiry]</orgName>
          </head>
          <div>
-            <byline>[YOUR NAME]</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
-            
-            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
-            <sp>
-               <speaker></speaker>
-               <ab>Here's a thing</ab>
-            </sp>
+            <byline><persName ref="#santoro"> Ashley Santoro</persName>
+            </byline>
+            <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
 
+            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
+
+
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Please state your name.</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON:</speaker>
+               <ab><persName ref="#eyton">Charles Eyton.</persName></ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Where do you reside?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker> EYTON:</speaker>
+               <ab><placeName>1920 Vine Street, Hollywood.</placeName></ab>
+            </sp>
+            <sp select="question">
+               <speaker> NANCE:</speaker>
+               <ab>What is your occupation?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON:</speaker>
+               <ab><roleName type="job">General Manager</roleName>, <orgName>Famous Players-Lasky
+                     Corporation.</orgName><!-- @Ashley - you tagged this as an object, but it should be an organization, so I corrected it --></ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab><persName ref="#eyton">Mr. Eyton</persName>, have you seen the remains of the
+                  deceased in the adjoining <placeName>room?</placeName></ab>
+            </sp>
+            <sp select="answer">
+               <speaker> EYTON:</speaker>
+               <ab>Yes, sir.</ab>
+            </sp>
+            <sp select="question">
+               <speaker> NANCE:</speaker>
+               <ab>Do you recognize them as one you knew in life?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker> EYTON:,\</speaker>
+               <ab>Yes, sir.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Who was it.</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON:</speaker>
+               <ab><persName ref="#taylor">William Desmond Taylor.</persName></ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Where was he born?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON:</speaker>
+               <ab>He was born in <placeName>Ireland</placeName>, to the best of my knowledge. He
+                  told me so.</ab>
+            </sp>
+            <sp select="question">
+               <speaker> NANCE: </speaker>
+               <ab>What was his age?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker> EYTON:</speaker>
+               <ab>Forty-four, I should judge. [He was forty-nine.] </ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Was he married, single or a widower?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON:</speaker>
+               <ab>He was married. [He was divorced as of <time when-iso="1916">1916.</time>]</ab>
+            </sp>
+            <sp select="question">
+               <speaker> NANCE:</speaker>
+               <ab>When did he die?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker> EYTON:</speaker>
+               <ab><date>Thursday morning or Wednesday night</date>. I saw the <objectName
+                     ref="body">body </objectName>first on <date>Thursday morning.</date></ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab><date>Last Thursday?</date></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON:</speaker>
+               <ab>Yes, sir.</ab>
+            </sp>
+            <sp select="question">
+               <speaker> NANCE:</speaker>
+               <ab>Do you recall that date?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON:</speaker>
+               <ab>It was the <date when-iso="1922-02-02">2nd.</date></ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab><date when-iso="1922-02-02">February 2nd?</date></ab>
+            </sp>
+            <sp select="answer">
+               <speaker> EYTON:</speaker>
+               <ab><date when-iso="1922-02-02">February 2nd.</date></ab>
+            </sp>
+            <sp select="question">
+               <speaker> NANCE:</speaker>
+               <ab>Where did he die?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON:</speaker>
+               <ab>the <placeName>Apartment "B," South Alvarado Street, 404</placeName> I think it
+                  was.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>What was the cause of his death, if you know?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker> EYTON:</speaker>
+               <ab>Well, <persName ref="felllows">Mr. Taylor's assistant [Harry Fellows]</persName>
+                  rang me up at my <placeName> residence </placeName>about, I should judge, <time
+                     when-iso="08:00:00">eight o'clock</time>, and told me <persName ref="#taylor"
+                     >Mr. Taylor</persName> had died suddenly; so I immediately went over to his
+                     <placeName> residence</placeName>, and he was lying on the <placeName>floor
+                  </placeName> on his back. <persName ref="#ziegler">Detective Ziegler</persName>
+                  was there and he had called the <persName ref="doctor">doctor</persName>, he told
+                  me, previous to my arrival; and the <persName ref="doctor">doctor</persName> told
+                  me <persName ref="taylor">Mr. Taylor</persName> had died from hemorrhage of the
+                  stomach. <persName ref="maclean">Mr. Maclean</persName> - <persName ref="maclean"
+                     >Douglas Maclean</persName> - had told me that he had thought he had heard a
+                  shot the <time>night before</time>, and his wife also thought she had heard a shot
+                  - and he wanted the <objectName>body</objectName> turned over; they didn't want to
+                  turn it over until <persName ref="coroner">the coroner</persName> came. <persName
+                     ref="deputy coroner">The deputy coroner</persName> came after a while, and he
+                  told us he had died of hemorrhage of the stomach, and I told him he had better
+                  turn the <objectName>body</objectName> over to make sure, and he put his hand
+                  under <persName ref="#taylor">Mr. Taylor's</persName> body, and found a little -
+                  when he pulled his hand out, it had a little blood on his hand. <persName
+                     ref="#douglas">Douglas</persName> asked him what that was, and he said it
+                  evidently had run down from his [<persName ref="taylor">Taylor's</persName>]
+                  mouth, but I noticed that there was no trail of blood-<persName ref="#taylor">Mr.
+                     Taylor's</persName> head was in a pool of blood - there was no trail of blood
+                  running down.</ab>
+            </sp>
+            <sp select="question">
+               <speaker> NANCE:</speaker>
+               <ab>There was a pool of blood <placeName>under his head?</placeName></ab>
+            </sp>
+            <sp select="answer">
+               <speaker> EYTON: </speaker>
+               <ab>Under his head, yes, a little pool of blood. I immediately opened up <persName
+                     ref="#taylor">Mr. Taylor's</persName>
+                  <objectName type="clothing">vest</objectName>, and looked, and looked on the
+                  right-hand side, and there was no mark. I looked on the left-hand side and saw
+                  some blood, and then I told the <persName ref="coroner">Deputy Coroner</persName>
+                  that I thought that evidence enough to turn his <objectName>body</objectName> over
+                  to see what would happen. I sent for a <objectName type="furniture"
+                     >pillow</objectName>to put under <persName ref="#taylor">Mr.
+                     Taylor's</persName> head, and we turned him over - the <persName
+                     ref="#deputycoroner">Deputy Coroner</persName> and myself - and we pulled his
+                     <objectName type="clothing">shirt</objectName> and his <objectName
+                     type="clothing">vest</objectName> up, and we found the <objectName type="body_part">bullet wound.</objectName><!-- @Ashley - I changed the @type here to "body-part --></ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab><persName>Mr. Eyton</persName>, was his <objectName>body</objectName> stone cold
+                  at that time?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON:</speaker>
+               <ab>Stone cold and very stiff and rigid.</ab>
+            </sp>
          </div>
 
       </body>

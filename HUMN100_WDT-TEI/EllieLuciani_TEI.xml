@@ -188,256 +188,243 @@
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by Mary Miles Minter</title>
-            <date>February 7, 1922</date>
-            <orgName>Interview from DA</orgName>
+            <title>Witness Statement Provided by Mrs. Charlotte Shelby</title>
+            <date>April 9, 1926</date>
+            <orgName>Police</orgName>
          </head>
          <div>
-            <byline><persName ref="Chakos">Jules Chakos</persName></byline>
-            <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
-
-            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
-            <!--<sp>[Part 3 - Jules Chakos]
-               STATEMENT OF 
-               MISS MARY MILES MINTER.
-               G.H BOONE
-               OFFICIAL REPORTER
-               IN THE DISTRICT ATTORNEY'S OFFICE, <date>February 7, 
-               1922</date>, at five o'clock P.M. 
-               
-               PRESENT: Mr. W.C. Doran, Deputy District Attorney, 
-               Miss Mary Miles Minter, John G. Mott, attorney for Miss 
-               Minter, and G. H. Boone, shorthand reporter.
-               
-               -\-\-o-\-\-
-               
-               STATEMENT OF MISS MARY MILES MINTER
-               
-               Questions by Mr. Doran: -->
+            <byline>Eleanor Luciani</byline>
 
             <sp>
-               <speaker>MR DORAN</speaker>
-               <ab>At that time, on <date>December 23d</date>, let's see, he was killed on
-                     <date>February 1st</date>. Who was directing you then?</ab>
+               <speaker>POLICE:</speaker>
+               <ab>During the time in <placeName>the east</placeName> there, when he <persName>(Taylor)</persName> was directing her <persName>(Mary)</persName>, did
+                  you observe any awakening of a friendship or love between the two of them?</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>Why, no one was. I had finished a picture.</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab> No.</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>Who directed the last one?</ab>
-            </sp>
-
-
-
-            <sp>
-               <speaker>MINTER</speaker>
-               <!-- @Jules - the <roleName> in this case should wrap around the word "director" rather than the person's name. -->
-               <ab>My last <roleName>director</roleName> was <persName>Frank Urson</persName>.
-                     <persName>Mr. Taylor</persName> so often, often made the remark to me that he
-                  wished tbat he were younger; he wanted to be younger. We undoubtedly would have
-                  been married today and he been younger. He explained our not. being engaged in
-                  that way. I knew we never could be married; I also knew I never would love for
-                  another human being in the way I cared for him. So he would say, <quote>"You know,
-                        <persName>Mary</persName>, to me you are the morning
-                        <objectName>sun</objectName>, bright, beaut1ful, and with the
-                        <objectName>world</objectName> and a futune before you, and I am the setting
-                        <objectName>sun</objectName>, and don't you see, my dear, it simply cannot
-                     be.</quote> I hope tbat doesn't give you the impression that I begged him to
-                  marry me. I never did in my life. I couldn't do that. I never even called him
-                     <persName>"Billie"</persName> in my life. The man was too wonderful for that.
-                  He was wonderful. I don't care what anybody says or what they prove against him. I
-                  knew him as the finest thing in the <objectName>world</objectName>.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>When did you first see that, or did you at all?</ab>
             </sp>
 
             <sp>
-               <speaker>MR MOTT</speaker>
-               <ab>He as the embodyment of your ideal?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I never did know it, <persName>Mr. Keyes</persName>, until <persName>Mr. Mott</persName> told me of the <objectName>letters</objectName> that had
+                  been found in <persName>Taylor's</persName> <objectName>drawer</objectName> that absolutely is convincing that there had been
+                  something there.</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>Yes, and I can say now that I can't truthfully -- I don't know any of those ugly
-                  things which have been said about him. I never found him so. He was glorious to
-                  me.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>You mean after he was killed?</ab>
             </sp>
 
             <sp>
-               <speaker>MR DORAN</speaker>
-               <ab>I read in the <objectName>paper</objectName> where you had been engaged to some
-                  other man.</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Yes, and <persName>Mr Eyton</persName> told me also after <persName>Mr. Taylor</persName> was killed that he knew that,
+                  that he knew for a long time that <persName>Mary</persName> and <persName>Mr. Taylor</persName> had been intimate, and I
+                  said then <quote>"<persName>Mr. Eyton</persName> you should have told me"</quote></ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>To <persName>Mr Dickson</persName>. That is not entirely true.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>During that time, <persName>Mrs. Shelby</persName> (referring to latter part of <date>1919</date> and early part of
+                  <date>1920</date>), was <persName>Mary</persName> going around with <persName>Taylor</persName> to your knowledge at all?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>What is his first name?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Why no, and <persName>Mr. Taylor</persName> was the most perfectly poised man, such a proper man. He
+                  would take <persName>Mary</persName> out to dinner and he would invariably invite me and my mother to
+                  go to dinner with them.</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab><persName>Thomas Dickson</persName>.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Did you make any objections?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>Someone besides him, a director in the movies.</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab> Not the least in the world.</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab><persName>Marshall Neilan</persName>, engaged to him?</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Were you friendly with him?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>Yes, <persName>Marshall Neilan</persName>. Didn't I read in the
-                     <objectName>papers</objectName> that you had been engaged to him and the
-                  engagement had been broken off?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Oh, yes. **</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>That is not true. <persName>Mr Dickson</persName> is the only one to whom I have
-                  been even remotely engaged, and that was a freak of despondency.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Do you remember anyone in particular with whom she was associating at that
+                  time?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>What about <persName>Marshall Neilan</persName>? Were you engaged to him?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>It wasn't men. Men hadn't begun to give me any trouble at that time. It was
+                  women.</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>No.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Who was that?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>Had you been going with <persName>Marshall Neilan</persName> during, say the last
-                     <time>thirty or sixty days prior to <persName>Taylor's</persName>
-                  death?</time></ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab><persName>Jeannie McPherson.</persName></ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>Going with him?</ab>
+               <speaker>POLICE:</speaker>
+               <ab><persName>Taylor's</persName> name never entered into the discussion then?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>Had you been out anywhere with him?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No. I always felt that, when <persName>Mary</persName> was out with <persName>Mr. Taylor</persName> she was under a good
+                  influence. **</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>Yes; he had been to see me; I had been out with him; I am not sure whether it was
-                     <time>within the thirty days</time> or not, but in <time>the last two
-                     months</time>, yes sir; but going with him no more than I had for
-                     <time>years</time> off and on. <persName>Mr Neilan's</persName> traits [page 9]
-                  are well known; he comes to see you, and we are always glad to receive him, but we
-                  never know how long he is going to stay with us or how long he was going to stay
-                  with this one or that one. He flits here and there like a swallow. We are all
-                  charmed with his personality, but don't take him seriously.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Did you ever have any words with <persName>Mr. Taylor</persName> over <persName>Mary</persName>?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>Has he proposed to you?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Never a word, never the slightest word. (Speaking of the time <persName>Mrs. Shelby</persName> went to
+                  <persName>Taylor's</persName> home at <time>2 a.m.</time> looking for <persName>Mary</persName>) </ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>Must I answer that? Yes, he did.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Did this secretary of yours, <persName>Miss Whitney</persName>, go in the <placeName>house</placeName> with you?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>Do you recall approximately when it was?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, I know she didn't because there was nobody in the room but <persName>Mr. Taylor</persName> and me.
+                  She stayed in the <objectName>car</objectName>.</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab><time>About two months ago.</time></ab>
+               <speaker>POLICE:</speaker>
+               <ab>Did you have any <objectName>weapon</objectName> with you at that time?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>That would take it to <date>December 1st</date>, approximately or <date>in the
-                     middle of December</date>?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Good lord, no.</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>Well, I think it was after that, Yes -- No, let me see, <date>December 1st</date>
-                  -- I wish I could tell you.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>You are sure you didn't have a <objectName>revolver</objectName> with you?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>With reference to this <date>December 23d</date> that you called on
-                     <persName>Taylor</persName>, when was it?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, <persName>Mr. Keyes.</persName></ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>It as <time>before the <date>1st of December</date></time>, I think.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Well, you owned a <objectName>revolver</objectName> at that time?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>Q. <time>Before the <date>1st of December</date></time>?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab> No. If I owned a <objectName>revolver</objectName> at that time, I don't know where it was. It was thrown
+                  away.</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>Yes; about <date>the last of November</date>.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>What date was it when you were at <persName>Mr. Taylor's</persName> home that you were telling
+                  about?</ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>And you, of course, rejected im, I suppose?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I think I could almost fix that date, <persName>Mr. Keyes</persName>, referring to a certain little
+                  <objectName>book</objectName>, you know. Because I was reading <persName>Mary's</persName> <objectName>diary</objectName> and she goes on to say in this
+                  <objectName>diary</objectName> that she and I had some little words that evening, you see, and she has
+                  written it very cleverly, about the small girl going out in a huff, etc., and she
+                  adds that mother was right. ** And I think the date of that happening is right in
+                  her <objectName>diary</objectName>.</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>Yes; that is, I didn't exactly say, <quote>"No, I will not marry you."</quote> I
-                  didn't take him seriously. I joked with him at the time.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Did you ever make a threat to kill <persName>Mr. Taylor?</persName></ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>Did he seem to be serious?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, <persName>Mr. Keyes.</persName> I never had any reason or desire to kill <persName>Mr. Taylor.</persName></ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>You never know. I couldn't say whether ee was serious or not. I thought possibly
-                  he was joking, or had a few <objectName>cocktails</objectName>.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>And you are positive, are you,<persName> Mrs. Shelby</persName>, that you never at any time threatened
+                  <persName>Mr. Taylor?</persName></ab>
             </sp>
 
             <sp>
-               <speaker>DORAN</speaker>
-               <ab>How many times after that did he mention the subject to you?</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Certainly not, I had no reason. I never threatened to shoot <persName>Mr. Taylor</persName>. I don't
+                  think I ever threatened to shoot any man.</ab>
             </sp>
 
             <sp>
-               <speaker>MINTER</speaker>
-               <ab>He didn't mention the subject. <quote>"May I marry you"</quote> again; he didn't
-                  say that, but he has been on very friendly terms with me and then suddenly go away
-                  to <placeName>San Francisco</placeName>. and I wouldn't hear from him and I would
-                  remark, <quote>"Isn't that just like <persName>Marshall</persName>?"</quote> and
-                  thought no more of it.</ab>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>To shoot him? No, because I had no reason. I had no provocation. I never had a
+                  quarrel with <persName>Mr. Taylor</persName> in my life.</ab>
             </sp>
 
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>You spoke of having thrown a <objectName>gun</objectName> away?</ab>
+            </sp>
 
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, my mother did that.</ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>That was your gun?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>The gun was given to me in <placeName>Santa Barbara</placeName> by <persName>Harry Eaves</persName>, who has a <placeName>jewelry shop</placeName>
+                  up there - a very short little <objectName>pistol</objectName> - a little automatic - ** and he said to me,
+                  <quote>"I have got two and you ought to have one."</quote></ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>Where did you say you shot it once?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I got a friend of mine to take me out in <placeName>Santa Barbara</placeName>, just off the road, and we
+                  shot it into a <placeName>bank</placeName> and I shot it once.</ab>
+            </sp>
 
          </div>
 

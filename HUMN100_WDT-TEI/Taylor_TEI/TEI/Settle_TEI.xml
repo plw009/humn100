@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-
+         
          <titleStmt>
             <!-- This is the section of the TEI header that describes the file, the project, and who is involved in its production and publication -->
             <title>The Taylor Murder Case: Key Witness Statements</title>
             <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
-
+            
             <respStmt>
                <!-- The responsibility statement serves as a recognition of the labor provided to produce the project, and in what capacity -->
                <persName xml:id="jakacki">Diane K. Jakacki</persName>
@@ -143,7 +143,7 @@
                <resp>Student encoder</resp>
             </respStmt>
          </titleStmt>
-
+         
          <publicationStmt>
             <!-- The pbulication provides any kind of publisher, copyright information -->
             <distributor>Bucknell University</distributor>
@@ -160,7 +160,7 @@
                   Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
             </availability>
          </publicationStmt>
-
+         
          <sourceDesc>
             <!-- The source description provides details about where the materials have come from -->
             <p>Select transcriptions of witness statements at the coroner's inquest, to the police
@@ -270,20 +270,172 @@
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by [NAME]</title> 
-            <date>[DATE OF STATEMENT]</date>
-            <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
+            <title>Charles Eyton Inquest</title>
+            <date>[Febuary 4th, 1922]</date>
+            <orgName>[Coroner's Inquest Transcript]</orgName>
          </head>
          <div>
-            <byline>[YOUR NAME]</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
-            
+            <byline>Elizabeth Settle</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
             <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
             <sp>
-               <speaker></speaker>
-               <ab>Here's a thing</ab>
+               <speaker>NANCE</speaker>
+               <ab>Indicating that it had been dead for some time?</ab>
             </sp>
-
-         </div>
+            <sp>
+               <speaker>EYTON</speaker>
+               <ab>Yes.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Where was the body lying with reference to the front entrance to his home?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>It was lying right in front of a little <objectName>desk</objectName> with the head pointed east and the
+                  feet pointed west. I should judge the feet were three or four feet from the door - the front entrance.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Who were present when you was there?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>When I came in, the first man I noticed was <persName>Detective Ziegler</persName>, whom I have known
+                  for a number of years, and <persName>Douglas Maclean</persName>; <persName>Charles Maigne</persName>; the landlord [E. C.
+                  Jessurun]; and <persName>Harry Fellows</persName>, <persName>Mr. Taylor's</persName> assistant director.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Did all of these persons live there in this <placeName>neighborhood?</placeName></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>That I could not tell you. <persName>Mr. MacLean</persName> did, I know, because he showed me where his <placeName>apartment</placeName>
+            was.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>The place <persName>Mr. Taylor</persName> lived was in a <placeName>court?</placeName></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>In a <placeName>court</placeName>, yes.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>These other <placeName>buildings</placeName> were nearby?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>There are several <placeName>apartments</placeName> in this <placeName>court</placeName>, all the way around.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Did Mr. and <persName>Mrs. MacLean</persName>, or either of them, tell you about
+                  the <time>hour</time> that they heard the gunshot?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>Yes, <persName>Mr. Maclean</persName> told me it was about <time>eight
+                  or a quarter after eight</time>, and <persName>Mrs. Maclean</persName> thought it was a little later. [This is not
+                  correct.]</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>That <time select="1922-02-01">night?</time></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>Yes, the night before.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>You didn't make any definite measurements as to the position of the body?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>No, sir.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>So that what you testified to is only an estimate, and nothing definite about it.</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>Yes.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Now, how long has <persName>Mr. Taylor</persName> lived in this place?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>That I could not tell you. He lived in it before he went to the war, I believe.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>When did you last see him alive?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>The same day - <date when-iso="1922-02">Wednesday</date></ab> 
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Now, did he have any <objectName select="weapon">fire-arms</objectName> of his own?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>I believe he had a <objectName select="weapon">revolver</objectName>; I believe the <objectName select="weapon">revolver</objectName> was in the <objectName select="furniture">upper drawer</objectName> <placeName>upstairs</placeName>; in fact, I know there was, because <persName>Detective Ziegler</persName> and myself went up there and saw it. </ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>When you were called to this place, did you see any <objectName select="weapon">fire-arms</objectName> in this room where he was?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>No.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>What is the name of his <roleName>valet</roleName>, or <roleName>attendant</roleName> there?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab><persName>Harry Peavey</persName>, the colored <roleName>cook</roleName>. I never knew him or saw him.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Was he the one who called you?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab><persName>Harry Fellows</persName>, his <roleName>assistant director</roleName>, was the one who called me.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>You have no independent knowledge of the manner in which he met his death?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>No, sire.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>THE CORONER</speaker>
+               <ab>Have you any questions, gentlemen?</ab>
+            </sp>
+            <sp select="question">
+               <ab>(Question By a Juror) Was his <objectName>clothing</objectName> ruffled in any way, showing any violence?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>No, absolutely none; it looked like he just walked in the door and was shot in the back; that is the way it looked. It didn't show evidence in the room when I got there- neither the room or the body showed any evidence of a struggle. He had on the same <objectName>suit</objectName> as when I seen him the day before when he talked to me.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>THE CORONER</speaker>
+               <ab>Is there any other questions? That is all, you may be excused.</ab>
+            </sp>
+            </div>
 
       </body>
    </text>

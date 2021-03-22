@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -270,19 +270,232 @@
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by [NAME]</title> 
-            <date>[DATE OF STATEMENT]</date>
-            <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
+            <title>Witness Statement Provided by Mabel Normand </title>
+            <date> February, 4 1922 at 10:00 a.m.</date>
+            <orgName> Coroner's Inquiry </orgName>
          </head>
          <div>
-            <byline>[YOUR NAME]</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
-            
+            <byline><persName ref="#witzmann"> Olivia Witzmann </persName>
+            </byline>
+            <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+
             <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
             <sp>
-               <speaker></speaker>
-               <ab>Here's a thing</ab>
+               <speaker>NANCE:</speaker>
+               <ab>Please state your name. </ab>
+            </sp>
+            <sp>
+               <speaker>NORMAND: </speaker>
+               <ab>
+                  <persName> Mabel Normand.</persName></ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab> Where do you reside? </ab>
+            </sp>
+            <sp>
+               <speaker> NORMAND: </speaker>
+               <ab>
+                  <placeName>3089 West Seventh.</placeName>
+               </ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab> What is your occupation? </ab>
+            </sp>
+            <sp>
+               <speaker> NORMAND: </speaker>
+               <ab> Motion pictures. </ab>
+            </sp>
+            <sp>
+               <speaker> NANCE: </speaker>
+               <ab> Miss Normand, were you acquainted with <persName>Mr. Taylor</persName>, the
+                  deceased in this case? </ab>
+               <ab> NORMAND: Yes. </ab>
+            </sp>
+            <sp>
+               <speaker> NANCE: </speaker>
+               <ab> Did you see him on the evening before his death occurred? </ab>
+            </sp>
+            <sp>
+               <speaker> NORMAND: </speaker>
+               <ab> Yes, I did. </ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>And where did you see him? </ab>
+            </sp>
+            <sp>
+               <speaker> NORMAND:</speaker>
+               <ab>Will I tell you when I went in there and when I came out? </ab>
+            </sp>
+            <sp>
+               <speaker>NANCE: </speaker>
+               <ab>Did you see him at his <placeName>home</placeName>? </ab>
+            </sp>
+            <sp>
+               <speaker>NORMAND:</speaker>
+               <ab>Oh, yes. </ab>
             </sp>
 
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>And you were with him about how long on that occasion?</ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND: </speaker>
+               <ab>I got there about <time>7 o'clock </time>and left at a <time>quarter to
+                  8</time>.</ab>
+            </sp>
+
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>And when you left <placeName>his place</placeName>, did you leave him in
+                     <placeName>the house</placeName>, or <placeName>outside</placeName>?</ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND:</speaker>
+               <ab> No, he came down to my <objectName>car</objectName> with me.</ab>
+            </sp>
+
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Where was your <objectName>car</objectName>?</ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND: </speaker>
+               <ab>Right in front of <placeName>the court</placeName>.</ab>
+            </sp>
+
+            <sp>
+               <speaker>NANCE: </speaker>
+               <ab><placeName>On Alvarado street?</placeName></ab>
+            </sp>
+            <sp>
+               <speaker>NORMAND:</speaker>
+               <ab>Yes, on the <placeName>hill</placeName>. </ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>He accompanied you to your <objectName>car</objectName>? </ab>
+            </sp>
+            <sp>
+               <speaker> NORMAND:</speaker>
+               <ab>Yes.</ab>
+            </sp>
+
+            <sp>
+               <speaker>NANCE: </speaker>
+               <ab>Was he still there when you drove away? </ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND: </speaker>
+               <ab>Yes, as my <objectName>car </objectName>turned around, I waved <objectName>my
+                     hand</objectName> at him; he was partly up a little
+                     <objectName>stairs</objectName> there.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE: </speaker>
+               <ab> the time you were in <placeName>the house</placeName>, was anybody also in
+                     <placeName>the house</placeName>? </ab>
+            </sp>
+            <sp>
+               <speaker>NORMAND:</speaker>
+               <ab>Yes, <persName>Henry</persName>, his man.</ab>
+            </sp>
+
+            <sp>
+               <speaker> NANCE: </speaker>
+               <ab><persName>Henry Peavey</persName>? </ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND:</speaker>
+               <ab> Yes.</ab>
+            </sp>
+
+            <sp>
+               <speaker> NANCE: </speaker>
+               <ab>Do you know whether <persName>Mr. Peavey</persName> left <placeName>the
+                     house</placeName> before you did or not?</ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND: </speaker>
+               <ab>Yes, he did; he left about, I should say about <time>15 or 20 minutes</time>
+                  before I left, but stopped outside and spoke to <persName>my chauffeur</persName>;
+                  we came out later. </ab>
+            </sp>
+            <sp>
+               <speaker>NANCE: </speaker>
+               <ab>No one else except <persName>Henry Peavey</persName> was there? </ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND: </speaker>
+               <ab>That was all</ab>
+            </sp>
+
+            <sp>
+               <speaker> NANCE: </speaker>
+               <ab>What time was it you say you left him--drove away from <placeName>his
+                     place</placeName>? </ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND:</speaker>
+               <ab> I left him <placeName>on the sidewalk</placeName> about <time>a quarter to
+                     eight</time>.</ab>
+            </sp>
+
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did you expect to see him or hear from him later <time>that evening</time>? </ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND: </speaker>
+               <ab>Yes, he said--he had finished his dinner--he said would I go out and take dinner
+                  with him and I said, <quote>"no;"</quote> I was tired; I had to go home and get up
+                  very early; he said he would call me up in <time>about an hour.</time></ab>
+            </sp>
+
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did he call you? </ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND:</speaker>
+               <ab>No, I went to bed; if he called me I was asleep; when I am asleep he tells
+                     <persName>my maid</persName> not to disturb me. </ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Was that the last time you saw him when you left him about <time>a quarter to
+                     eight</time>? </ab>
+            </sp>
+
+            <sp>
+               <speaker>NORMAND:</speaker>
+               <ab>That was the last time.</ab>
+            </sp>
+
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Have you any questions, Gentlemen? That is all, you may be excused.</ab>
+            </sp>
+            <sp>
+               <ab>I hereby certify that I, as shorthand reporter, correctly took down in shorthand
+                  the testimony and proceedings had at the within named Coroner's inquest; that the
+                  foregoing is a full, true and correct copy of my shorthand notes and a full, true
+                  and correct statement of the testimony and pro- ceedings had at said inquest. E.M.
+                  Allen, Shorthand Reporter</ab>
+            </sp>
          </div>
 
       </body>

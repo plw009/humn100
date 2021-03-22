@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -270,19 +270,233 @@
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by [NAME]</title> 
-            <date>[DATE OF STATEMENT]</date>
-            <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
+            <title>Witness Statement Provided by <persName ref="#minter">MISS MARY MILES
+                  MINTER</persName></title>
+            <date>February 7, 1922, at five o'clock P.M.</date>
+            <orgName><persName ref="#boone">G.H. BOONE</persName> OFFICIAL REPORTER IN THE
+                  <placeName>DISTRICT ATTOURNEY'S OFFICE</placeName></orgName>
          </head>
          <div>
-            <byline>[YOUR NAME]</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
-            
+            <byline><persName ref="#klimas">Evan Klimas</persName></byline>
+            <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+
             <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
             <sp>
-               <speaker></speaker>
-               <ab>Here's a thing</ab>
+               <speaker/>
+               <ab/>
             </sp>
 
+            <ab> STATEMENT OF <persName ref="#minter">MISS MARY MILES MINTER</persName>. <persName
+                  ref="#boone">G.H BOONE</persName> OFFICIAL REPORTER IN THE <placeName>DISTRICT
+                  ATTORNEY'S OFFICE</placeName>, <date when-iso="1922-02-07">February 7,
+               1922</date>, at <time when-iso="5:00:00">five o'clock P.M.</time> PRESENT: <persName
+                  ref="#doran">Mr. W.C. Doran</persName>, <roleName>Deputy District
+                  Attorney</roleName>, <persName ref="#minter">Miss Mary Miles Minter</persName>,
+                  <persName ref="#mott">John G. Mott</persName>, <roleName>attorney</roleName> for
+                  <persName ref="#minter">Miss Minter</persName>, and <persName ref="#boone">G. H.
+                  Boone</persName>, <roleName>shorthand reporter</roleName>. STATEMENT OF <persName
+                  ref="#minter">MISS MARY MILES MINTER</persName> Questions by <persName
+                  ref="#doran">Mr. Doran</persName>: </ab>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">This man knew before you were in love with <persName
+                     ref="#taylor">Mr Taylor</persName>?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">Oh, yes.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">You had told him that, had you not?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">No; in fact, I had never said to <persName ref="#neilan"
+                     >Marshall</persName>
+                  <quote>"I am in love with <persName ref="#taylor">William Desmond
+                        Taylor</persName>."</quote> I never had.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">How did he find it out, then?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">He knew about it, because we had been friends a long time. Before
+                  this <persName ref="#neilan">Marshall</persName> had come to my
+                     <placeName>house</placeName> very despondent and said, <quote>"I think I will
+                     go out in the <placeName>garden</placeName> and eat <objectName>wooly
+                        worms</objectName>."</quote><!-- @Evan - I removed the objectName @type here (was insects) -->
+                  I said, <quote>"Don't feel that way; there are plenty of us who feel the same
+                     way."</quote> I am certain he knew about this thing. I made no secret of it,
+                  but I didn't promenade it about.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">Don't you have a recollection of having told him, <persName
+                     ref="#neilan">Marshall Neilan</persName>, that you were fond of <persName
+                     ref="#taylor">Taylor</persName>?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">No. Many times I said, <quote>"I admire <persName ref="#taylor"
+                        >Mr Taylor</persName>; I respect him; you know I respect his opinion; what a
+                     wonderful man I consider him to be."</quote> He knew I regarded him most
+                  highly.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">Do you remember if he asked you at the time he pro­posed to you
+                  if you were in love with any one else?</ab>
+            </sp>
+
+            <sp>
+               <speaker>INTER:</speaker>
+               <ab select="answer">No, he didn't ask me that at all.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">Did you have any admirers who might have been jealous of
+                  him?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">There was only one possible admirer, and that was <persName
+                     ref="#dickson">Mr Dickson</persName>.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">Any besides <persName ref="#dickson">Mr
+                  Dickson</persName>?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">No; in fact, if I may say so, neither <persName ref="#dickson">Mr
+                     Dickson</persName> nor <persName ref="#neilan">Mr Neilan</persName> has been
+                  with me constantly enough, or I feel really care enough for me to do any such
+                  thing in my behalf, I mean such as commit murder. In my own mind I am absolutely
+                  convinced that I know they would not.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">Yon think they are incapable, in other words?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">I absolutely do.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">What kind of <objectName>cigarettes</objectName> was <persName
+                     ref="#neilan">Neilan</persName> smoking the night at the studio?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">He smokes two kinds of <objectName ref="#accessories"
+                     >cigarettes</objectName>. He smokes a gold tipped called "Dimi" something from
+                     <placeName>Egypt</placeName>, I forget the name, "D" something; I noticed it
+                  comes from <placeName>Cairo</placeName>; then he smokes <objectName>Chesterfield
+                     cigarettes</objectName>. At least, I have seen him smoking
+                     <orgName>Chesterfield cigarettes</orgName>. I remember that much, because I
+                  have always admired the face of the Chesterfield boy on that <objectName>red back
+                     sign</objectName>, you know, that laughing boy in the light hair that says,
+                  "Gee"! They satisfy!"</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">Did <persName ref="#neilan">Neilan</persName> take you
+                     <placeName>home</placeName> then that morning from the
+                     <placeName>studio</placeName> or did you go back in your own <objectName
+                     type="vehicle">car</objectName>?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">No; my <objectName>car</objectName> had been driven back to its
+                     <placeName>garage</placeName> by <persName ref="#neilan">Mr Neilan</persName>'s
+                     <roleName>chauffeur</roleName> with my friend <persName ref="#scarborough">Mr
+                     Scarborough</persName> in it. Poor <persName ref="#scarborough">Mr
+                     Scarborough</persName> had been driving around with me all evening. I hadn't
+                  been able to sleep and that was why I ws_ out. He said if I didn't mind he would
+                  just go on back <placeName>home</placeName>, now that I was in safe hands, and get
+                  some sleep. He was pretty near dead tired. He isn't a very strong man.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">So <persName ref="#neilan">Neilan</persName> took you
+                     <placeName>home</placeName> then</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">Yes; right straight <placeName>home</placeName>.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">Did he ask you to keep in confidence the conversation you had
+                  had with him? Did he tell you not to say anything about it?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">l don't remember him saying to me, <quote>"You must keep this all
+                     in secret oonfidenoe"</quote>; no, I do not, because when we got
+                     <placeName>home</placeName> we discussed some of the things with mother, with
+                  the whole family, in fact; he discussed the seriousness of the conversation and
+                  told me not to do anything without my <roleName>at­torneys</roleName>.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">He told you that?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">Yes; he said, <quote>"You mustn't make any move without your
+                     attorneys."</quote> He spoke of <persName ref="#mott">Mr Mott</persName> and
+                  said <persName ref="#mott">Mr Mott</persName> was very able and that he would tell
+                  me the right thing to do and not to make a move without him.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">Did you comment on his concern?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab select="answer">No.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab select="question">Did you say anything to him, for instance to this effect:
+                     <quote>"Why should you be so concerned about me? Why should I consult
+                        <roleName>attorneys</roleName> in connection with this affair?"</quote> or
+                  anything like that?</ab>
+            </sp>
          </div>
 
       </body>

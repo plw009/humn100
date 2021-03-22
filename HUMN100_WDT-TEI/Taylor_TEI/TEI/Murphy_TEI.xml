@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -270,21 +270,162 @@
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by [NAME]</title> 
-            <date>[DATE OF STATEMENT]</date>
-            <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
+            <title>Witness Statement Provided by [shelby_charlotte]</title>
+            <date>[4-9-26]</date>
+            <orgName>[POLICE]</orgName>
          </head>
-         <div>
-            <byline>[YOUR NAME]</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
-            
-            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
-            <sp>
-               <speaker></speaker>
-               <ab>Here's a thing</ab>
-            </sp>
+         <byline>[<persName><ref>murphy</ref></persName>]</byline>
+         <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
 
-         </div>
+         <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
 
+         <sp select="question">
+            <speaker><orgName>POLICE</orgName></speaker>
+            <ab>Just what did he tell you?</ab>
+         </sp>
+
+         <sp select="answer">
+            <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+            <ab>He said, "<persName ref="shelby">Mrs. Shelby</persName>, I just wanted to call you
+               up and tell you. I am at the <placeName>studio</placeName>. <persName ref="taylor"
+                  >William Desmond Taylor</persName> was found dead <time>this morning</time>."
+               "Oh," I said, "that's terrible." That's all he knew. ** I turned to these gentlemen
+               and said, "Oh, my, it's terrible. A man who directed <persName ref="minter">my
+                  daughter</persName>, a very charming gentleman, was found dead <time>this
+                  morning</time>." ** In a few minutes the <objectName type="furniture"
+                  >telephone</objectName> rang again. ** This time <persName ref="berger">Miss
+                  Berger</persName> said, "<persName ref="taylor">William Desmond Taylor</persName>
+               was murdered this morning. He was shot." I said, "Oh, my, this is terrible; the man
+               was murdered? Was shot?" So we discussed that and the organ man knew I was waiting to
+               go out with <persName ref="rice">Mr. Rice</persName> so ** <persName ref="rice">Mr.
+                  Rice</persName> and I got in his <objectName type="vehicle">car</objectName> **
+               and I said, "<persName ref="rice">Mr. Rice</persName>, do you mind if I stop at my
+                  <objectName>house</objectName> and tell my people?" ** and it seems to me that on
+               the way crossing <placeName>Vermont</placeName> I met my mother coming over in a
+                  <objectName type="vehicle">car</objectName> with the <persName role="chauffeur"
+                  >chauffeur</persName> and I just waved to her to turn around and come on back with
+               us. I remember that distinctly. ** I was in a great hurry because <persName
+                  ref="rice">Mr. Rice</persName> was waiting for me in front, and I remember the
+               chauffeur had parked my <objectName type="vehicle">blue Packard</objectName> in the
+                  <placeName>driveway</placeName>, and something was said about <persName
+                  ref="minter">Mary</persName> wanted the <objectName type="vehicle"
+                  >car</objectName>. <persName ref="eaton">Chauncey</persName> had gone to get
+                  <persName ref="minter">Mary's</persName>
+               <objectName type="vehicle">car</objectName>. However, I went
+                  <placeName>upstairs</placeName> in a great hurry, and I said, "Oh, <persName
+                  ref="ivers">Julia</persName>, dear, <persName ref="taylor">Mr. Taylor</persName>
+               was murdered last night." She said, "Oh, it isn't possible. I can't believe it. It
+               isn't true." I said, "Oh, yes, it is. <persName ref="berger">Miss Berger</persName>
+               told me so." **</ab>
+         </sp>
+
+         <sp select="question">
+            <speaker><orgName>POLICE</orgName></speaker>
+            <ab>Did <persName ref="woolwine">Mr. Woolwine</persName> ever try to take your
+               statement?</ab>
+         </sp>
+
+         <sp select="answer">
+            <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+            <ab>No, he never asked me a thing, <persName ref="keyes">Mr. Keyes</persName>. Nobody
+               ever questioned me.</ab>
+         </sp>
+
+         <sp select="question">
+            <speaker><persName ref="mott">MR. MOTT</persName></speaker>
+            <ab> Tell <persName ref="keyes">Mr. Keyes</persName> exactly now, that part of the
+               conversation with <persName ref="eaton">Chauncey</persName>?</ab>
+         </sp>
+
+         <sp select="answer">
+            <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+            <ab> I said, "<persName ref="eaton">Chauncey</persName>, what did you tell them?" He
+               said, "I told them that you called me up very early that morning, about <time>half
+                  past seven</time>, and my wife said you went over there without breakfast; that
+               you wanted to go over to the <placeName>Hobart house</placeName>." I said, "The
+               morning of the <persName ref="taylor">Taylor</persName> murder?" He said, "Yes." I
+               said, "Why, I couldn't have known until after <time>9 o'clock</time>." He said that
+               he drove me over that morning and said that I was at the window with the <objectName
+                  type="miscellaneous">papers</objectName>. I said, "How could that be; besides
+               there wasn't any papers <time>that morning</time>." "No," he said, "that's what they
+               told me down at <placeName>the office</placeName>, that there wasn't any <objectName
+                  type="miscellaneous">papers</objectName> that early." I said, "Well, that's
+               nothing, it is just a lapse of memory, it is of no consequence." And finally he saw
+               he was in the wrong. I explained to him that <persName ref="rice">Mr. Rice</persName>
+               had driven me over.</ab>
+         </sp>
+
+         <sp select="question">
+            <speaker><persName ref="mott">MR. MOTT</persName></speaker>
+            <ab> Now explain that <persName ref="blue">Monte Blue</persName> proposition.</ab>
+         </sp>
+
+         <sp select="answer">
+            <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+            <ab> (<persName>Mrs. Shelby</persName> tells about some night when <persName
+                  ref="minter">Mary</persName> had failed to come <placeName>home</placeName>, and
+               they had looked for her until about <time>2:30 a.m</time>. and finally located her
+                  <objectName type="vehicle">car</objectName> in front of <placeName><persName
+                     ref="whitney">Charlotte Whitney's</persName> house</placeName>) So <persName
+                  ref="margaret">Margaret</persName> and I rushed in and went up the steps hurriedly
+               and opened the door and came upon <persName ref="minter">Mary</persName> and
+                  <persName ref="blue">Monte Blue</persName> on the couch. The door opened right
+               into the <placeName>front room</placeName>. This <persName ref="blue">Monte
+                  Blue</persName> started to run out into the <placeName>kitchen</placeName> and out
+               the <placeName>back door</placeName>.</ab>
+         </sp>
+
+         <sp select="question">
+            <speaker><orgName>POLICE</orgName></speaker>
+            <ab> You mean that they were in a compromising position?</ab>
+         </sp>
+
+         <sp select="answer">
+            <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+            <ab> Yes. I was about the maddest woman that could ever be. I grabbed this halfbreed
+               Indian by his shirt tail and I said, "Come right back in <placeName>this
+                  room</placeName>. I have something very forceful to say to you. Come back
+               here."</ab>
+         </sp>
+
+         <sp select="question">
+            <speaker><persName ref="davis">MR. DAVIS</persName></speaker>
+            <ab> That time she went out with <persName ref="neilan">Marshall Neilan</persName>,
+               after the murder; wasn't that about <date>two nights afterward</date>?</ab>
+         </sp>
+
+         <sp select="answer">
+            <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+            <ab>Yes.</ab>
+         </sp>
+
+         <sp select="question">
+            <speaker><orgName>POLICE</orgName>
+            </speaker>
+            <ab>Immediately afterwards, wasn't it?</ab>
+         </sp>
+
+         <sp select="answer">
+            <speaker><persName ref="shelby">MRS. SHELBY</persName>
+            </speaker>
+            <ab> It was.</ab>
+         </sp>
+
+         <sp select="question">
+            <speaker><persName ref="keyes">MR. KEYES</persName>
+            </speaker>
+            <ab> She tried to kill you, you say?</ab>
+         </sp>
+
+         <sp select="answer">
+            <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+            <ab> Yes. ** Oh, <persName ref="minter">Mary</persName> said around the house freely,
+                  <quote>"Oh, <persName ref="shelby">Mrs. Shelby</persName> killed <persName
+                     ref="taylor">Taylor</persName>"</quote>. Not only once but many times. She was
+               always saying that.</ab>
+         </sp>
       </body>
    </text>
+
+
 </TEI>

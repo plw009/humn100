@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -270,19 +270,174 @@
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by [NAME]</title> 
-            <date>[DATE OF STATEMENT]</date>
-            <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
+            <title>Witness Statement Provided by Mrs. Charlotte Shelby</title>
+            <date>[4-9-26]</date>
+            <orgName>Police</orgName>
          </head>
          <div>
-            <byline>[YOUR NAME]</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
-            
+            <byline><persName ref="mannion"/>[Patrick Mannion]</byline>
+            <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+
             <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
             <sp>
-               <speaker></speaker>
-               <ab>Here's a thing</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Did you ever do any target practice with it?</ab>
+            </sp>
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Yes, that one <time>time</time>. It was enough for <persName>me</persName>. The
+                  thing was too short. <persName>I</persName> can shoot a <objectName>long
+                     pistol</objectName>. <persName>I</persName> wouldn't mind shooting a
+                     <objectName>shot gun.</objectName> **</ab>
             </sp>
 
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab> Well, <persName>Mrs. Shelby</persName>, <persName>Mary</persName> shot that
+                     <objectName>pistol</objectName> off one <time>time</time>, didn't
+                     <persName>she</persName>?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Yes, she shot it off twice.</ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>Was that the "suicide"?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>That's the "suicide". (re supposed suicide) "Well, we were living at
+                     <placeName>56 Fremont Place. </placeName> ** I remember the
+                     <roleName>secretary</roleName> was there that <time>night</time>,
+                     <persName>Miss Whitney.</persName> ** <persName>She (Mary)</persName> rushed up
+                  the <objectName>steps</objectName> crying "I am going to end it all. I am going to
+                  end it all." ** Then <persName>Charlotte (Miss Whitney)</persName> said to me,
+                  "Mes. Shelby, oh, Mrs. Shelby, there's a <objectName>pistol</objectName> in your
+                     <objectName>closet</objectName>." ** But she ran up the
+                     <objectName>stairs</objectName> and ran in my room and closed the
+                     <objectName>door</objectName>.</ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab> Did she look the door?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Oh, locked the <objectName>door</objectName>, and the first thing we knew - bang.
+                  ** and a second more and - bang - the second shot. ** <persName>The
+                        <roleName>chauffeur</roleName> (Chauncey Eaton)</persName> appeared, and the
+                     <persName>night watchman</persName> (?), and I said, "Break in the door". The
+                  two men rushed against the door, the door fell in, and there lay Mary on my
+                  bedroom floor. ** They picked her up so tenderly, and
+                     <persName>Chauncey</persName> turned her over and he said, "Why, <persName>Mrs.
+                     Shelby</persName>, there is no blood on her." ** By that time the
+                     <persName>secretary</persName> had faded out of the picture in a faint ** and
+                  she (<persName>Mrs. Shelby's mother, Mrs. Miles</persName>) said,"Why no, she is
+                  not shot; stand her up, <persName>Chauncey</persName>." ** Then she
+                     (<persName>Mary</persName>) looked at us and said, "I thought I would give you
+                  all a jolt."</ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>** was there anything said about <persName>Taylor</persName> in that? Did he have
+                  anything to do with that quarrel?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, I don't think he had anything to do with that ** I may have asked her if she
+                  had been out with <persName>Mr. Taylor</persName>.</ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>But there was no quarrel about <persName>Mr. Taylor</persName>?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>It seems to me she mentioned <persName>Taylor's</persName> name. I don't remember
+                  now, or what. **</ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>Then the <objectName>report</objectName> that I got that you have been practicing
+                  some <objectName>revolver</objectName> shooting - is there anything to that?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I told you I shot it once. I know a man who will verify it - <persName>Mr.
+                     Stockdale</persName>.</ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab> No other <objectName>pistol</objectName> at any other time?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, I am afraid of <objectName>pistols</objectName>. **</ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>What did your <persName>mother</persName> do with your
+                     <objectName>pistol</objectName> after <persName>Mary</persName> pulled this
+                  stunt?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>That was all there was to it. Of course, we found <persName>Charlotte
+                     Whitney</persName> in a faint on the <placeName>floor</placeName> and we had to
+                  revive her. ** And <persName>Chauncey</persName> was trying to find out where the
+                     <objectName>bullets</objectName> went, and we discovered one
+                     <objectName>bullet</objectName> had been shot into my
+                     <objectName>closet</objectName>, and we found that, and another one went up in
+                  the ceiling of the <objectName>closet</objectName>. I remember
+                     <persName>mother</persName> taking the <objectName>pistol</objectName>. She
+                  said, "Here, give me that. That's enough of <objectName>pistols</objectName> lying
+                  around."</ab>
+            </sp>
+
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>What did she do with it?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I never saw it again. I think I asked her once or twice what she did with it, and
+                  she said,"It's out. It's put away."</ab>
+            </sp>
+
+            <ab> ---</ab>
+
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I had an engagement with a man the <time>next morning (2-2-22) at 9
+                     o'clock</time>. *** This man was a client of a friend of my daughter's,
+                     <persName>Mr. Albert Reiner.</persName> *** I also had been talking to a man
+                  about buying an <objectName>Aeolian Organ</objectName>, and he stopped 1n<time>
+                     that morning</time> And while these two men were in the room, the
+                     <objectName>telephone</objectName> rang. It was then a <time>little after
+                     9</time>, and <persName>Mr. Carl Stockdale</persName> called me up. He had gone
+                  to the <placeName>studio</placeName> to work and had learned of the death of
+                     <persName>William Desmond Taylor</persName>. Naturally, knowing that he
+                  directed <persName>Mary</persName>, he called me up and told me that
+                     <persName>William Desmond Taylor</persName> bad been found dead that
+                     <time>morning</time>.</ab>
+            </sp>
          </div>
 
       </body>

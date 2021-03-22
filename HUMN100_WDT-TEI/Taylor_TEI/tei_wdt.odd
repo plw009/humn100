@@ -82,8 +82,14 @@
         <attList><attDef ident="type" mode="change">
           <desc versionDate="2021-03-21" xml:lang="en">customization of objectName @type values</desc>
           <valList type="closed" mode="change">
+            <valItem mode="add" ident="accessories">
+              <desc>accessories of any kind</desc>
+            </valItem>
             <valItem mode="add" ident="clothing">
               <desc versionDate="2021-03-21" xml:lang="en">clothing</desc>
+            </valItem>
+            <valItem mode="add" ident="communication">
+              <desc>communication</desc>
             </valItem>
             <valItem mode="add" ident="furniture">
               <desc versionDate="2021-03-21" xml:lang="en">household furnishings</desc>

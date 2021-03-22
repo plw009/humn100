@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -173,118 +173,119 @@
          <!-- This is the section that includes unique identifiers for all of the people and places referred to in the documents. You will paste a completed list once the class has compiled it. -->
          <particDesc>
             <!-- Because there are multiple people with similar last names, we will use the convention lastname_firstname -->
-            <person xml:id="berger_marjorie">
-               <persName>Marjorie Berger</persName>
-            </person>
-            <person xml:id="davies_william">
-               <persName>William Davies</persName>
-            </person>
-            <person xml:id="doran_william">
-               <persName>William Doran</persName>
-            </person>
-            <person xml:id="eaton_chauncy">
-               <persName>Chauncy Eaton</persName>
-            </person>
-            <person xml:id="eyton_charles">
-               <persName>Charles Eyton</persName>
-            </person>
-            <person xml:id="fellows_harry">
-               <persName>Harry Fellows</persName>
-            </person>
-            <person xml:id="fellows_howard">
-               <persName>Howard Fellows</persName>
-            </person>
-            <person xml:id="ivors_julia">
-               <persName>Julia Crawford Ivors</persName>
-            </person>
-            <person xml:id="maclean_douglas">
-               <persName>Douglas MacLean</persName>
-            </person>
-            <person xml:id="maclean_faith">
-               <persName>Faith MacLean</persName>
-            </person>
-            <person xml:id="maigne_charles">
-               <persName>Charles Maigne</persName>
-            </person>
-            <person xml:id="miles_juliet">
-               <persName>Juliet Miles</persName>
-            </person>
-            <person xml:id="minter_mary">
-               <persName>Mary Miles Minter</persName>
-            </person>
-            <person xml:id="mott_john">
-               <persName>John Mott</persName>
-            </person>
-            <person xml:id="nance_charles">
-               <persName>Charles Nance</persName>
-            </person>
-            <person xml:id="neilan_marshall">
-               <persName>Marshall Neilan</persName>
-            </person>
-            <person xml:id="normand_mabel">
-               <persName>Mabel Normand</persName>
-            </person>
-            <person xml:id="owens_mamie">
-               <persName>Mamie Owens</persName>
-            </person>
-            <person xml:id="peavey_henry">
-               <persName>Henry Peavey</persName>
-            </person>
-            <person xml:id="pickford_mary">
-               <persName>Mary Pickford</persName>
-            </person>
-            <person xml:id="pickford_jack">
-               <persName>Jack Pickford</persName>
-            </person>
-            <person xml:id="sands_edward">
-               <persName>Edward Sands</persName>
-            </person>
-            <person xml:id="shelby_charlotte">
-               <persName>Charlotte Shelby</persName>
-            </person>
-            <person xml:id="shelby_margaret">
-               <persName>Margaret Shelby</persName>
-            </person>
-            <person xml:id="stockdale_carl">
-               <persName>Carl Stockdale</persName>
-            </person>
-            <person xml:id="swanson_gloria">
-               <persName>Gloria Swanson</persName>
-            </person>
             <person xml:id="taylor_william">
                <persName>William Desmond Taylor</persName>
             </person>
-            <person xml:id="vantrees_james">
-               <persName>James Van Trees</persName>
-            </person>
-            <person xml:id="whitney_charlotte">
-               <persName>Charlotte Whitney</persName>
-            </person>
-            <person xml:id="ziegler_thomas">
-               <persName>Thomas Ziegler</persName>
-            </person>
          </particDesc>
+         <settingDesc>
+            <place xml:id="alvarado">
+               <placeName>Alvarado Street</placeName>
+            </place>
+         </settingDesc>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by [NAME]</title> 
-            <date>[DATE OF STATEMENT]</date>
-            <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
+            <title>Witness Statement Provided by Mary Miles Minter</title>
+            <date>February 7, 1922</date>
+            <orgName>District Attorneys Office </orgName>
          </head>
          <div>
-            <byline>[YOUR NAME]</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
-            
+            <byline>Audrey Lee</byline>
+            <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+
             <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
             <sp>
-               <speaker></speaker>
-               <ab>Here's a thing</ab>
+               <speaker> MINTER: </speaker>
+               <ab> No, I did not, because at the time, when I asked him if he suspected me of
+                  killing <persName>Mr Taylor</persName>, we had that out; he assured me he didn't suspect any such
+                  thing, but he was very much impressed with the gravity of the situation. In fact,
+                  evidently he knew at that time exactly how these things were going to turn out. I
+                  mean that they would drag everybody's name into it; that the papers could get hold
+                  of for the notoriety of it. He said, "This involves picture people and you know
+                  how <persName>Hearst</persName> hates the picture people. <persName>Hearst</persName> would do anything &amp; could if he
+                  thought you did know <persName>Mr Taylor</persName>," "There are lots of prominent people in the
+                  profession who knew him and loved him. They are certainly going to drag your name
+                  into it." </ab>
             </sp>
-
+            <sp>
+               <speaker> DORAN: </speaker>
+               <ab> You didn't telephone <persName>Taylor</persName> on the <time>night</time> he was murdered? </ab>
+            </sp>
+            <sp>
+               <speaker> MINTER: </speaker>
+               <ab> No. </ab>
+            </sp>
+            <sp>
+               <speaker> DORAN: </speaker>
+               <ab> Where did you happen to be that <time>night</time>? </ab>
+            </sp>
+            <sp>
+               <speaker> MINTER: </speaker>
+               <ab> I was at <placeName>home</placeName> reading the <objectName>Cruise of the Kewa</objectName>. It is a humorous <objectName>book</objectName>; it is
+                  really a travesty of <persName>Frederick O'Brien's</persName> stories of the South Seas. It is very
+                  funny, and I laid there laughing all the <time>evening</time>. I was very -- right while I was
+                  laying on the <objectName>couch</objectName> reading aloud to <persName>mother</persName> and sister and we were all laughing
+                  heartily at that time, and at the same time <persName>Mr Taylor</persName> was being murdered. It seems
+                  very horrible to me. </ab>
+            </sp>
+            <sp>
+               <speaker> DORAN: </speaker>
+               <ab>You had no company at home that <time>night</time>? </ab>
+            </sp>
+            <sp>
+               <speaker> MINTER: </speaker>
+               <ab> Let me see. I don't remember any. Possibly <persName>Mr Stockdale</persName>, he generally did, or
+                  maybe somebody dropped in. I don't just remember. Usually every evening somebody
+                  drops [page 40] in. I know they were not there at the time I was reading the book.
+               </ab>
+            </sp>
+            <sp>
+               <speaker> DORAN: </speaker>
+               <ab> Your <objectName>automobiles</objectName> were all home? </ab>
+            </sp>
+            <sp>
+               <speaker> MINTER: </speaker>
+               <ab> Yes, unless I put my <objectName>car</objectName> in the garage called the <placeName>Standard Garage</placeName>. I leave it
+                  there sometimes, the <placeName>Standard Garage</placeName> on <placeName>Hollywood Boulevard and Western Avenue</placeName>.
+                  Sometimes when my girl friends stop with me and have her <objectName>car</objectName>, I would move out and
+                  put it in this garage and maybe wouldn't call for it for several days. I haven't
+                  been feeling well for some time; I have had bronchitis. I hadn't gotten well when
+                  this awful shock came to me, and I haven't used the little car very much.</ab>
+            </sp>
+            <sp>
+               <speaker> DORAN: </speaker>
+               <ab> Do you have a <roleName type="occupation">chauffeur</roleName>? </ab>
+            </sp>
+            <sp>
+               <speaker> MINTER: </speaker>
+               <ab> Yes; faithful old <persName>Chauncy</persName>. <persName>Chauncy</persName> is just as concerned about this thing as my
+                  mother is.</ab>
+            </sp>
+            <sp>
+               <speaker> DORAN: </speaker>
+               <ab> Well, I don't think of anything else I care to inquire about now. </ab>
+            </sp>
+            <sp>
+               <speaker> MINTER: </speaker>
+               <ab> Mr Doran, if I can be of any possible help in any way, it is true I don't know
+                  any more than I have told you; if I can, please call on me the first thing, won't
+                  you? </ab>
+            </sp>
+            <sp>
+               <speaker> DORAN: </speaker>
+               <ab> Thank you, very much. You may think of little things of which you may not
+                  appreciate the imporance, <persName>Mr Mott</persName>. </ab>
+            </sp>
+            <sp>
+               <speaker> MINTER: </speaker>
+               <ab> As I told <persName>Mr Mott</persName> today, I remember saying to <persName>Mr Mott</persName>, "I am so tired I am like
+                  a little child. I speak words mechanically. I sit, sleep, get up, walk and dress,
+                  and I don't see exactly what I am doing." </ab>
+            </sp>
          </div>
-
       </body>
    </text>
 </TEI>
