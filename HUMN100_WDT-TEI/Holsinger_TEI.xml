@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>STATEMENT OF <persName>MISS MARY MILES MINTER</persName>. G.H BOONE <roleName>OFFICIAL REPORTER</roleName>
+            IN THE <placeName>DISTRICT ATTORNEY'S OFFICE</placeName>, <date>February 7, 1922</date>, <time>at five
+            o'clock P.M</time>.</head>
+         <ab>PRESENT: Mr. W.C. <persName>Doran</persName>, <roleName>Deputy District Attorney</roleName>, <persName>Miss
+               Mary Miles Minter</persName>, John G. Mott, <roleName>attorney</roleName> for <persName>Miss
+               Minter</persName>, and G. H. Boone, <roleName>shorthand reporter</roleName>. ---o--- STATEMENT OF MISS
+            MARY MILES MINTER Questions by <persName>Mr. Doran</persName>:</ab>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>Did he declare his love for you, whi1e rid1ng around in the <objectName>machine</objectName>?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>No, he did not.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>Not until you reached the <placeName>studio</placeName> did he do tha that?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>Not until after we had been there a long time at the <placeName>studio</placeName>.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>Was it before or after he told you about this instance in connection with
+                  <persName>Taylor</persName> --</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>It was afterwards. I don't know yet whether he really meant it; maybe he was as
+               sincere as he could be, and he can be very sincere, I am sure. I am sure he can.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>This was the second time that he had declared love for you. On one occasion he
+               proposed to you?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>Yes.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>He asked you to marry him?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>Yes, and then he would dart away again. I mean he would call me up -- He can't call
+               me up, because I have no <objectName>telephone</objectName>; he would send me <objectName>flowers</objectName>, too, and suddenly I
+               would not hear from him for two or <time>three weeks</time>. As I said to him in the <objectName>car</objectName>, not
+               particularly about that but about other things, about dinner engagements, about &amp;
+               appointments, I said, "You know, <persName>Marshall</persName>, I never know when l
+               am going to see you and when I am not going to see you, and just what you are going
+               to do, and I am in no mood to go on like that at all; I don't care much about
+               it."</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>When did you tell him that?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>I told him that when we were driving the <objectName>car</objectName>.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>How old a man is <persName>Marshall Neilan</persName>?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>Just thirty.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>Has he ever been married?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>Yes, he has been married once for a <time>few days</time>. He remained married to his wife for a
+               long time, for <time>seven years</time>, I think, but he was actually only married a <time>few days</time>. I
+               think he married when he was twenty or nineteen.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>Have you seen him since this <date>Friday night</date>?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>No, I have not.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>Have you talked with him over the <objectName>telephone</objectName>?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>It was really <date>Saturday morning</date>.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>Has he called you up on the <objectName>telephone</objectName>?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>No; he may have called me at the <placeName>New Hampshire house</placeName> and I wouldn't know.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>You haven't talked with him over the <objectName>telephone</objectName>?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>I haven't seen him or talked to him or come in touch with him in any way</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>You haven't received any <objectName>letters</objectName> from him?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>No.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>Did you part friendly or unfriendly?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>We did part more or less friendly, as I always did with
+                  <persName>Marshall</persName>, no matter how angry I would become with him,
+               somehow you can't bear malice against that boy.</ab>
+         </sp>
+         <sp>
+            <speaker>DORAN:</speaker>
+            <ab>You have become angry with him on other occasions?</ab>
+         </sp>
+         <sp>
+            <speaker>MINTER:</speaker>
+            <ab>Yes. This night for the time being, I was furious [missing page] [...] <persName>Mr
+                  Neilan</persName> -- <persName>Taylor's</persName>, and at the time of
+                  <persName>Mr Taylor's</persName> death, <persName>Harry</persName> was the
+               <roleName>assistant director</roleName> in <persName>Mr Taylor's</persName> companies there, and he had
+               said <persName>Harry</persName> had been in the <placeName>room</placeName> looking over the effects -- Just
+               a minute. I wonder if <persName>Charles Maigne</persName> told me this. I think
+                  <persName>Mr Neilan</persName> told me this, too, that <persName>Harry</persName>
+               bad gotten the <objectName>letters</objectName> and taken them to <persName>Jim Vantrees</persName>, the
+               <roleName><objectName>camera</objectName> man</roleName>, whereupon I remarked, <quote>"I will bet <persName>Mrs Ivers</persName>
+                  had them,"</quote> and I think he said, <quote>"<persName>Jim</persName> gave them
+                  to <persName>Mr Eyton</persName>,"</quote> and that <persName>Mr Eyton</persName>
+               turned some of them over to the Examiner. I am so afraid l am telling things that are
+               not so here, <persName>Mr Doran</persName>; I don't mean to, but I couldn't get all
+               of it. That is as clear as I can make it. Anyway, I do remember this part, he said he
+               heard about them, and I don't know how he heard about them, and that he went down, I
+               believe, to the Examiner, to get ahold of them and he had something to do with
+               <placeName>Pasadena</placeName>, a man, he did tell me the man's name. I don't remember his name, but I
+               believe it be­gan with "S", and this man, <persName>Marshall</persName> said he was
+               the big man over the entire Examiner force, told him to go down and take the <objectName>letters</objectName>.
+               He said, <quote>"Of course, if you breathe this it wi11 just about throw me in <placeName>jail</placeName>
+                  for the rest of my life,"</quote> but I don't believe it will. Then he said,
+                  <quote>"Didn't you get them today?"</quote> I said, <quote>"I did not."</quote> As
+               well as I remember, <persName>Marshall</persName> said, <quote>"I then sent them to
+                  the <placeName>Realart Studio</placeName> and they ought to be in <persName>Charley's</persName> hands
+                  now or Mr Garbut."</quote> This whole <date>Friday night</date> is most hasy in my
+               recollection.</ab>
+         </sp>
+      </body>
+   </text>
+</TEI>

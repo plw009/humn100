@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coroner's Inquest, 1922</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Coroner's Inquest Transcript The following is the transcript of the shorthand notes
+            taken at the Coroner's inquest held on the body of William Desmond Taylor at Ivy H.
+            Overholtzer [Mortuary] at Los Angeles, California on the 4th day of February, 1922 at
+            10:00 a.m. <lb/>Henry Peavey, being first duly sworn, testified as follows:</head>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Please state your name.</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab><persName>Henry Peavey</persName>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Where do you live?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>I live at <placeName>127 1/2 East 3rd Street.</placeName></ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>What is your occupation?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab><roleName>Cook</roleName> and <roleName>valet</roleName>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Mr. Peavey, were you employed by <persName>Mr. Taylor</persName>, the deceased in
+               this case?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>Sir?</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Were you employed by the dead man in the case?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>Yes,sir.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>How long have you been working for him?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>About <time>six months</time>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Were you in the <objectName>house</objectName> on the evening when he was found dead
+               there?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>Yes, sir.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>What time did you leave the <objectName>house</objectName>?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>I figured it was about <time>a quarter past [seven]</time> that I left the
+               house.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Where was he when you left?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>He was sitting in a <objectName>chair</objectName> facing ust to the [illegible]
+               now, and <persName>Miss Normand</persName> was sitting in a
+                  <objectName>chair</objectName> just the same. They were discussing a
+                  <objectName>red-backed book</objectName>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>In what part of the <objectName>house</objectName> were they?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>They were near the <placeName>dining-room</placeName>, where you enter the
+                  <placeName>dining-room</placeName> from the
+               <placeName>living-room</placeName>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>That is a <objectName>two-story apartment</objectName>, is it not?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>Yes, sir.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>And on the <placeName>ground floor</placeName>, how many rooms?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>The <placeName>living-room</placeName>, <placeName>dining-room</placeName> and
+                  <placeName>kitchen</placeName>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Now, the <placeName>entrance</placeName> to this <objectName>apartment</objectName>
+               is immediately into the <placeName>front</placeName> there, is it not-the
+                  <placeName>front room</placeName>, rather?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>The <placeName>front room</placeName>, yes sir.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>They were seated?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>Near the <placeName>dining-room</placeName> there, in the
+                  <placeName>living-room</placeName>, near the <placeName>entrance to the
+                  dining-room</placeName>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>When you went out, which way did you go out, at the <placeName>front</placeName> or
+               the <placeName>back</placeName>?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>I went out the front way. I always lock up the <objectName>back door</objectName>
+               when I go out. I always lock the <objectName>back door screen</objectName>; it has a
+                  <objectName>hook</objectName> on the <placeName>inside</placeName>. I used the
+               front door to come out all the time.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Did you carry the <objectName>back door key</objectName> with you?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>No, sir. I always turn it in the <objectName>door</objectName> and leave it just as
+               it is.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Now, when did you next see <persName>Mr. Taylor</persName>?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>The <time>next morning</time>, when I went to work.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>What time are you in the habit of coming to work?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>I am usually there about <time>half past seven</time>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>What time did you arrive there the next morning?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>just about <time>half past seven</time>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>What day was that?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab><date>Thursday morning [February 2]</date>.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>On arriving there, what did you do?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>I picked up the <objectName>paper</objectName> first; I stopped in a <placeName>drug
+                  store</placeName> at the <placeName>corner of 5th and Los Angeles</placeName> to
+               get a <objectName>bottle of medicine</objectName> - <objectName>milk of
+                  magnesia</objectName>, he usually takes that every morning; I bought that on my
+               way out. I picked up the <objectName>paper</objectName> and unlocked the
+                  <objectName>door</objectName>. The first thing I saw was his feet. I looked at his
+                  <objectName>feet</objectName> a few minutes and said, <quote>"<persName>Mr.
+                     Taylor</persName>."</quote> He never moved. I stepped a little further in the
+                  <objectName>door</objectName>, and seen his <objectName>face</objectName>, and
+               turned and ran out and hollered.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Who did you summon? Who did you call to?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>I don't know.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>You just made a lot of noise to attract all the attention you could?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>Yes, sir.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Several people came, did they?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>Yes, sir. I think <persName>Mr. Desmond</persName> [sic], and the gentleman who owns
+               the <objectName>court</objectName> was the first.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>You mean <persName>Mr. Jessurun?</persName></ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>Yes, sir.</ab>
+         </sp>
+
+         <sp>
+            <speaker>NANCE:</speaker>
+            <ab>Who else came?</ab>
+         </sp>
+
+         <sp>
+            <speaker>PEAVEY:</speaker>
+            <ab>And Mr. - you see, I don't know their names - I just seen them - the two gentlemens
+                  <placeName>next door</placeName>, <persName>Mr. MacLean</persName> and Mr. - I
+               can't think of the other gentleman's name - right <placeName>next door</placeName> to
+               us [<persName>Charles Maigne</persName>].</ab>
+         </sp>
+      </body>
+   </text>
+</TEI>

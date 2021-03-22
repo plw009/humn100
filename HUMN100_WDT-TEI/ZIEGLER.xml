@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+
+         <titleStmt>
+            <!-- This is the section of the TEI header that describes the file, the project, and who is involved in its production and publication -->
+            <title>The Taylor Murder Case: Key Witness Statements</title>
+            <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
+
+            <respStmt>
+               <!-- The responsibility statement serves as a recognition of the labor provided to produce the project, and in what capacity -->
+               <persName xml:id="jakacki">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Instructor, encoder-in-chief</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="brennan">Cade Brennan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="carroll">Ryan A. Carroll</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chakos">Jules M. Chakos</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chao">Claire T. Chao</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="crotta">Bella R. Crotta</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="estevez">Maria F. Estevez</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="fazio">Anna G. Fazio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="gehrig">John S. Gehrig</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="greenspan">Tess I. Greenspan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="halliburton">Devin T. Halliburton</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="herrold">Nathan T. Herrold</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="holsinger">Eric Holsinger</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="klimas"> Evan A. Klimas</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="lee">Audrey M. Lee</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="luciani">Ellie G. Luciani</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="mannion">Patrick O. Mannion</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="murphy">Jack C. Murphy</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="okin">Tyler E. Okin</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="quinn">Meghan E. Quinn</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="santoro">Ashley R. Santoro</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="settle">Elizabeth H. Settle</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="smart">Bennett C. Smart</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="tait">Christian R. Tait</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="witzmann">Olivia L. Witzmann</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="wnek">Christine M. Wnek</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <!-- The pbulication provides any kind of publisher, copyright information -->
+            <distributor>Bucknell University</distributor>
+            <address>
+               <street>One Dent Drive</street>
+               <settlement>Lewisburg</settlement>
+               <region>Pennsylvania</region>
+               <country>United States</country>
+               <postCode>17837</postCode>
+            </address>
+            <date from-iso="2021-02-01" to-iso="2021-05-30">Spring 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+                  Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <!-- The source description provides details about where the materials have come from -->
+            <p>Select transcriptions of witness statements at the coroner's inquest, to the police
+               and district attorney's office are drawn from the remarkable work done by Bruce Long
+               and other parties as part of the Taylorology website.</p>
+            <p>For more information, see Taylorology: http://taylorology.com/</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <!-- This is the section that includes unique identifiers for all of the people and places referred to in the documents. You will paste a completed list once the class has compiled it. -->
+         <particDesc>
+            <!-- Because there are multiple people with similar last names, we will use the convention lastname_firstname -->
+            <person xml:id="taylor_william">
+               <persName>William Desmond Taylor</persName>
+            </person>
+         </particDesc>
+         <settingDesc>
+            <place xml:id="alvarado">
+               <placeName>Alvarado Street</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- please fill out the template below, replacing text in square brackets with the actual information -->
+         <head>
+            <title>Witness Statement Provided by T.H. Ziegler</title> 
+            <date>2/4/1922</date>
+            <orgName>Coroner's Inquest</orgName>
+         </head>
+         <head>The following is the transcript of the shorthand notes taken at the Coroner's inquest held on the body of William Desmond Taylor at Ivy H. Overholtzer [Mortuary] at Los Angeles, California on the 4th day of February, 1922 at 10:00 a.m.</head>
+         <div>
+            <byline>TYLER OKIN</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+            
+            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Please state your name.</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>T.H. Ziegler.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Where do you live?
+               </ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab><placeName>425 North Hill.</placeName></ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>What is your occupation?</ab>
+              
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Police officer.</ab>
+               
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Mr. Ziegler, were you called to the premises when the
+                  deceased was found dead? </ab>
+               
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I was.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>When did you arrive there?</ab>
+               
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>A little before <time>8 o'clock</time> in the morning of <date>February 2nd.</date> </ab>
+               
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Will you state what you found when you got there?</ab>
+               
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I found the deceased, Mr. <persName>Taylor</persName>, lying just inside of the <objectName>door</objectName>, on his back. His <objectName>hands</objectName>, one of them, apparently to the side of his body, and the other lying outstretched; and <objectName>blood</objectName> pouring from his mouth. He was lying with his head to the east, flat on his back, dead.</ab>
+               
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Was his body rigid and cold?</ab>
+               
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>It was.</ab>
+               
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Indicating he had been dead for some time?</ab>
+               
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes, sir.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did you see any evidence of a disturbance in the <placeName>house</placeName>? </ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER</speaker>
+               <ab>Not any.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Who was there when you arrived there?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>The owner of the <placeName>building</placeName>; <persName>Mr. MacLean</persName>; another movie actor <persName>[Charles Maigne]</persName>, and <persName>Peavey</persName>.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>You mean the owner of the building, <persName>Mr. Jessurun</persName></ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes, sir, and <persName>Mr. MacLean</persName> and another man I don't know.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>One of the adjacent tenants of the building?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes sir,living <placeName>next door east</placeName> of <persName>Mr. Taylor</persName>.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did you question any of those persons as to whether they had heard any gunshot the <time>night previous</time>?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I did. I learned that from <persName>Mrs. MacLean</persName>, that along about <time>fifteen or perhaps ten minutes to eight</time>, the night before, she heard a shot. 
+                  She thought it was a gunshot. She went to her front <objectName>door</objectName> and opened the door, and saw a man standing in Mr. Taylor's door. She looked at him, and he stood and looked at her; and he walked down 
+                  the steps, turned to the left, and going around the end of the building, which is to the east; and out into the street.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Into what <placeName>street</placeName>?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Which is <placeName>Maryland</placeName>, I think.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did <persName>Mr. Jessurun</persName> tell you he heard a shot?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I think he did.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did he say why he didn't try to investigate it?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>He did not. He didn't know but what it was an <objectName>automobile</objectName> making a noise.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did <persName>Mr. MacLean</persName> endeavor to investigate it?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Not that I know of, and <persName>Mrs. MacLean's</persName> maid also heard a shot.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did they say why they didn't attempt to investigate the cause of the shot?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>They did not.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did you find any weapon about the room where the deceased was lying?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I found a <objectName>weapon</objectName> in the <placeName>room above</placeName>.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Where was it?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>In the <placeName>front bedroom in the dresser drawer</placeName>, lying on a sort of <objectName>box</objectName>.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did you investigate to see whether the <objectName>clothing</objectName> was powder burnt or not?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIELGLER:</speaker>
+               <ab>I did not. That was investigated, I understand, later.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Did you ask any of the persons who were called by <persName>Henry Peavey</persName>, the valet, whether there was any <objectName>weapon</objectName> there when they first came into the room?
+               </ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes, sir. We looked for everything of that kind.</ab>
+            </sp><sp>
+               <speaker>NANCE:</speaker>
+               <ab>Have you formed any conclusion whether it was possible this shot could have been fired by the deceased himself?</ab>
+            </sp><sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Impossible.</ab>
+            </sp>
+            <sp>
+               <speaker>THE CORONER:</speaker>
+               <ab>Have you any questions, gentlemen?</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>By a juror: <quote>Was the revolver found upstairs loaded?</quote></ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>It was. It had five <objectName>shells</objectName> in it; it had not been shot of
+                  late.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Was it the same caliber <objectName>bullet</objectName> as was found on the deceased?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>This was a <objectName>.32 automatic Savage</objectName>.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>In the <objectName>drawer</objectName> <placeName>upstairs</placeName>?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes.</ab>
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>What was the number of the <objectName>bullet</objectName> that was found?</ab>
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I understand that it was a <objectName>.38</objectName>. I haven't seen it.</ab>
+            </sp>
+            <sp>
+               <speaker>THE CORONER:</speaker>
+               <ab>That is all, you may be excused. That is all the <objectName>evidence</objectName> we will take in this case. All but the Jury will be excused.</ab>
+            </sp>
+            
+         </div>
+
+      </body>
+   </text>
+</TEI>

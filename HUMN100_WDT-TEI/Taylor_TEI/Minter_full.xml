@@ -298,6 +298,87 @@
          <!-- Ryan Carroll -->
          <div type="segment" n="2">
             <byline><persName ref="#carroll">Ryan Carroll</persName></byline>
+            <sp select="question">
+               <speaker>DORAN:</speaker>
+               <ab>Were you engaged to be married?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MINTER:</speaker>
+               <ab>No, we were not.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>DORAN:</speaker>
+               <ab> At the <date when-iso= "1922-02-02">time of his death</date>, it was --</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>MR. MOTT:</speaker>
+               <ab>Right there at that point you might explain about the rising sun,<!-- @Ryan: interesting interpretation which would probably be better with another tag than objectName, so I've removed it --> with reference
+                  to your engagement. I think that explains the attitude between both of you.</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MINTER:</speaker>
+               <ab> I don't know just which to do, whether to tell you this whole thing, go right
+                  along and talk. I can easily do that.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>MR. MOTT:</speaker>
+               <ab> He asked if you were engaged to him. Tell him about the <quote>"rising sun"</quote>
+                  explanation.</ab>
+            </sp>
+            
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>I can tell you the whole thing better without being asked.</ab>
+            </sp>
+            <sp>
+               <speaker>MR. DORAN:</speaker>
+               <ab> Yes. Go ahead. and tell us in your own way all about it.</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab> I had always known that this was just an exquisite chapter in my life that must
+                  necessarily be a brief one: I couldn't bear to part with it; it was just a
+                  beautiful thing that seldom occurs in the <date when-iso="1922">world today</date> as I see it, as it is
+                  forced upon me. It as simply a beautiful white flame; I met him; I had always been
+                  a reserved, very retiring young girl, and he was the first man and the only man
+                  who ever embodied all the glories of manhood in one private body. He represented
+                  that to me. He never by look, by word or by deed gave me any reason to doubt any
+                  of my ideals that were placed in him absolutely. At the time our love first
+                  formulated he said to me, <quote>"Mary, this is not right. You are May and I am December,
+                     and this is not right. I know it is best that we must part."</quote> This was at the very
+                  beginning of it, and I said, <quote>"Of course, I don't want to do any immodest or bold
+                     thing; I couldn't try to withhold a person's love for me who didn't care for me.""
+                     I said, "I know that you are many years older than I, but I couldn't love anybody
+                     as I love you. I simply love you."</quote> And we did try to part, We tried it again and
+                  again, and then he would beoome ill. At one time I had almost resolved to see him
+                  no more, and he was taken ill and nobody else cared, [page 6] really cared whether
+                  he ate his dinner or whether he dressed warm1y enough, whether he took care of
+                  himself, and I couldn't bear for him to suffer. It was not only a love of
+                  sweetheart, but I wanted to be his nurse. I wanted to hold his head when it was
+                  aching. I wanted him to tell me his mental troubles, his heart troubles, and let
+                  me soothe them away for him as I would for a little child. I forgot the man's age;
+                  it meant nothing to me. The only thing I wanted was to serve him as I would have
+                  served the Lord or a little child, and then it just passed away; for months at a
+                  time I wouldn't see him and I didn't know why. Finally, I decided there was no
+                  use; it must come to an end and I went there on the night of the 23d to give him
+                  <objectName>this letter</objectName> telling him "goodbye." I had reason to believe, in the awful
+                  vernacular of the day, that it was over anyway, but I went there to say "goodbye"
+                  myself. He said,<quote> "It is rather late, isn't it, Mary?"</quote> when he opened the door. I
+                  said, <quote>"Yes, but don't you realize that I had to come to see you? You know
+                     <persName>Mama</persName> has been sick for three months and you have been ill
+                     and I have been frightfully worried and you haven't even had the kindness to call
+                     me to tell me that you were i11 and that I must not expect to see you to tell mo
+                     that things are all right."</quote></ab>
+               <ab> I said, <quote>"I don't care if you don't wish to see me, because it hurts me, but it wouldn't have hurt one-millionth as much if you had just explained to me and not leave me in the dark."</quote> He said, <quote>"Mary I couldn't help it; I couldn't help it and I can't explain it to you."</quote></ab>
+               <ab> Oh, I don't know! I have told this thing so many times, Mr Doran, that the words
+                  just - I can't tell it even as it is; I can't even express it to you as it really
+                  is. There is so much more to it.</ab>
+            </sp>
          </div>
 
          <!-- Jules Chakos -->
@@ -941,9 +1022,57 @@
             </sp>
          </div>
 
-         <!-- Anna Fazio *-->
+         <!-- Anna Fazio -->
          <div type="segment" n="7">
             <byline><persName ref="#fazio">Anna Fazio</persName></byline>
+            <sp select= "answer" >
+               <speaker> Minter </speaker>
+               <ab>I may be getting some of those words mixed; maybe he didn't say "poor little
+                  <persName ref="#Swanson">Gloria Swanson</persName>." Maybe <persName ref="#Neilon">Marshall</persName> didn't tell me that. This is my impression.
+                  <persName ref="#Neilan">Marshall</persName> said, "What do you mean?" And he said, "Don't you remember the night we
+                  were at <placeName>Sunset Inn</placeName> and you were sitting here and <persName ref="#Swansan">Miss Swanson</persName> was sitting there
+                  and your former wife, <persName ref="#Banbrick">Gertrude Banbrick</persName>, came in and said, 'Hello, <persName ref="#Swanson">Gloria</persName>, how are
+                  you?' and <persName ref="#Swanson">Gloria</persName> replied pleasantly, and you turned to <persName ref="#Bambrick">Gertrude Bambrick</persName> and said,
+                  'How dare you speak to this girl?' pointing to <persName ref="#Swanson">Gloria</persName>, the lady he was with, 'How
+                  dare you speak to her? Don't you ever dare to speak to her again,'" And <persName ref="#Taylor">Mr Taylor</persName>
+                  was telling <persName ref="#Neilan">Marshall Neilan</persName>. <persName ref="#Neilan">Marshall</persName> said he looked at him and said, "What's the
+                  matter with you, <persName ref="#Taylor">Bill</persName>? Are you drunk?" He said, I haven't had a drink," <persName ref="#Taylor">Mr Taylor</persName>
+                  said, and he said, "The funny part of it was he wasn't drunk." He couldn't detect
+                  it on his breath. "But he looked quite as serious and sober as I do this minute."
+                  He said, "Why, tell me what day you think this was." He said it was on a certain
+                  day -- I don't know if <persName ref="#Neilan">Marshall</persName> told me the day or not. He said, on a certain day
+                  at <placeName>Sunset Inn</placeName> recently. <persName ref="#Neilan">Marshall</persName> said, "Why, <persName ref="#Taylor">Bill</persName>, at that time l I was in <placeName>New
+                     York City</placeName> and was not in <placeName>Los Angeles</placeName> nor <placeName>California</placeName>." <persName ref="#Taylor">Mr Taylor</persName> and he had quite a
+                  friendly argument over it, and he said, "I know it is so; I was there myself and
+                  heard what you said upon this greeting between those two girls." <persName ref="#Neilan">Marshall</persName> said he
+                  thought perhaps he had lost his mind. The next day he called up, haVing that in
+                  mind, <persName ref="#Swanson">Miss Swanson</persName> and he said, "<persName ref="#Swanson">Gloria</persName>, am I going crazy? Have I lost my mind? Do
+                  you remember of ever being at Sunset Inn with me when Gertrude Bambrick passed our
+                  table and spoke to us pleasantly and railed at my former wife for having spoken to
+                  you pleasantly and told her not to speak to you again?" And she said, "What on
+                  earth are you talking about? What is this? I don't understand you," And he said,
+                  "Do you ever remember seeing <persName ref="#Taylor">Bill Taylor</persName> there near us at any time on any such
+                  occasion?" And she said, "Certainly not, !the oniy time I ever saw <persName ref="#Taylor">William Taylor</persName>
+                  at <placeName>Sunset Inn</placeName> was the night I was with" -- I don't know his name, some friend of
+                  hers -- "and <persName ref="#Taylor">Bill Taylor</persName> was sitting away over on the other side by the wall and
+                  we were by the orchestra on this side." He said, "Was I there?" And she said, "No.
+                  Don't you remember you were in <placeName>New York</placeName> at the time?" He said, "That is one
+                  instance, <persName ref="#Minter">Mary</persName>, of <persName ref="#Taylor">Bill's</persName> failing mind, I have never cleared that up. <persName ref="#Taylor">Bill</persName> and I
+                  have discussed it many times since, and I have always gone away puzzled, amazed,
+                  that he still stuck to his version of my having spoken to my former wife as I did.
+                  I didn't see her; neither <persName ref="#Swanson">Miss Swanson</persName> saw her on that occasion." Then he said,
+                  "On another occasion <persName ref="#Taylor">Bill</persName> told me he had received a <objectName ref="#letter">letter</objectName> from <persName ref="#Sweet">Blanche Sweet</persName>;
+                  that she told <persName ref="#Taylor">Mr Taylor</persName> that she was grieved he was sick;" that <persName ref="#Neilon">Marshell Neilan</persName>
+                  was calling on me and she intended to sue him. <persName ref="#Neilan">Marshall</persName> said that sounded so
+                  unlike <persName ref="#Sweet">Miss Sweet</persName> that he went to her and questioned her, and he said, "<persName ref="#Sweet">Blanche</persName>,
+                  have you writtn to <persName ref="#Taylor">Bill</persName> lately?" She said, "Why, yes, I wrote him a little <objectName ref="#letter">note</objectName>
+                  not so long ago thanking him for some poinsettias he sent me <date>Christmas</date>." He aa1d,
+                  "Did you say anything else?" She said, "No, not that I can remember." He said,
+                  "Did you ever say that you regretted my going about with <persName ref="#Minter">Miss Minter</persName> and that you
+                  intended to sue me?" She said, "Perfectly ridiculous. What do you mean? I
+                  certainly did not say any such thing."
+               </ab>
+            </sp>
          </div>
 
          <!-- John Gehrig -->
@@ -1302,9 +1431,168 @@
             </sp>
          </div>
 
-         <!-- Eric Holsinger *-->
+         <!-- Eric Holsinger -->
          <div type="segment" n="12">
             <byline><persName ref="#holsinger">Eric Holsinger</persName></byline>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Did he declare his love for you, whi1e rid1ng around in the <objectName>machine</objectName>?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>No, he did not.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Not until you reached the <placeName>studio</placeName> did he do tha that?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Not until after we had been there a long time at the <placeName>studio</placeName>.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Was it before or after he told you about this instance in connection with
+                  <persName>Taylor</persName> --</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>It was afterwards. I don't know yet whether he really meant it; maybe he was as
+                  sincere as he could be, and he can be very sincere, I am sure. I am sure he can.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>This was the second time that he had declared love for you. On one occasion he
+                  proposed to you?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Yes.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>He asked you to marry him?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Yes, and then he would dart away again. I mean he would call me up -- He can't call
+                  me up, because I have no <objectName>telephone</objectName>; he would send me <objectName>flowers</objectName>, too, and suddenly I
+                  would not hear from him for two or <time>three weeks</time>. As I said to him in the <objectName>car</objectName>, not
+                  particularly about that but about other things, about dinner engagements, about &amp;
+                  appointments, I said, "You know, <persName>Marshall</persName>, I never know when l
+                  am going to see you and when I am not going to see you, and just what you are going
+                  to do, and I am in no mood to go on like that at all; I don't care much about
+                  it."</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>When did you tell him that?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>I told him that when we were driving the <objectName>car</objectName>.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>How old a man is <persName>Marshall Neilan</persName>?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Just thirty.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Has he ever been married?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Yes, he has been married once for a <time>few days</time>. He remained married to his wife for a
+                  long time, for <time>seven years</time>, I think, but he was actually only married a <time>few days</time>. I
+                  think he married when he was twenty or nineteen.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Have you seen him since this <date>Friday night</date>?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>No, I have not.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Have you talked with him over the <objectName>telephone</objectName>?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>It was really <date>Saturday morning</date>.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Has he called you up on the <objectName>telephone</objectName>?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>No; he may have called me at the <placeName>New Hampshire house</placeName> and I wouldn't know.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>You haven't talked with him over the <objectName>telephone</objectName>?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>I haven't seen him or talked to him or come in touch with him in any way</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>You haven't received any <objectName>letters</objectName> from him?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>No.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Did you part friendly or unfriendly?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>We did part more or less friendly, as I always did with
+                  <persName>Marshall</persName>, no matter how angry I would become with him,
+                  somehow you can't bear malice against that boy.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>You have become angry with him on other occasions?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Yes. This night for the time being, I was furious [missing page] [...] <persName>Mr
+                  Neilan</persName> -- <persName>Taylor's</persName>, and at the time of
+                  <persName>Mr Taylor's</persName> death, <persName>Harry</persName> was the
+                  <roleName>assistant director</roleName> in <persName>Mr Taylor's</persName> companies there, and he had
+                  said <persName>Harry</persName> had been in the <placeName>room</placeName> looking over the effects -- Just
+                  a minute. I wonder if <persName>Charles Maigne</persName> told me this. I think
+                  <persName>Mr Neilan</persName> told me this, too, that <persName>Harry</persName>
+                  bad gotten the <objectName>letters</objectName> and taken them to <persName>Jim Vantrees</persName>, the
+                  <roleName><objectName>camera</objectName> man</roleName>, whereupon I remarked, <quote>"I will bet <persName>Mrs Ivers</persName>
+                     had them,"</quote> and I think he said, <quote>"<persName>Jim</persName> gave them
+                        to <persName>Mr Eyton</persName>,"</quote> and that <persName>Mr Eyton</persName>
+                  turned some of them over to the Examiner. I am so afraid l am telling things that are
+                  not so here, <persName>Mr Doran</persName>; I don't mean to, but I couldn't get all
+                  of it. That is as clear as I can make it. Anyway, I do remember this part, he said he
+                  heard about them, and I don't know how he heard about them, and that he went down, I
+                  believe, to the Examiner, to get ahold of them and he had something to do with
+                  <placeName>Pasadena</placeName>, a man, he did tell me the man's name. I don't remember his name, but I
+                  believe it be­gan with "S", and this man, <persName>Marshall</persName> said he was
+                  the big man over the entire Examiner force, told him to go down and take the <objectName>letters</objectName>.
+                  He said, <quote>"Of course, if you breathe this it wi11 just about throw me in <placeName>jail</placeName>
+                     for the rest of my life,"</quote> but I don't believe it will. Then he said,
+                  <quote>"Didn't you get them today?"</quote> I said, <quote>"I did not."</quote> As
+                  well as I remember, <persName>Marshall</persName> said, <quote>"I then sent them to
+                     the <placeName>Realart Studio</placeName> and they ought to be in <persName>Charley's</persName> hands
+                     now or Mr Garbut."</quote> This whole <date>Friday night</date> is most hasy in my
+                  recollection.</ab>
+            </sp>
          </div>
 
          <!-- Evan Klimas -->

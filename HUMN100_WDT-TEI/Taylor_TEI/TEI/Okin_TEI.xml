@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-
+         
          <titleStmt>
             <!-- This is the section of the TEI header that describes the file, the project, and who is involved in its production and publication -->
             <title>The Taylor Murder Case: Key Witness Statements</title>
             <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
-
+            
             <respStmt>
                <!-- The responsibility statement serves as a recognition of the labor provided to produce the project, and in what capacity -->
                <persName xml:id="jakacki">Diane K. Jakacki</persName>
@@ -143,7 +143,7 @@
                <resp>Student encoder</resp>
             </respStmt>
          </titleStmt>
-
+         
          <publicationStmt>
             <!-- The pbulication provides any kind of publisher, copyright information -->
             <distributor>Bucknell University</distributor>
@@ -160,7 +160,7 @@
                   Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
             </availability>
          </publicationStmt>
-
+         
          <sourceDesc>
             <!-- The source description provides details about where the materials have come from -->
             <p>Select transcriptions of witness statements at the coroner's inquest, to the police
@@ -264,453 +264,260 @@
                <persName>Thomas Ziegler</persName>
             </person>
          </particDesc>
-
-
-
-
-         
-         <settingDesc>
-            <place xml:id="alvarado">
-               <placeName>Alvarado Street</placeName>
-            </place>
-         </settingDesc>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by [NAME]</title> 
-            <date>[DATE OF STATEMENT]</date>
-            <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
+            <title>Witness Statement Provided by T.H. Ziegler</title> 
+            <date>2/4/1922</date>
+            <orgName>Coroner's Inquest</orgName>
          </head>
-         
-         <!--Bennett Smart -->
-         <div type="segment" n="1">
-            <byline><persName ref="#smart">Bennett Smart</persName></byline>
+         <head>The following is the transcript of the shorthand notes taken at the Coroner's inquest held on the body of William Desmond Taylor at Ivy H. Overholtzer [Mortuary] at Los Angeles, California on the 4th day of February, 1922 at 10:00 a.m.</head>
+         <div>
+            <byline>TYLER OKIN</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+            
+            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
             <sp>
                <speaker>NANCE:</speaker>
                <ab>Please state your name.</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab><persName>Henry Peavey</persName>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>T.H. Ziegler.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>Where do you live?</ab>
+               <ab>Where do you live?
+               </ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>I live at <placeName>127 1/2 East 3rd Street.</placeName></ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab><placeName>425 North Hill.</placeName></ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
                <ab>What is your occupation?</ab>
+              
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab><roleName>Cook</roleName> and <roleName>valet</roleName>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Police officer.</ab>
+               
             </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>Mr. Peavey, were you employed by <persName>Mr. Taylor</persName>, the deceased in
-                  this case?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Sir?</ab>
-            </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>Were you employed by the dead man in the case?</ab>
+               <ab>Mr. Ziegler, were you called to the premises when the
+                  deceased was found dead? </ab>
+               
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Yes,sir.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I was.</ab>
             </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>How long have you been working for him?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>About <time>six months</time>.</ab>
-            </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>Were you in the <objectName>house</objectName> on the evening when he was found dead
-                  there?</ab>
+               <ab>When did you arrive there?</ab>
+               
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
+               <speaker>ZIEGLER:</speaker>
+               <ab>A little before <time>8 o'clock</time> in the morning of <date>February 2nd.</date> </ab>
+               
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Will you state what you found when you got there?</ab>
+               
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I found the deceased, Mr. <persName>Taylor</persName>, lying just inside of the <objectName>door</objectName>, on his back. His <objectName>hands</objectName>, one of them, apparently to the side of his body, and the other lying outstretched; and <objectName>blood</objectName> pouring from his mouth. He was lying with his head to the east, flat on his back, dead.</ab>
+               
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Was his body rigid and cold?</ab>
+               
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>It was.</ab>
+               
+            </sp>
+            <sp>
+               <speaker>NANCE:</speaker>
+               <ab>Indicating he had been dead for some time?</ab>
+               
+            </sp>
+            <sp>
+               <speaker>ZIEGLER:</speaker>
                <ab>Yes, sir.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>What time did you leave the <objectName>house</objectName>?</ab>
+               <ab>Did you see any evidence of a disturbance in the <placeName>house</placeName>? </ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>I figured it was about <time>a quarter past [seven]</time> that I left the
-                  house.</ab>
+               <speaker>ZIEGLER</speaker>
+               <ab>Not any.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>Where was he when you left?</ab>
+               <ab>Who was there when you arrived there?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>He was sitting in a <objectName>chair</objectName> facing ust to the [illegible]
-                  now, and <persName>Miss Normand</persName> was sitting in a
-                  <objectName>chair</objectName> just the same. They were discussing a
-                  <objectName>red-backed book</objectName>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>The owner of the <placeName>building</placeName>; <persName>Mr. MacLean</persName>; another movie actor <persName>[Charles Maigne]</persName>, and <persName>Peavey</persName>.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>In what part of the <objectName>house</objectName> were they?</ab>
+               <ab>You mean the owner of the building, <persName>Mr. Jessurun</persName></ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>They were near the <placeName>dining-room</placeName>, where you enter the
-                  <placeName>dining-room</placeName> from the
-                  <placeName>living-room</placeName>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes, sir, and <persName>Mr. MacLean</persName> and another man I don't know.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>That is a <objectName>two-story apartment</objectName>, is it not?</ab>
+               <ab>One of the adjacent tenants of the building?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Yes, sir.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes sir,living <placeName>next door east</placeName> of <persName>Mr. Taylor</persName>.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>And on the <placeName>ground floor</placeName>, how many rooms?</ab>
+               <ab>Did you question any of those persons as to whether they had heard any gunshot the <time>night previous</time>?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>The <placeName>living-room</placeName>, <placeName>dining-room</placeName> and
-                  <placeName>kitchen</placeName>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I did. I learned that from <persName>Mrs. MacLean</persName>, that along about <time>fifteen or perhaps ten minutes to eight</time>, the night before, she heard a shot. 
+                  She thought it was a gunshot. She went to her front <objectName>door</objectName> and opened the door, and saw a man standing in Mr. Taylor's door. She looked at him, and he stood and looked at her; and he walked down 
+                  the steps, turned to the left, and going around the end of the building, which is to the east; and out into the street.</ab>
             </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>Now, the <placeName>entrance</placeName> to this <objectName>apartment</objectName>
-                  is immediately into the <placeName>front</placeName> there, is it not-the
-                  <placeName>front room</placeName>, rather?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>The <placeName>front room</placeName>, yes sir.</ab>
-            </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>They were seated?</ab>
+               <ab>Into what <placeName>street</placeName>?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Near the <placeName>dining-room</placeName> there, in the
-                  <placeName>living-room</placeName>, near the <placeName>entrance to the
-                     dining-room</placeName>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Which is <placeName>Maryland</placeName>, I think.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>When you went out, which way did you go out, at the <placeName>front</placeName> or
-                  the <placeName>back</placeName>?</ab>
+               <ab>Did <persName>Mr. Jessurun</persName> tell you he heard a shot?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>I went out the front way. I always lock up the <objectName>back door</objectName>
-                  when I go out. I always lock the <objectName>back door screen</objectName>; it has a
-                  <objectName>hook</objectName> on the <placeName>inside</placeName>. I used the
-                  front door to come out all the time.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I think he did.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>Did you carry the <objectName>back door key</objectName> with you?</ab>
+               <ab>Did he say why he didn't try to investigate it?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>No, sir. I always turn it in the <objectName>door</objectName> and leave it just as
-                  it is.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>He did not. He didn't know but what it was an <objectName>automobile</objectName> making a noise.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>Now, when did you next see <persName>Mr. Taylor</persName>?</ab>
+               <ab>Did <persName>Mr. MacLean</persName> endeavor to investigate it?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>The <time>next morning</time>, when I went to work.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Not that I know of, and <persName>Mrs. MacLean's</persName> maid also heard a shot.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>What time are you in the habit of coming to work?</ab>
+               <ab>Did they say why they didn't attempt to investigate the cause of the shot?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>I am usually there about <time>half past seven</time>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>They did not.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>What time did you arrive there the next morning?</ab>
+               <ab>Did you find any weapon about the room where the deceased was lying?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>just about <time>half past seven</time>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I found a <objectName>weapon</objectName> in the <placeName>room above</placeName>.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>What day was that?</ab>
+               <ab>Where was it?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab><date>Thursday morning [February 2]</date>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>In the <placeName>front bedroom in the dresser drawer</placeName>, lying on a sort of <objectName>box</objectName>.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>On arriving there, what did you do?</ab>
+               <ab>Did you investigate to see whether the <objectName>clothing</objectName> was powder burnt or not?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>I picked up the <objectName>paper</objectName> first; I stopped in a <placeName>drug
-                  store</placeName> at the <placeName>corner of 5th and Los Angeles</placeName> to
-                  get a <objectName>bottle of medicine</objectName> - <objectName>milk of
-                     magnesia</objectName>, he usually takes that every morning; I bought that on my
-                  way out. I picked up the <objectName>paper</objectName> and unlocked the
-                  <objectName>door</objectName>. The first thing I saw was his feet. I looked at his
-                  <objectName>feet</objectName> a few minutes and said, <quote>"<persName>Mr.
-                     Taylor</persName>."</quote> He never moved. I stepped a little further in the
-                  <objectName>door</objectName>, and seen his <objectName>face</objectName>, and
-                  turned and ran out and hollered.</ab>
+               <speaker>ZIELGLER:</speaker>
+               <ab>I did not. That was investigated, I understand, later.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>Who did you summon? Who did you call to?</ab>
+               <ab>Did you ask any of the persons who were called by <persName>Henry Peavey</persName>, the valet, whether there was any <objectName>weapon</objectName> there when they first came into the room?
+               </ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>I don't know.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes, sir. We looked for everything of that kind.</ab>
+            </sp><sp>
+               <speaker>NANCE:</speaker>
+               <ab>Have you formed any conclusion whether it was possible this shot could have been fired by the deceased himself?</ab>
+            </sp><sp>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Impossible.</ab>
             </sp>
-            
+            <sp>
+               <speaker>THE CORONER:</speaker>
+               <ab>Have you any questions, gentlemen?</ab>
+            </sp>
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>You just made a lot of noise to attract all the attention you could?</ab>
+               <ab>By a juror: <quote>Was the revolver found upstairs loaded?</quote></ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Yes, sir.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>It was. It had five <objectName>shells</objectName> in it; it had not been shot of
+                  late.</ab>
             </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>Several people came, did they?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Yes, sir. I think <persName>Mr. Desmond</persName> [sic], and the gentleman who owns
-                  the <objectName>court</objectName> was the first.</ab>
-            </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>You mean <persName>Mr. Jessurun?</persName></ab>
+               <ab>Was it the same caliber <objectName>bullet</objectName> as was found on the deceased?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Yes, sir.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>This was a <objectName>.32 automatic Savage</objectName>.</ab>
             </sp>
-            
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>Who else came?</ab>
+               <ab>In the <objectName>drawer</objectName> <placeName>upstairs</placeName>?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>And Mr. - you see, I don't know their names - I just seen them - the two gentlemens
-                  <placeName>next door</placeName>, <persName>Mr. MacLean</persName> and Mr. - I
-                  can't think of the other gentleman's name - right <placeName>next door</placeName> to
-                  us [<persName>Charles Maigne</persName>].</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes.</ab>
             </sp>
-
-         </div>
-         
-         <!-- Christian Tait -->
-         <div type="segment" n="2">
-            <byline><persName ref="#tait">Christian Tait</persName></byline>
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>You didn't come back there after you had gone away, when <persName>Miss Normand</persName> was there with <persName>Mr. Taylor?</persName></ab>
+               <ab>What was the number of the <objectName>bullet</objectName> that was found?</ab>
             </sp>
-            
             <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>No, sir.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I understand that it was a <objectName>.38</objectName>. I haven't seen it.</ab>
             </sp>
-            
             <sp>
-               <speaker>NANCE:</speaker>
-               <ab>When you went out, was anybody around the place?</ab>
+               <speaker>THE CORONER:</speaker>
+               <ab>That is all, you may be excused. That is all the <objectName>evidence</objectName> we will take in this case. All but the Jury will be excused.</ab>
             </sp>
             
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Only <persName>Miss Normand's</persName> <roleName>chauffeur</roleName>; he had his lights all on inside the <objectName>limousine</objectName>, cleaning it. I hit him on the back and stopped and talked to him a few minutes.</ab>
-            </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>When you first opened the <objectName>door</objectName>, did you see any <objectName>furniture</objectName> overturned, or any sign of a disturbance in the <placeName>house</placeName>?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Nothing more than a <objectName>chair</objectName> that was sitting next to the wall had been pushed out a little bit and his feet was under this chair. The rest of the furniture around the house and room upstairs was just as I left them when I went away that <date>evening</date>.</ab>
-            </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>And did you notice whether anything had been taken off of his body, or not - any <objectName>jewelry?</objectName></ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>I didn't notice that; I didn't touch him at all.</ab>
-            </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>Do you know whether he wore any valuable <objectName>jewelry?</objectName></ab>
-            </sp>
-            
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Yes sir, he had a <objectName>wrist watch</objectName> and another watch with a lot of little trinkets on; and a thing you stamp checks with to keep anybody from making the checks any big- ger, and a <objectName>lead pencil</objectName>.</ab>
-            </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>Did he have a <objectName>diamond ring</objectName>?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Yes sir, he had a large <objectName>diamond ring</objectName> that he wore.</ab>
-            </sp>
-            
-            <sp>
-               <speaker> NANCE: </speaker>
-               <ab>Do you know whether he had it on that <date>evening?</date></ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Yes sir, he was dressed just as when I went that evening, as I found him the <date>next morning</date>.</ab>
-            </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>Was the ring on his finger the <date>next morning</date>?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>Yes sir, his other jewelry that I had put away the <date>night before</date> was just as I had put it away up in the dresser drawer.</ab>
-            </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>You didn't find anything taken from the <placeName>apartment</placeName>?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>No sir, it was just as when I left it when I found it. The
-                  rug was a little bit kicked up. It looked like he had kicked it with his foot.</ab>
-            </sp>
-            
-            <sp>
-               <speaker> NANCE:</speaker>
-               <ab>There was no other disturbance there?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>No, sir. Even the <objectName>living-room table</objectName> that I had moved aside. The <objectName>rocking chair</objectName> would hit the table, and I moved the table so the rocking chair would not hit the table. It was just as I left it.</ab>
-            </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>By a juror: Were any of the <objectName>windows</objectName> up at night?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>No sir, we had those little long pins that runs in the windows. The windows upstairs in his <placeName>bedroom</placeName> were up. The windows downstairs I always locked with this peg that slipped in the <objectName>window</objectName>.</ab>
-            </sp>
-            
-            <sp>
-               <speaker>NANCE:</speaker>
-               <ab>Were they still that way in the <time>morning</time>?</ab>
-            </sp>
-            
-            <sp>
-               <speaker>PEAVEY:</speaker>
-               <ab>They were still that way in the morning. The lights were
-                  burning just as I had left them that <time>night</time>; two lights, one in the living-room and one in the dining-room.</ab>
-            </sp>
-            
-            <sp>
-               <speaker>CORONER:</speaker>
-               <ab>That is all, you may be excused.</ab>
-            </sp>
          </div>
 
       </body>

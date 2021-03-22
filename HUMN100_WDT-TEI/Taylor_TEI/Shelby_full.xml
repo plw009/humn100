@@ -284,7 +284,7 @@
             <date>[DATE OF STATEMENT]</date>
             <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
          </head>
-         <!-- Ellie Luciani*\ -->
+         <!-- Ellie Luciani -->
          <div type="segment" n="1">
             <byline><persName ref="#luciani">Ellie Luciani</persName></byline>
             <sp>
