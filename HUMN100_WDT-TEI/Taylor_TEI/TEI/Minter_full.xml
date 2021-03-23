@@ -269,25 +269,13 @@
    <text>
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
-            <head>
-               <title>Witness Statement Provided by <persName ref="#minter">MISS MARY MILES
-                  MINTER</persName></title>
-               <date>February 7, 1922, at five o'clock P.M.</date>
-               <orgName><persName ref="#boone">G.H. BOONE</persName> OFFICIAL REPORTER IN THE
-                  <placeName>DISTRICT ATTOURNEY'S OFFICE</placeName></orgName>
-            </head>
+            <head> Witness Statement Provided by MISS MARY MILES MINTER</head>              
          
-            <ab> STATEMENT OF <persName ref="#minter">MISS MARY MILES MINTER</persName>. <persName
-               ref="#boone">G.H BOONE</persName> OFFICIAL REPORTER IN THE <placeName>DISTRICT
-                  ATTORNEY'S OFFICE</placeName>, <date when-iso="1922-02-07">February 7,
-                     1922</date>, at <time when-iso="5:00:00">five o'clock P.M.</time> PRESENT: <persName
-                        ref="#doran">Mr. W.C. Doran</persName>, <roleName>Deputy District
-                           Attorney</roleName>, <persName ref="#minter">Miss Mary Miles Minter</persName>,
-               <persName ref="#mott">John G. Mott</persName>, <roleName>attorney</roleName> for
-               <persName ref="#minter">Miss Minter</persName>, and <persName ref="#boone">G. H.
-                  Boone</persName>, <roleName>shorthand reporter</roleName>. STATEMENT OF <persName
-                     ref="#minter">MISS MARY MILES MINTER</persName> Questions by <persName
-                        ref="#doran">Mr. Doran</persName>: </ab>
+            <ab> STATEMENT OF MISS MARY MILES MINTER. 
+               <lb/>G.H BOONE OFFICIAL REPORTER IN THE DISTRICT ATTORNEY'S OFFICE, February 7, 1922, at five o'clock P.M. 
+                  <lb/>PRESENT: Mr. W.C. Doran, Deputy District Attorney, Miss Mary Miles Minter, John G. Mott, attorney for Miss Minter, and G. H.
+                  Boone, shorthand reporter. 
+                  <lb/>Questions by Mr. Doran: </ab>
          
 
          <!-- Cade Brennan *-->

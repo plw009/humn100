@@ -303,8 +303,8 @@
                <ab>Questions by <persName ref = 'Doran'>Mr. Doran</persName>:</ab>
             </sp>
 
-            <sp>
-               <ab select="statement">MINTER: She must have been 50. Her son was <persName ref='Taylor'>Mr Taylor's</persName>
+            <sp select="statement">
+              <speaker>MINTER:</speaker> <ab>She must have been 50. Her son was <persName ref='Taylor'>Mr Taylor's</persName>
                   camera man. <persName ref='Vantrees'>Jimmy</persName> was my camera man,
                      <persName ref='Vantrees'>Jim Vantrees</persName>. I don't hate the woman, but she annoys me.
                   She is one of the few people in the world I dislike to see. In fact, the irony of
@@ -352,31 +352,31 @@
             </sp>
 
             <sp>
-               <ab>DORAN: What time of <time>night</time> did you first meet -- What is this man's
+               <speaker>DORAN:</speaker> <ab>What time of <time>night</time> did you first meet -- What is this man's
                   name?</ab>
             </sp>
 
             <sp>
-               <ab>MINTER: <persName ref='Neilan'>Mr Neilan</persName>?</ab>
+               <speaker>MINTER:</speaker> <ab><persName ref='Neilan'>Mr Neilan</persName>?</ab>
             </sp>
 
             <sp>
-               <ab>DORAN: <persName ref='Neilan'>Mr Neilan</persName>, this particular <time>night</time>.</ab>
+               <speaker>DORAN:</speaker> <ab><persName ref='Neilan'>Mr Neilan</persName>, this particular <time>night</time>.</ab>
             </sp>
 
             <sp>
-               <ab>MINTER: We went down to the <placeName>Salt Lake station</placeName> after
+               <speaker>MINTER:</speaker> <ab>We went down to the <placeName>Salt Lake station</placeName> after
                   one.</ab>
             </sp>
 
             <sp>
-               <ab>DORAN: And you arrived at your <placeName>home</placeName>, was it, or his
+               <speaker>DORAN:</speaker> <ab>And you arrived at your <placeName>home</placeName>, was it, or his
                      <placeName>home</placeName> or whose <placeName>home</placeName> was it where
                   you were frying the <objectName type="food_drink">eggs</objectName>?</ab>
             </sp>
 
             <sp>
-               <ab>MINTER: His <placeName>home</placeName>, <date>Friday</date>
+               <speaker>MINTER:</speaker> <ab>His <placeName>home</placeName>, <date>Friday</date>
                   <time>night</time>; it was really <date>Saturday</date>
                   <time>morning</time>, wasn't it? I call lt <date>Friday</date>
                   <time>night</time>, because it was still <time>nighttime</time>. The five of us
@@ -386,12 +386,12 @@
             </sp>
 
             <sp>
-               <ab>DORAN: How long approximatey do you suppose you spent talking in the
+               <speaker>DORAN:</speaker> <ab>How long approximatey do you suppose you spent talking in the
                      <placeName>studio</placeName>?</ab>
             </sp>
 
             <sp>
-               <ab>MINTER: Now, let me see, we stayed at <placeName><persName ref='Marshall'>Marshall</persName>'s house</placeName>
+               <speaker>MINTER:</speaker> <ab>Now, let me see, we stayed at <placeName><persName ref='Marshall'>Marshall</persName>'s house</placeName>
                   with the <objectName type="food_drink">eggs</objectName> and things at least an <time>hour</time>,
                   maybe <time>two hours</time>; I am not certain of that at all; I don't think much
                   more than an <time>hour</time>. Then we went right on to the
