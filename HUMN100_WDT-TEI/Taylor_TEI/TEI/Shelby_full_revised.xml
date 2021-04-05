@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+
+         <titleStmt>
+            <!-- This is the section of the TEI header that describes the file, the project, and who is involved in its production and publication -->
+            <title>The Taylor Murder Case: Key Witness Statements</title>
+            <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
+
+            <respStmt>
+               <!-- The responsibility statement serves as a recognition of the labor provided to produce the project, and in what capacity -->
+               <persName xml:id="jakacki">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Instructor, encoder-in-chief</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="brennan">Cade Brennan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="carroll">Ryan A. Carroll</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chakos">Jules M. Chakos</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chao">Claire T. Chao</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="crotta">Bella R. Crotta</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="estevez">Maria F. Estevez</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="fazio">Anna G. Fazio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="gehrig">John S. Gehrig</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="greenspan">Tess I. Greenspan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="halliburton">Devin T. Halliburton</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="herrold">Nathan T. Herrold</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="holsinger">Eric Holsinger</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="klimas"> Evan A. Klimas</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="lee">Audrey M. Lee</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="luciani">Ellie G. Luciani</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="mannion">Patrick O. Mannion</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="murphy">Jack C. Murphy</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="okin">Tyler E. Okin</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="quinn">Meghan E. Quinn</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="santoro">Ashley R. Santoro</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="settle">Elizabeth H. Settle</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="smart">Bennett C. Smart</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="tait">Christian R. Tait</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="witzmann">Olivia L. Witzmann</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="wnek">Christine M. Wnek</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <!-- The pbulication provides any kind of publisher, copyright information -->
+            <distributor>Bucknell University</distributor>
+            <address>
+               <street>One Dent Drive</street>
+               <settlement>Lewisburg</settlement>
+               <region>Pennsylvania</region>
+               <country>United States</country>
+               <postCode>17837</postCode>
+            </address>
+            <date from-iso="2021-02-01" to-iso="2021-05-30">Spring 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+                  Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <!-- The source description provides details about where the materials have come from -->
+            <p>Select transcriptions of witness statements at the coroner's inquest, to the police
+               and district attorney's office are drawn from the remarkable work done by Bruce Long
+               and other parties as part of the Taylorology website.</p>
+            <p>For more information, see Taylorology: http://taylorology.com/</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <!-- This is the section that includes unique identifiers for all of the people and places referred to in the documents. You will paste a completed list once the class has compiled it. -->
+         <particDesc>
+            <!-- Because there are multiple people with similar last names, we will use the convention lastname_firstname -->
+            <person xml:id="berger_marjorie">
+               <persName>Marjorie Berger</persName>
+            </person>
+            <person xml:id="davies_william">
+               <persName>William Davies</persName>
+            </person>
+            <person xml:id="doran_william">
+               <persName>William Doran</persName>
+            </person>
+            <person xml:id="eaton_chauncy">
+               <persName>Chauncy Eaton</persName>
+            </person>
+            <person xml:id="eyton_charles">
+               <persName>Charles Eyton</persName>
+            </person>
+            <person xml:id="fellows_harry">
+               <persName>Harry Fellows</persName>
+            </person>
+            <person xml:id="fellows_howard">
+               <persName>Howard Fellows</persName>
+            </person>
+            <person xml:id="ivors_julia">
+               <persName>Julia Crawford Ivors</persName>
+            </person>
+            <person xml:id="maclean_douglas">
+               <persName>Douglas MacLean</persName>
+            </person>
+            <person xml:id="maclean_faith">
+               <persName>Faith MacLean</persName>
+            </person>
+            <person xml:id="maigne_charles">
+               <persName>Charles Maigne</persName>
+            </person>
+            <person xml:id="miles_juliet">
+               <persName>Juliet Miles</persName>
+            </person>
+            <person xml:id="minter_mary">
+               <persName>Mary Miles Minter</persName>
+            </person>
+            <person xml:id="mott_john">
+               <persName>John Mott</persName>
+            </person>
+            <person xml:id="nance_charles">
+               <persName>Charles Nance</persName>
+            </person>
+            <person xml:id="neilan_marshall">
+               <persName>Marshall Neilan</persName>
+            </person>
+            <person xml:id="normand_mabel">
+               <persName>Mabel Normand</persName>
+            </person>
+            <person xml:id="owens_mamie">
+               <persName>Mamie Owens</persName>
+            </person>
+            <person xml:id="peavey_henry">
+               <persName>Henry Peavey</persName>
+            </person>
+            <person xml:id="pickford_mary">
+               <persName>Mary Pickford</persName>
+            </person>
+            <person xml:id="pickford_jack">
+               <persName>Jack Pickford</persName>
+            </person>
+            <person xml:id="sands_edward">
+               <persName>Edward Sands</persName>
+            </person>
+            <person xml:id="shelby_charlotte">
+               <persName>Charlotte Shelby</persName>
+            </person>
+            <person xml:id="shelby_margaret">
+               <persName>Margaret Shelby</persName>
+            </person>
+            <person xml:id="stockdale_carl">
+               <persName>Carl Stockdale</persName>
+            </person>
+            <person xml:id="swanson_gloria">
+               <persName>Gloria Swanson</persName>
+            </person>
+            <person xml:id="taylor_william">
+               <persName>William Desmond Taylor</persName>
+            </person>
+            <person xml:id="vantrees_james">
+               <persName>James Van Trees</persName>
+            </person>
+            <person xml:id="whitney_charlotte">
+               <persName>Charlotte Whitney</persName>
+            </person>
+            <person xml:id="ziegler_thomas">
+               <persName>Thomas Ziegler</persName>
+            </person>
+         </particDesc>
+
+
+
+
+         
+         <settingDesc>
+            <place xml:id="alvarado">
+               <placeName>Alvarado Street</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- please fill out the template below, replacing text in square brackets with the actual information -->
+         <head>
+            <title>Witness Statement Provided by [NAME]</title> 
+            <date>[DATE OF STATEMENT]</date>
+            <orgName>[FOR WHOM THE STATEMENT WAS GIVEN (POLICE, CORONER, DA)]</orgName>
+         </head>
+         <!-- Ellie Luciani -->
+         <div type="segment" n="1">
+            <byline><persName ref="#luciani">Ellie Luciani</persName></byline>
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>During the time in <placeName>the east</placeName> there, when he <persName
+                  ref="#taylor_william">(Taylor)</persName> was directing her
+                  <persName ref="#minter_mary">(Mary)</persName>, did you observe any awakening of a friendship or
+                  love between the two of them?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab> No.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>When did you first see that, or did you at all?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I never did know it, Mr. Keyes, until <persName ref="#mott_john"> Mr.
+                  Mott</persName> told me of the <objectName type="communication"
+                     >letters</objectName> that had been found in <persName ref="#taylor_william">Taylor's</persName>
+                  <objectName type="furniture"> drawer</objectName> that absolutely is convincing that there had been
+                  something there.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>You mean after he was killed?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Yes, and <persName ref="#eyton_charles">Mr Eyton</persName> told me also after <persName ref="#taylor_william">Mr.
+                  Taylor</persName> was killed that he knew that, that he knew for a long time
+                  that <persName ref="#minter_mary">Mary</persName> and <persName ref="#taylor_william">Mr. Taylor</persName> had been
+                  intimate, and I said then <quote>"<persName ref="#eyton_charles">Mr. Eyton</persName> you should have
+                     told me"</quote></ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>During that time, <persName ref="#shelby_charlotte">Mrs. Shelby</persName> (referring to latter part of
+                  <date>1919</date> and early part of <date>1920</date>), was
+                  <persName ref="#minter_mary">Mary</persName> going around with <persName ref="#taylor_william">Taylor</persName> to your
+                  knowledge at all?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Why no, and <persName ref="#taylor_william">Mr. Taylor</persName> was the most perfectly poised man,
+                  such a proper man. He would take <persName ref="#minter_mary">Mary</persName> out to dinner and he
+                  would invariably invite me and my mother to go to dinner with them.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Did you make any objections?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab> Not the least in the world.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Were you friendly with him?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Oh, yes. **</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Do you remember anyone in particular with whom she was associating at that
+                  time?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>It wasn't men. Men hadn't begun to give me any trouble at that time. It was
+                  women.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Who was that?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab><persName>Jeannie McPherson.</persName></ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab><persName ref="#taylor_william">Taylor's</persName> name never entered into the discussion then?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No. I always felt that, when <persName ref="#minter_mary">Mary</persName> was out with <persName ref="#taylor_william">Mr.
+                  Taylor</persName> she was under a good influence. **</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Did you ever have any words with <persName ref="#taylor_william">Mr. Taylor</persName> over
+                  <persName ref="#minter_mary">Mary</persName>?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Never a word, never the slightest word. (Speaking of the time <persName ref="#shelby_charlotte">Mrs.
+                  Shelby</persName> went to <persName ref="#taylor_william">Taylor's</persName>
+                  <placeName>home</placeName> at <time>2 a.m.</time> looking for
+                  <persName ref="#minter_mary">Mary</persName>) </ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Did this secretary of yours, <persName>Miss Whitney</persName>, go in the
+                  <placeName>house</placeName> with you?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, I know she didn't because there was nobody in the <placeName>room</placeName>
+                  but <persName ref="#taylor_william">Mr. Taylor</persName> and me. She stayed in the
+                  <objectName type="vehicle">car</objectName>.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Did you have any <objectName type="weapon">weapon</objectName> with you at that time?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Good lord, no.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>You are sure you didn't have a <objectName type="weapon">revolver</objectName> with you?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, <persName>Mr. Keyes.</persName></ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Well, you owned a <objectName type="weapon">revolver</objectName> at that time?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab> No. If I owned a <objectName type="weapon">revolver</objectName> at that time, I don't know
+                  where it was. It was thrown away.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>What date was it when you were at <persName ref="#taylor_william">Mr. Taylor's</persName> home that you
+                  were telling about?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I think I could almost fix that date, <persName>Mr. Keyes</persName>, referring
+                  to a certain little <objectName type="miscellaneous">book</objectName>, you know. Because I was reading
+                  <persName ref="#minter_mary"> Mary's</persName>
+                  <objectName type="miscellaneous">diary</objectName> and she goes on to say in this
+                  <objectName type="miscellaneous">diary</objectName> that she and I had some little words that
+                  <time>evening</time>, you see, and she has written it very cleverly, about the
+                  small girl going out in a huff, etc., and she adds that mother was right. ** And I
+                  think the date of that happening is right in her
+                  <objectName type="miscellaneous">diary</objectName>.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Did you ever make a threat to kill <persName ref="#taylor_william">Mr. Taylor?</persName></ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, <persName>Mr. Keyes.</persName> I never had any reason or desire to kill
+                  <persName ref="#taylor_william">Mr. Taylor.</persName></ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>And you are positive, are you,<persName ref="#shelby_charlotte"> Mrs. Shelby</persName>, that you never
+                  at any time threatened <persName ref="#taylor_william">Mr. Taylor?</persName></ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Certainly not, I had no reason. I never threatened to shoot <persName ref="#taylor_william">Mr.
+                  Taylor</persName>. I don't think I ever threatened to shoot any man.</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>To shoot him? No, because I had no reason. I had no provocation. I never had a
+                  quarrel with <persName ref="#taylor_william">Mr. Taylor</persName> in my life.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>You spoke of having thrown a <objectName type="weapon">gun</objectName> away?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, my mother did that.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>That was your <objectName type="weapon">gun</objectName>?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>The <objectName type="weapon">gun</objectName> was given to me in <placeName>Santa
+                  Barbara</placeName> by <persName>Harry Eaves</persName>, who has a
+                  <placeName>jewelry shop</placeName> up there - a very short little
+                  <objectName type="weapon">pistol</objectName> - a little <objectName type="weapon">automatic</objectName> -
+                  ** and he said to me, <quote>"I have got two and you ought to have
+                     one."</quote></ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Where did you say you shot it once?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I got a friend of mine to take me out in <placeName>Santa Barbara</placeName>,
+                  just off the <objectName type="miscellaneous">road</objectName>, and we shot it into a
+                  <placeName>bank</placeName> and I shot it once.</ab>
+            </sp>
+            
+            <!-- Patrick Mannion -->
+         </div>
+
+<!-- Patrick Mannion -->
+         <div type="segment" n="2">
+            <byline><persName ref="#mannion">Patrick Mannion</persName></byline>
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Did you ever do any target practice with it?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Yes, that one <time>time</time>. It was enough for <persName ref="#shelby_charlotte">me</persName>. The
+                  thing was too short. <persName ref="#shelby_charlotte">I</persName> can shoot a <objectName type="weapon">long
+                     pistol</objectName>. <persName ref="#shelby_charlotte">I</persName> wouldn't mind shooting a
+                  <objectName type="weapon">shot gun.</objectName> **</ab>
+            </sp>
+            
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab> Well, <persName ref="#shelby_charlotte">Mrs. Shelby</persName>, <persName ref="#minter_mary">Mary</persName> shot that
+                  <objectName type="weapon">pistol</objectName> off one <time>time</time>, didn't
+                  <persName ref="#minter_mary">she</persName>?</ab>
+            </sp>
+            
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Yes, she shot it off twice.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>Was that the "suicide"?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>That's the "suicide". (re supposed suicide) "Well, we were living at
+                  <placeName>56 Fremont Place. </placeName> ** I remember the
+                  <roleName ref="#whitney_charlotte">secretary</roleName> was there that <time>night</time>,
+                  <persName ref="#whitney_charlotte">Miss Whitney.</persName> ** <persName ref="#minter_mary">She (Mary)</persName> rushed up
+                  the <objectName type="furniture">steps</objectName> crying "I am going to end it all. I am going to
+                  end it all." ** Then <persName ref="#whitney_charlotte">Charlotte (Miss Whitney)</persName> said to me,
+                  "Mes. Shelby, oh, Mrs. Shelby, there's a <objectName type="weapon">pistol</objectName> in your
+                  <objectName type="furniture">closet</objectName>." ** But she ran up the
+                  <objectName type="furniture">stairs</objectName> and ran in my room and closed the
+                  <objectName type="furniture">door</objectName>.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab> Did she look the <objectName type="furniture">door</objectName>?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>Oh, locked the <objectName type="furniture">door</objectName>, and the first thing we knew - bang.
+                  ** and a second more and - bang - the second shot. ** <persName>The
+                     <roleName ref="#eaton_chauncy">chauffeur</roleName> (Chauncey Eaton)</persName> appeared, and the
+                  <persName>night watchman</persName> (?), and I said, "Break in the door". The
+                  two men rushed against the <objectName type="furniture">door</objectName>, the <objectName type="furniture">door</objectName> fell in, and there lay <persName ref="#minter_mary">Mary</persName> on my
+                  bedroom floor. ** They picked her up so tenderly, and
+                  <persName ref="#eaton_chauncy">Chauncey</persName> turned her over and he said, "Why, <persName ref="#shelby_charlotte">Mrs.
+                     Shelby</persName>, there is no blood on her." ** By that time the
+                  <persName ref="#whitney_charlotte">secretary</persName> had faded out of the picture in a faint ** and
+                  she (<persName ref="#miles_juliet">Mrs. Shelby's mother, Mrs. Miles</persName>) said,"Why no, she is
+                  not shot; stand her up, <persName ref="#eaton_chauncy">Chauncey</persName>." ** Then she
+                  (<persName ref="#minter_mary">Mary</persName>) looked at us and said, "I thought I would give you
+                  all a jolt."</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>** was there anything said about <persName ref="#taylor_william">Taylor</persName> in that? Did he have
+                  anything to do with that quarrel?</ab>
+            </sp>
+            
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, I don't think he had anything to do with that ** I may have asked her if she
+                  had been out with <persName ref="#taylor_william">Mr. Taylor</persName>.</ab>
+            </sp>
+            
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>But there was no <name type="event">quarrel</name> about <persName ref="#taylor_william">Mr. Taylor</persName>?</ab>
+            </sp>
+            
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>It seems to me she mentioned <persName ref="#taylor_william">Taylor's</persName> name. I don't remember
+                  now, or what. **</ab>
+            </sp>
+            
+            <sp>
+               <speaker>POLICE:</speaker>
+               <ab>Then the <objectName type="miscellaneous">report</objectName> that I got that you have been practicing
+                  some <objectName type="weapon">revolver</objectName> shooting - is there anything to that?</ab>
+            </sp>
+            
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I told you I shot it once. I know a man who will verify it - <persName ref="#stockdale_carl">Mr.
+                  Stockdale</persName>.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab> No other <objectName type="weapon">pistol</objectName> at any other <time>time</time>?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>No, I am afraid of <objectName type="weapon">pistols</objectName>. **</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>What did your <persName ref="#minter_mary">mother</persName> do with your
+                  <objectName type="weapon">pistol</objectName> after <persName ref="#minter_mary">Mary</persName> pulled this
+                  stunt?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>That was all there was to it. Of course, we found <persName ref="#whitney_charlotte">Charlotte
+                  Whitney</persName> in a faint on the <placeName type="#furniture">floor</placeName> and we had to
+                  revive her. ** And <persName ref="#eaton_chauncy">Chauncey</persName> was trying to find out where the
+                  <objectName type="accessories">bullets</objectName> went, and we discovered one
+                  <objectName type="accessories">bullet</objectName> had been shot into my
+                  <objectName type="furniture">closet</objectName>, and we found that, and another one went up in
+                  the ceiling of the <objectName type="furniture">closet</objectName>. I remember
+                  <persName ref="#minter_mary">mother</persName> taking the <objectName type="weapon">pistol</objectName>. She
+                  said, "Here, give me that. That's enough of <objectName type="weapon">pistols</objectName> lying
+                  around."</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>What did she do with it?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I never saw it again. I think I asked her once or twice what she did with it, and
+                  she said,"It's out. It's put away."</ab>
+            </sp>
+            
+            <ab> ---</ab>
+            
+            <sp>
+               <speaker>MRS. SHELBY:</speaker>
+               <ab>I had an engagement with a man the <time>next morning (2-2-22) at 9
+                  o'clock</time>. *** This man was a client of a friend of my daughter's,
+                  <persName ref="#reiner">Mr. Albert Reiner.</persName> *** I also had been talking to a man
+                  about buying an <objectName type="weapon">Aeolian Organ</objectName>, and he stopped 1n<time>
+                     that morning</time> And while these two men were in the room, the
+                  <objectName type="accessories">telephone</objectName> rang. It was then a <time>little after
+                     9</time>, and <persName ref="#stockdale_carl">Mr. Carl Stockdale</persName> called me up. He had gone
+                  to the <placeName>studio</placeName> to work and had learned of the death of
+                  <persName ref="#taylor_william">William Desmond Taylor</persName>. Naturally, knowing that he
+                  directed <persName ref="#minter_mary">Mary</persName>, he called me up and told me that
+                  <persName ref="#taylor_william">William Desmond Taylor</persName> bad been found dead that
+                  <time>morning</time>.</ab>
+            </sp>
+         </div>
+         
+         <!-- Jack Murphy -->
+         <div type="segment" n="3">
+            <byline><persName ref="#murphy">Jack Murphy</persName></byline>
+            <sp select="question">
+               <speaker><orgName>POLICE</orgName></speaker>
+               <ab>Just what did he tell you?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+               <ab>He said, "<persName ref="shelby">Mrs. Shelby</persName>, I just wanted to call you
+                  up and tell you. I am at the <placeName>studio</placeName>. <persName ref="taylor"
+                     >William Desmond Taylor</persName> was found dead <time>this morning</time>."
+                  "Oh," I said, "that's terrible." That's all he knew. ** I turned to these gentlemen
+                  and said, "Oh, my, it's terrible. A man who directed <persName ref="minter">my
+                     daughter</persName>, a very charming gentleman, was found dead <time>this
+                        morning</time>." ** In a few minutes the <objectName type="furniture"
+                           >telephone</objectName> rang again. ** This time <persName ref="berger">Miss
+                              Berger</persName> said, "<persName ref="taylor">William Desmond Taylor</persName>
+                  was murdered this morning. He was shot." I said, "Oh, my, this is terrible; the man
+                  was murdered? Was shot?" So we discussed that and the organ man knew I was waiting to
+                  go out with <persName ref="rice">Mr. Rice</persName> so ** <persName ref="rice">Mr.
+                     Rice</persName> and I got in his <objectName type="vehicle">car</objectName> **
+                  and I said, "<persName ref="rice">Mr. Rice</persName>, do you mind if I stop at my
+                  <objectName>house</objectName> and tell my people?" ** and it seems to me that on
+                  the way crossing <placeName>Vermont</placeName> I met my mother coming over in a
+                  <objectName type="vehicle">car</objectName> with the <persName role="chauffeur"
+                     >chauffeur</persName> and I just waved to her to turn around and come on back with
+                  us. I remember that distinctly. ** I was in a great hurry because <persName
+                     ref="rice">Mr. Rice</persName> was waiting for me in front, and I remember the
+                  chauffeur had parked my <objectName type="vehicle">blue Packard</objectName> in the
+                  <placeName>driveway</placeName>, and something was said about <persName
+                     ref="minter">Mary</persName> wanted the <objectName type="vehicle"
+                        >car</objectName>. <persName ref="eaton">Chauncey</persName> had gone to get
+                  <persName ref="minter">Mary's</persName>
+                  <objectName type="vehicle">car</objectName>. However, I went
+                  <placeName>upstairs</placeName> in a great hurry, and I said, "Oh, <persName
+                     ref="ivers">Julia</persName>, dear, <persName ref="taylor">Mr. Taylor</persName>
+                  was murdered last night." She said, "Oh, it isn't possible. I can't believe it. It
+                  isn't true." I said, "Oh, yes, it is. <persName ref="berger">Miss Berger</persName>
+                  told me so." **</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker><orgName>POLICE</orgName></speaker>
+               <ab>Did <persName ref="woolwine">Mr. Woolwine</persName> ever try to take your
+                  statement?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+               <ab>No, he never asked me a thing, <persName ref="keyes">Mr. Keyes</persName>. Nobody
+                  ever questioned me.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="mott">MR. MOTT</persName></speaker>
+               <ab> Tell <persName ref="keyes">Mr. Keyes</persName> exactly now, that part of the
+                  conversation with <persName ref="eaton">Chauncey</persName>?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+               <ab> I said, "<persName ref="eaton">Chauncey</persName>, what did you tell them?" He
+                  said, "I told them that you called me up very early that morning, about <time>half
+                     past seven</time>, and my wife said you went over there without breakfast; that
+                  you wanted to go over to the <placeName>Hobart house</placeName>." I said, "The
+                  morning of the <persName ref="taylor">Taylor</persName> murder?" He said, "Yes." I
+                  said, "Why, I couldn't have known until after <time>9 o'clock</time>." He said that
+                  he drove me over that morning and said that I was at the window with the <objectName
+                     type="miscellaneous">papers</objectName>. I said, "How could that be; besides
+                  there wasn't any papers <time>that morning</time>." "No," he said, "that's what they
+                  told me down at <placeName>the office</placeName>, that there wasn't any <objectName
+                     type="miscellaneous">papers</objectName> that early." I said, "Well, that's
+                  nothing, it is just a lapse of memory, it is of no consequence." And finally he saw
+                  he was in the wrong. I explained to him that <persName ref="rice">Mr. Rice</persName>
+                  had driven me over.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="mott">MR. MOTT</persName></speaker>
+               <ab> Now explain that <persName ref="blue">Monte Blue</persName> proposition.</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+               <ab> (<persName>Mrs. Shelby</persName> tells about some night when <persName
+                  ref="minter">Mary</persName> had failed to come <placeName>home</placeName>, and
+                  they had looked for her until about <time>2:30 a.m</time>. and finally located her
+                  <objectName type="vehicle">car</objectName> in front of <placeName><persName
+                     ref="whitney">Charlotte Whitney's</persName> house</placeName>) So <persName
+                        ref="margaret">Margaret</persName> and I rushed in and went up the steps hurriedly
+                  and opened the door and came upon <persName ref="minter">Mary</persName> and
+                  <persName ref="blue">Monte Blue</persName> on the couch. The door opened right
+                  into the <placeName>front room</placeName>. This <persName ref="blue">Monte
+                     Blue</persName> started to run out into the <placeName>kitchen</placeName> and out
+                  the <placeName>back door</placeName>.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker><orgName>POLICE</orgName></speaker>
+               <ab> You mean that they were in a compromising position?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+               <ab> Yes. I was about the maddest woman that could ever be. I grabbed this halfbreed
+                  Indian by his shirt tail and I said, "Come right back in <placeName>this
+                     room</placeName>. I have something very forceful to say to you. Come back
+                  here."</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="davis">MR. DAVIS</persName></speaker>
+               <ab> That time she went out with <persName ref="neilan">Marshall Neilan</persName>,
+                  after the murder; wasn't that about <date>two nights afterward</date>?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+               <ab>Yes.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker><orgName>POLICE</orgName>
+               </speaker>
+               <ab>Immediately afterwards, wasn't it?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="shelby">MRS. SHELBY</persName>
+               </speaker>
+               <ab> It was.</ab>
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="keyes">MR. KEYES</persName>
+               </speaker>
+               <ab> She tried to kill you, you say?</ab>
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="shelby">MRS. SHELBY</persName></speaker>
+               <ab> Yes. ** Oh, <persName ref="minter">Mary</persName> said around the house freely,
+                  <quote>"Oh, <persName ref="shelby">Mrs. Shelby</persName> killed <persName
+                     ref="taylor">Taylor</persName>"</quote>. Not only once but many times. She was
+                  always saying that.</ab>
+            </sp>
+         </div>
+
+      </body>
+   </text>
+</TEI>

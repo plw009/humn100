@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+
+         <titleStmt>
+
+            <title>The Taylor Murder Case: Key Witness Statements</title>
+            <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
+
+            <respStmt>
+
+               <persName xml:id="jakacki">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Instructor, encoder-in-chief</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="brennan">Cade Brennan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+
+            <distributor>Bucknell University</distributor>
+            <address>
+               <street>One Dent Drive</street>
+               <settlement>Lewisburg</settlement>
+               <region>Pennsylvania</region>
+               <country>United States</country>
+               <postCode>17837</postCode>
+            </address>
+            <date from-iso="2021-02-01" to-iso="2021-05-30">Spring 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+                  Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+
+            <p>Select transcriptions of witness statements at the coroner's inquest, to the police
+               and district attorney's office are drawn from the remarkable work done by Bruce Long
+               and other parties as part of the Taylorology website.</p>
+            <p>For more information, see Taylorology: http://taylorology.com/</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+
+
+         <particDesc>
+
+            <person xml:id="taylor_william">
+               <persName>William Desmond Taylor</persName>
+            </person>
+            <person xml:id="mary_miles_minter">
+               <persName>Mary Miles Minter</persName>
+            </person>
+            <person xml:id="mama_miles">
+               <persName>Juliet Miles</persName>
+            </person>
+            <person xml:id="henry_peavey">
+               <persName> Henry Peavey</persName>
+            </person>
+            <person xml:id="charlotte_shelby">
+               <persName>Charlotte Shelby</persName>
+            </person>
+            
+               
+
+         </particDesc>
+         <settingDesc>
+            <place xml:id="alvarado">
+               <placeName>Alvarado Street</placeName>
+            </place>
+            <place xml:id="Taylors">
+               <placeName>William Desmond Taylor's House</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <head>
+            <title>Witness Statement Provided by Mary Miles Minter</title>
+            <date>February 7, 1922</date>
+            <orgName>District Attorney</orgName>
+         </head>
+         <div>
+            <byline>Cade Brennan</byline>
+
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>How long have <persName ref="mary_miles_minter">you</persName> known <persName
+                     ref="william_taylor">Mr Taylor?</persName>
+               </ab>
+            </sp>
+            <sp>
+               <speaker>Minter:</speaker>
+               <ab>Since <time>July of 1919</time> -- yes, that is correct.</ab>
+            </sp>
+            <sp>
+               <speaker>Doran:</speaker>
+               <ab><persName ref="william_taylor">He</persName> has been your
+                     <roleName>director</roleName> in pictures, has <persName ref="william_taylor"
+                     >he</persName>?</ab>
+            </sp>
+            <sp>
+               <speaker>Minter:</speaker>
+               <ab>Did <persName ref="mary_miles_minter">you</persName> have occasion to call on
+                     <persName ref="william_taylor">him</persName> at <placeName ref="taylors">his
+                     residence</placeName> within <time>the last thirty days</time> prior to
+                     <persName ref="taylor">his</persName> death? -- approximately thirty days?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Just a moment, will you --</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Let me change the question. When was the last time <persName
+                     ref="mary_miles_minter">you</persName> called on <persName ref="taylor"
+                     >him</persName> at <placeName ref="taylors">his residence?</placeName>
+               </ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab>On the <date>23rd of December</date>.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>Were <persName ref="mary_miles_minter">you</persName> alone at that time or did
+                  others accompany <persName ref="mary_miles_minter">you</persName> to see <persName
+                     ref="william_taylor">him</persName>? </ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab><persName ref="mary_miles_minter">I</persName> was alone. </ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>Was any one else there?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab>no, not a soul. </ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>Was <persName ref="william_taylor">his</persName>
+                  <persName ref="henry_peavey">valet, the colored man</persName>, there, do
+                     <persName ref="mary_miles_minter">you</persName> know?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab>Not that I know of.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab><time>Prior to that time</time>, was it <persName ref="mary_miles_minter"
+                     >your</persName> habit to call on <persName ref="william_taylor">him</persName>
+                  at <placeName ref="taylors">his residence</placeName> or had it been <persName
+                     ref="mary_miles_minter">your</persName> habit?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab><persName ref="mary_miles_minter">I</persName> couldn't call it a habit, but on
+                  several occasions <persName ref="mary_miles_minter">I</persName> did call upon
+                     <persName ref="william_taylor">him</persName>, though never <time>as·1ate as
+                     upon this occasion</time>.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>Now,<time> on this last occasion</time>, what <time>time of the day or
+                     night</time> was it that <persName ref="mary_miles_minter">you</persName>
+                  called? </ab>
+            </sp>
+            <sp>
+               <speaker> MINTER: </speaker>
+               <ab>May <persName ref="mary_miles_minter">l</persName> tell this in <persName
+                     ref="mary_miles_minter">my</persName> own way? </ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>Yes, <persName>I</persName> would rather have <persName ref="mary_miles_minter"
+                     >you</persName> tell it in <persName ref="mary_miles_minter">your</persName>
+                  own way, if you will.</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab><persName ref="mary_miles_minter">I</persName> am glad to. <persName
+                     ref="mary_miles_minter">I</persName> am trying to answer as <persName
+                     ref="mary_miles_minter">I</persName> would in court and <persName
+                     ref="mary_miles_minter">1</persName> don't like to do so.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Just proceed, go ahead and tell it in <persName ref="mary_miles_minter"
+                     >your</persName> own way.</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab><persName ref="mary_miles_minter">I</persName> had gone to bed; <persName
+                     ref="mary_miles_minter">I</persName> hadn't seen <persName ref="william_taylor"
+                     >Mr Taylor</persName> in five months at the time -- three months, I know; three
+                  months, and I just got to thinking about it and I decided I couldn't stand it any
+                  longer. I was going to go up and tell him "goodbye. I got up and dressed, went
+                  down to my grandmother's room and I said, "Mama, I am going over to say 'goodbye'
+                  to Mr Taylor," and she advised me not to do it. She said it was too late: "Do you
+                  know it is nearly twelve o'clock?" she said. I said, "Yes, sure, but I just must
+                  do so," I said, "I realize that this is not the usual thing and I have never been
+                  there so late, but I must do so, Mama. I am going to give him a letter in whioh I
+                  have told him 'goodbye,"' She said, "All right, then, if you must. I would get up
+                  and go with you, but I don't feel well enough," Mama often accompanied me on my
+                  trips, which were not very many during the entire time that i knew him. So I went
+                  over there and arrived at five minutes to twelve, I am strange about that, I am
+                  rather queer about that, I think of the time; every time I was with him I would
+                  say, "Well, this time yesterday I didn't see him and today I am with him," and
+                  things like that. So I arrived at five minutes to twelve and left at twenty
+                  minutes to one, and-- Do you wish me to tell you all that transpired?</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN:</speaker>
+               <ab>Never mind about that. </ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Did <persName ref="charlotte_shelbey">your mother</persName> go with <persName ref="mary_miles_minter">you</persName>? No;
+                     <persName>Mama</persName> is <persName>my grandmother</persName>.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab><persName ref="mama_miles">Your grandmother</persName> didn't accompany you? </ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab>No, she did not. </ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab><persName>Your chauffeur</persName> drove you there? </ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>No, I drove myself in my little <objectName>car</objectName>, little
+                  run-about.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>That was <date>December 23rd</date>? </ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab>Yes, <date>December 23rd</date>.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>When was the last time you saw him prior to that? </ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab>I couldn't give you the exact date, but I know it was at least three months and a
+                  little over; it was over three months. </ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>See him and meet him, to be with him? </ab>
+            </sp>
+            <sp>
+               <speaker>MINTER: </speaker>
+               <ab>No; no, indeed. I passed him at <placeName>Lasky Studio</placeName> when I go over there. Sometimes I
+                  have seen his car go down <placeName>Western Avenue</placeName>, but I hadn't seen him to speak to in
+                  three months.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>As I understand it, you were sincerely in love with him?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>That is true.</ab>
+            </sp>
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>Did you convey that feeling to him?</ab>
+            </sp>
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Absolutely.</ab>
+            </sp>
+
+            <sp>
+               <speaker>DORAN: </speaker>
+               <ab>You told him, did you?</ab>
+            </sp>
+
+            <sp>
+               <speaker>MINTER:</speaker>
+               <ab>Absolutely. <persName ref="william_taylor">He</persName> loved <persName ref="mary_miles_minter">me</persName>; <persName ref="william_taylor">he</persName> told <persName ref="mary_miles_minter">me</persName> so.</ab>
+            </sp>
+
+
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

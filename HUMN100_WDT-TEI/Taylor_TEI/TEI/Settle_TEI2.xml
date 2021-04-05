@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         
+         <titleStmt>
+            <!-- This is the section of the TEI header that describes the file, the project, and who is involved in its production and publication -->
+            <title>The Taylor Murder Case: Key Witness Statements</title>
+            <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
+            
+            <respStmt>
+               <!-- The responsibility statement serves as a recognition of the labor provided to produce the project, and in what capacity -->
+               <persName xml:id="jakacki">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Instructor, encoder-in-chief</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="brennan">Cade Brennan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="carroll">Ryan A. Carroll</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chakos">Jules M. Chakos</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chao">Claire T. Chao</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="crotta">Bella R. Crotta</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="estevez">Maria F. Estevez</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="fazio">Anna G. Fazio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="gehrig">John S. Gehrig</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="greenspan">Tess I. Greenspan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="halliburton">Devin T. Halliburton</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="herrold">Nathan T. Herrold</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="holsinger">Eric Holsinger</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="klimas"> Evan A. Klimas</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="lee">Audrey M. Lee</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="luciani">Ellie G. Luciani</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="mannion">Patrick O. Mannion</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="murphy">Jack C. Murphy</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="okin">Tyler E. Okin</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="quinn">Meghan E. Quinn</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="santoro">Ashley R. Santoro</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="settle">Elizabeth H. Settle</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="smart">Bennett C. Smart</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="tait">Christian R. Tait</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="witzmann">Olivia L. Witzmann</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="wnek">Christine M. Wnek</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt>
+            <!-- The pbulication provides any kind of publisher, copyright information -->
+            <distributor>Bucknell University</distributor>
+            <address>
+               <street>One Dent Drive</street>
+               <settlement>Lewisburg</settlement>
+               <region>Pennsylvania</region>
+               <country>United States</country>
+               <postCode>17837</postCode>
+            </address>
+            <date from-iso="2021-02-01" to-iso="2021-05-30">Spring 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+                  Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <!-- The source description provides details about where the materials have come from -->
+            <p>Select transcriptions of witness statements at the coroner's inquest, to the police
+               and district attorney's office are drawn from the remarkable work done by Bruce Long
+               and other parties as part of the Taylorology website.</p>
+            <p>For more information, see Taylorology: http://taylorology.com/</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <!-- This is the section that includes unique identifiers for all of the people and places referred to in the documents. You will paste a completed list once the class has compiled it. -->
+         <particDesc>
+            <!-- Because there are multiple people with similar last names, we will use the convention lastname_firstname -->
+            <person xml:id="berger_marjorie">
+               <persName>Marjorie Berger</persName>
+            </person>
+            <person xml:id="davies_william">
+               <persName>William Davies</persName>
+            </person>
+            <person xml:id="doran_william">
+               <persName>William Doran</persName>
+            </person>
+            <person xml:id="eaton_chauncy">
+               <persName>Chauncy Eaton</persName>
+            </person>
+            <person xml:id="eyton_charles">
+               <persName>Charles Eyton</persName>
+            </person>
+            <person xml:id="fellows_harry">
+               <persName>Harry Fellows</persName>
+            </person>
+            <person xml:id="fellows_howard">
+               <persName>Howard Fellows</persName>
+            </person>
+            <person xml:id="ivors_julia">
+               <persName>Julia Crawford Ivors</persName>
+            </person>
+            <person xml:id="maclean_douglas">
+               <persName>Douglas MacLean</persName>
+            </person>
+            <person xml:id="maclean_faith">
+               <persName>Faith MacLean</persName>
+            </person>
+            <person xml:id="maigne_charles">
+               <persName>Charles Maigne</persName>
+            </person>
+            <person xml:id="miles_juliet">
+               <persName>Juliet Miles</persName>
+            </person>
+            <person xml:id="minter_mary">
+               <persName>Mary Miles Minter</persName>
+            </person>
+            <person xml:id="mott_john">
+               <persName>John Mott</persName>
+            </person>
+            <person xml:id="nance_charles">
+               <persName>Charles Nance</persName>
+            </person>
+            <person xml:id="neilan_marshall">
+               <persName>Marshall Neilan</persName>
+            </person>
+            <person xml:id="normand_mabel">
+               <persName>Mabel Normand</persName>
+            </person>
+            <person xml:id="owens_mamie">
+               <persName>Mamie Owens</persName>
+            </person>
+            <person xml:id="peavey_henry">
+               <persName>Henry Peavey</persName>
+            </person>
+            <person xml:id="pickford_mary">
+               <persName>Mary Pickford</persName>
+            </person>
+            <person xml:id="pickford_jack">
+               <persName>Jack Pickford</persName>
+            </person>
+            <person xml:id="sands_edward">
+               <persName>Edward Sands</persName>
+            </person>
+            <person xml:id="shelby_charlotte">
+               <persName>Charlotte Shelby</persName>
+            </person>
+            <person xml:id="shelby_margaret">
+               <persName>Margaret Shelby</persName>
+            </person>
+            <person xml:id="stockdale_carl">
+               <persName>Carl Stockdale</persName>
+            </person>
+            <person xml:id="swanson_gloria">
+               <persName>Gloria Swanson</persName>
+            </person>
+            <person xml:id="taylor_william">
+               <persName>William Desmond Taylor</persName>
+            </person>
+            <person xml:id="vantrees_james">
+               <persName>James Van Trees</persName>
+            </person>
+            <person xml:id="whitney_charlotte">
+               <persName>Charlotte Whitney</persName>
+            </person>
+            <person xml:id="ziegler_thomas">
+               <persName>Thomas Ziegler</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- please fill out the template below, replacing text in square brackets with the actual information -->
+         <head>
+            <title>Charles Eyton Inquest</title>
+            <date>[Febuary 4th, 1922]</date>
+            <orgName>[Coroner's Inquest Transcript]</orgName>
+         </head>
+         <div>
+            <byline>Elizabeth Settle</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
+            <sp>
+               <speaker>NANCE</speaker>
+               <ab>Indicating that it had been dead for some time?</ab>
+            </sp>
+            <sp>
+               <speaker>EYTON</speaker>
+               <ab>Yes.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Where was the body lying with reference to the front entrance to his home?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>It was lying right in front of a little <objectName select="furnature">desk</objectName> with the head pointed east and the
+                  feet pointed west. I should judge the feet were three or four feet from the door - the front entrance.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Who were present when you was there?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>When I came in, the first man I noticed was <persName ref="#Ziegler">Detective Ziegler</persName>, whom I have known
+                  for a number of years, and <persName ref="#mclean_douglas">Douglas Maclean</persName>; <persName ref="#maigne_charles">Charles Maigne</persName>; the landlord [E. C.
+                  Jessurun]; and <persName ref="#fellows_Harry" >Harry Fellows</persName>, <persName ref="#taylor_william">Mr. Taylor's</persName> assistant director.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Did all of these persons live there in this <placeName ref="404BAlverado_Court">neighborhood?</placeName></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>That I could not tell you. <persName ref="#maclean_douglas">Mr. MacLean</persName> did, I know, because he showed me where his <placeName ref="404BAlverado_Court">apartment</placeName>
+            was.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>The place <persName ref="#taylor_william">Mr. Taylor</persName> lived was in a <placeName ref="404BAlverado_Court">court?</placeName></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>In a <placeName ref="404BAlverado_Court">court</placeName>, yes.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>These other buildings were nearby?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>There are several apartments in this court, all the way around.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Did Mr. and <persName ref="#maclean_douglas">Mrs. MacLean</persName>, or either of them, tell you about
+                  the <time when-iso="02-01-1922">hour</time> that they heard the gunshot?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>Yes, <persName ref="#maclean_douglas">Mr. Maclean</persName> told me it was about <time when-iso="8/8:15">eight
+                  or a quarter after eight</time>, and <persName ref="#maclean_douglas">Mrs. Maclean</persName> thought it was a little later. [This is not
+                  correct.]</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>That <time select="1922-02-01">night?</time></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>Yes, the night before.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>You didn't make any definite measurements as to the position of the <objectName type="bodyPart"> body?</objectName></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>No, sir.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>So that what you testified to is only an estimate, and nothing definite about it.</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>Yes.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Now, how long has <persName ref="#taylor_william">Mr. Taylor</persName> lived in this <placeName ref="404BAlverado_Court">place?</placeName></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>That I could not tell you. He lived in it before he went to the war, I believe.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>When did you last see him alive?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>The same day - <date when-iso="1922-02">Wednesday</date></ab> 
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Now, did he have any <objectName select="weapon">fire-arms</objectName> of his own?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>I believe he had a <objectName select="weapon">revolver</objectName>; I believe the <objectName select="weapon">revolver</objectName> was in the <objectName select="furniture">upper drawer</objectName> <placeName>upstairs</placeName>; in fact, I know there was, because <persName>Detective Ziegler</persName> and myself went up there and saw it. </ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>When you were called to this place, did you see any <objectName select="weapon">fire-arms</objectName> in this room where he was?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>No.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>What is the name of his <roleName>valet</roleName>, or <roleName>attendant</roleName> there?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab><persName ref="#peavy_harry">Harry Peavey</persName>, the colored <roleName>cook</roleName>. I never knew him or saw him.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>Was he the one who called you?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab><persName ref="#fellows_harry">Harry Fellows</persName>, his <roleName>assistant director</roleName>, was the one who called me.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE</speaker>
+               <ab>You have no independent knowledge of the manner in which he met his death?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>No, sire.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>THE CORONER</speaker>
+               <ab>Have you any questions, gentlemen?</ab>
+            </sp>
+            <sp select="question">
+               <ab>(Question By a Juror) Was his <objectName type="clothing">clothing</objectName> ruffled in any way, showing any violence?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>EYTON</speaker>
+               <ab>No, absolutely none; it looked like he just walked in the door and was shot in the back; that is the way it looked. It didn't show evidence in the room when I got there- neither the room or the <objectName type="bodyPart">body</objectName> showed any evidence of a struggle. He had on the same <objectName type="clothing">suit</objectName> as when I seen him the day before when he talked to me.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>THE CORONER</speaker>
+               <ab>Is there any other questions? That is all, you may be excused.</ab>
+            </sp>
+            </div>
+
+      </body>
+   </text>
+</TEI>
