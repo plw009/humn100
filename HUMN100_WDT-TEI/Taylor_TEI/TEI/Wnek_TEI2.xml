@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/tei_wdt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         
+         <titleStmt>
+            <!-- This is the section of the TEI header that describes the file, the project, and who is involved in its production and publication -->
+            <title>The Taylor Murder Case: Key Witness Statements</title>
+            <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
+            
+            <respStmt>
+               <!-- The responsibility statement serves as a recognition of the labor provided to produce the project, and in what capacity -->
+               <persName xml:id="jakacki">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Instructor, encoder-in-chief</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="brennan">Cade Brennan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="carroll">Ryan A. Carroll</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chakos">Jules M. Chakos</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="chao">Claire T. Chao</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="crotta">Bella R. Crotta</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="estevez">Maria F. Estevez</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="fazio">Anna G. Fazio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="gehrig">John S. Gehrig</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="greenspan">Tess I. Greenspan</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="halliburton">Devin T. Halliburton</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="herrold">Nathan T. Herrold</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="holsinger">Eric Holsinger</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="klimas"> Evan A. Klimas</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="lee">Audrey M. Lee</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="luciani">Ellie G. Luciani</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="mannion">Patrick O. Mannion</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="murphy">Jack C. Murphy</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="okin">Tyler E. Okin</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="quinn">Meghan E. Quinn</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="santoro">Ashley R. Santoro</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="settle">Elizabeth H. Settle</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="smart">Bennett C. Smart</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="tait">Christian R. Tait</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="witzmann">Olivia L. Witzmann</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="wnek">Christine M. Wnek</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Student encoder</resp>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt>
+            <!-- The pbulication provides any kind of publisher, copyright information -->
+            <distributor>Bucknell University</distributor>
+            <address>
+               <street>One Dent Drive</street>
+               <settlement>Lewisburg</settlement>
+               <region>Pennsylvania</region>
+               <country>United States</country>
+               <postCode>17837</postCode>
+            </address>
+            <date from-iso="2021-02-01" to-iso="2021-05-30">Spring 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+                  Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <!-- The source description provides details about where the materials have come from -->
+            <p>Select transcriptions of witness statements at the coroner's inquest, to the police
+               and district attorney's office are drawn from the remarkable work done by Bruce Long
+               and other parties as part of the Taylorology website.</p>
+            <p>For more information, see Taylorology: http://taylorology.com/</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <!-- This is the section that includes unique identifiers for all of the people and places referred to in the documents. You will paste a completed list once the class has compiled it. -->
+         <particDesc>
+            <!-- Because there are multiple people with similar last names, we will use the convention lastname_firstname -->
+            <person xml:id="berger_marjorie">
+               <persName>Marjorie Berger</persName>
+            </person>
+            <person xml:id="davies_william">
+               <persName>William Davies</persName>
+            </person>
+            <person xml:id="doran_william">
+               <persName>William Doran</persName>
+            </person>
+            <person xml:id="eaton_chauncy">
+               <persName>Chauncy Eaton</persName>
+            </person>
+            <person xml:id="eyton_charles">
+               <persName>Charles Eyton</persName>
+            </person>
+            <person xml:id="fellows_harry">
+               <persName>Harry Fellows</persName>
+            </person>
+            <person xml:id="fellows_howard">
+               <persName>Howard Fellows</persName>
+            </person>
+            <person xml:id="ivors_julia">
+               <persName>Julia Crawford Ivors</persName>
+            </person>
+            <person xml:id="maclean_douglas">
+               <persName>Douglas MacLean</persName>
+            </person>
+            <person xml:id="maclean_faith">
+               <persName>Faith MacLean</persName>
+            </person>
+            <person xml:id="maigne_charles">
+               <persName>Charles Maigne</persName>
+            </person>
+            <person xml:id="miles_juliet">
+               <persName>Juliet Miles</persName>
+            </person>
+            <person xml:id="minter_mary">
+               <persName>Mary Miles Minter</persName>
+            </person>
+            <person xml:id="mott_john">
+               <persName>John Mott</persName>
+            </person>
+            <person xml:id="nance_charles">
+               <persName>Charles Nance</persName>
+            </person>
+            <person xml:id="neilan_marshall">
+               <persName>Marshall Neilan</persName>
+            </person>
+            <person xml:id="normand_mabel">
+               <persName>Mabel Normand</persName>
+            </person>
+            <person xml:id="owens_mamie">
+               <persName>Mamie Owens</persName>
+            </person>
+            <person xml:id="peavey_henry">
+               <persName>Henry Peavey</persName>
+            </person>
+            <person xml:id="pickford_mary">
+               <persName>Mary Pickford</persName>
+            </person>
+            <person xml:id="pickford_jack">
+               <persName>Jack Pickford</persName>
+            </person>
+            <person xml:id="sands_edward">
+               <persName>Edward Sands</persName>
+            </person>
+            <person xml:id="shelby_charlotte">
+               <persName>Charlotte Shelby</persName>
+            </person>
+            <person xml:id="shelby_margaret">
+               <persName>Margaret Shelby</persName>
+            </person>
+            <person xml:id="stockdale_carl">
+               <persName>Carl Stockdale</persName>
+            </person>
+            <person xml:id="swanson_gloria">
+               <persName>Gloria Swanson</persName>
+            </person>
+            <person xml:id="taylor_william">
+               <persName>William Desmond Taylor</persName>
+            </person>
+            <person xml:id="vantrees_james">
+               <persName>James Van Trees</persName>
+            </person>
+            <person xml:id="whitney_charlotte">
+               <persName>Charlotte Whitney</persName>
+            </person>
+            <person xml:id="ziegler_thomas">
+               <persName>Thomas Ziegler</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- please fill out the template below, replacing text in square brackets with the actual information -->
+         <head>
+            <title>Witness Statement Provided by Mrs. Faith MacLean</title> 
+            <date when-iso="1922-02-09">2-9-22</date>
+            <orgName>Police</orgName>
+         </head>
+         <div>
+            <byline><persName ref="#wnek">Christine</persName></byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+            
+            <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>When did you first learn that <persName ref="#taylor_william">Mr. Taylor</persName> was dead?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab><time when-iso="07:30">7:30</time><date>Thursday morning</date>.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Who was it that brought it to your attention?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>His colored servant came screaming out of the house.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>What did he say?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>"Help, Police, <persName ref="#taylor_william">Mr. Taylor</persName> is dead."</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Did the fact that <persName ref="#taylor_william">Mr. Taylor</persName> was dead remind you of anything that occurred <date when-iso="1922-02-01">the night before</date> *  did you hear a shot.</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>Yes, what we thought might be a <objectName type="weapon">shot</objectName> or a muffler explosion, I do not know which.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>When did you hear that?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>Sometime probably <time when-iso="19:45-20:00">between quarter of eight and eight o'clock</time> on <date>Wednesday evening</date>.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Now, at the time you heard this <objectName type="weapon">shot</objectName> did you go out on the <objectName type="miscellaneous">porch</objectName></ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>Yes, shortly after *** oh, about, I suppose three or four seconds, maybe a minute.</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>No I did not I just opened my front <objectName type="miscellaneous">door</objectName>.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Well, what did you say?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>I saw e man had already opened the <objectName type="miscellaneous">door</objectName> of <persName ref="#taylor_william">Mr. Taylor</persName>'s <objectName type="miscellaneous">house</objectName> and was looking towards <placeName ref="#alvarado">Alverado St.</placeName> *** I didn't see him open the <objectName type="miscellaneous">door</objectName>; it was already open I think.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Which way was the screen?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>The screen <objectName type="miscellaneous">door</objectName> was open. I think the screen <objectName type="miscellaneous">door</objectName> was open then I must have been to have seen his figure as clearly as I did.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Did he shut the <objectName type="miscellaneous">door</objectName>?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>It seems like he shut the <objectName type="miscellaneous">door</objectName>. It seems like he leaned in and pulled it closed. So it must have been opened because I distinctly saw his <objectName type="clothing">cap</objectName>.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>You are satisfied are you, that the light came from <persName ref="#taylor_william">Taylor's</persName> apartment out on the street through the open door?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>Yes.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Did he seem in a hurry?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>No, he was the coolest thing I have ever seen * * *. He turned around and looked at me and hesitated. Then it seems as if * * * that <persName ref="#taylor_william">Mr. Taylor</persName> must have spoken to him from inside the house *** he thought he had spoken and he didn't. Seemed like he pulled the <objectName type="miscellaneous">door</objectName> shut, then turned around and looking at me all the time, walked down a couple ot steps that go up to <persName ref="#taylor_william">Mr. Taylor's</persName> house there.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Do you know whether the man that you saw went to <placeName ref="#alvarado">Alvarado St.</placeName> through the open court there?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>He went towards <placeName ref="#maryland">Maryland St.</placeName> and towards the alley in between the two houses because he was facing that way ready to go when I closed the <objectName type="miscellaneous">door</objectName>.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>You knew it wasn't <persName ref="#taylor_william">Taylor</persName>.</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>Oh, I knew it wasn't <persName ref="#taylor_william">Taylor</persName>.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Could you have recognized the man 1f it had been <persName ref="#taylor_william">Mr. Taylor</persName>.</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>Oh, yes, positively.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Now, is it possible that it might have been this young man <persName ref="#fellows_howard">Howard Fellows</persName>, the chauffeur, that you saw there. Could that be possible.</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>I suppose it could be possible but it doesn't seem to me that he was the boy or was the man. He doesn't seem the built of that man.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Did the man you saw have a <objectName type="body_part">smooth face</objectName>?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>Yes, he did have a <objectName type="body_part">smooth face</objectName>.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Did the man you saw have on anything like a chauffeur's uniform?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>Well, the only thing I noticed was his <objectName type="clothing">cap</objectName>, something tied around his <objectName type="body_part">throat</objectName>. I don't know whether the man had an <objectName type="clothing">over-coat</objectName> or not.</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>His age I don't know but I should judge the man was probably between 30 and 35. He was about 5 feet nine, just about ***, and he was stocky, not fat, but stocky. He had on a <objectName type="clothing">cap</objectName>. It seemed like a checked <objectName type="clothing">cap</objectName> with a plaid in it, and he wore something around his <objectName type="body_part">throat</objectName>.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab><objectName type="body_part">Smooth shaven</objectName>?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>Yes.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Color of his <objectName type="clothing">suit</objectName>?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>No, except it was a dark <objectName type="clothing">suit</objectName>.</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Now didn't compare in size with <persName ref="#smith">Mr. Smith</persName>, the reporter here, who is taking this statement? (<persName ref="#smith">Mr. Smith</persName> was about 5' 7 1/2")</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>No, <persName ref="#smith">Mr. Smith</persName> is shorter.</ab> 
+            </sp>
+            
+            <sp>
+               <speaker><persName ref="#narrator"></persName>NARRATOR</speaker>
+               <ab>(The witness names the following men: <persName ref="#king_henry">Mr. Henry King</persName>, <persName ref="#hamilton_mahlon">Mr. Mahlon Hamilton</persName>, <persName ref="#hoyt_arthur">Mr. Arthur Hoyt</persName>, <persName ref="#berris_nigle">Mr. Berris (first name Nigle?)</persName>, <persName ref="#ince">Mr. Ince</persName>, <persName ref="#neilan_marshal">Mr. Marshal Neilan</persName>. Witness was then asked the following questions)</ab> 
+            </sp>
+            
+            <sp select="question">
+               <speaker><persName ref="#police"></persName>POLICE</speaker>
+               <ab>Now then, tell me whether there is any possibility that this man you saw coming out of there was any of the persons that you have mentioned?</ab> 
+            </sp>
+            
+            <sp select="answer">
+               <speaker><persName ref="#maclean">Faith MacLean</persName></speaker>
+               <ab>No, I think not. I think I would have recognized any of those people.</ab> 
+               <ab>** when he came out he was dressed as my idea of a moving picture burglar**? ** because I remember thinking perhaps he might have been one of the boys in <persName ref="#taylor_william">Mr. Taylor's</persName> company when they go out on location. Not well dressed. I don't know as I would say slovenly but I don't think he was well dressed.</ab> 
+            </sp>
+         </div>
+
+      </body>
+   </text>
+</TEI>
+
