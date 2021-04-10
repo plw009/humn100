@@ -5,12 +5,12 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-
+         
          <titleStmt>
             <!-- This is the section of the TEI header that describes the file, the project, and who is involved in its production and publication -->
             <title>The Taylor Murder Case: Key Witness Statements</title>
             <sponsor>HUMN100: "Digging into the Digital" course</sponsor>
-
+            
             <respStmt>
                <!-- The responsibility statement serves as a recognition of the labor provided to produce the project, and in what capacity -->
                <persName xml:id="jakacki">Diane K. Jakacki</persName>
@@ -143,7 +143,7 @@
                <resp>Student encoder</resp>
             </respStmt>
          </titleStmt>
-
+         
          <publicationStmt>
             <!-- The pbulication provides any kind of publisher, copyright information -->
             <distributor>Bucknell University</distributor>
@@ -160,7 +160,7 @@
                   Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
             </availability>
          </publicationStmt>
-
+         
          <sourceDesc>
             <!-- The source description provides details about where the materials have come from -->
             <p>Select transcriptions of witness statements at the coroner's inquest, to the police
@@ -270,294 +270,257 @@
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by Mrs. Faith MacLean</title>
-            <date when-iso="1922-02-09">2-9-22</date>
-            <orgName>Police</orgName>
+            <title>T.H. Ziegler Interview 1922</title> 
+            <date when-iso="1922/4/2">2/4/1922</date>
+            <orgName>Coroner's Inquest</orgName>
          </head>
+         <head>
+            <lb/>The following is the transcript of the shorthand notes taken at the Coroner's inquest held on the body of William Desmond Taylor at Ivy H. Overholtzer [Mortuary] at Los Angeles, California on the 4th day of February, 1922 at 10:00 a.m.</head>
          <div>
-            <byline><persName ref="#wnek">Christine</persName></byline>
-            <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
-
+            <byline>TYLER OKIN</byline><!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
+            
             <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>When did you first learn that <persName ref="#taylor_william">Mr.
-                     Taylor</persName> was dead?</ab>
+               <speaker>NANCE:</speaker>
+               <ab>Please state your name.</ab>
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab><time when-iso="07:30">7:30</time><date>Thursday morning</date>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab><persName ref='#ziegler_thomas'>T.H. Ziegler</persName>.</ab>
             </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Who was it that brought it to your attention?</ab>
+               <speaker>NANCE:</speaker>
+               <ab>Where do you live?
+               </ab>
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>His colored servant came screaming out of the house.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab><placeName>425 North Hill.</placeName></ab>
             </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>What did he say?</ab>
+               <speaker>NANCE:</speaker>
+               <ab>What is your occupation?</ab>
+              
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>"Help, Police, <persName ref="#taylor_william">Mr. Taylor</persName> is
-                  dead."</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Police officer.</ab>
+               
             </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did the fact that <persName ref="#taylor_william">Mr. Taylor</persName> was dead
-                  remind you of anything that occurred <date when-iso="1922-02-01">the night
-                     before</date> * did you hear a shot.</ab>
+               <speaker>NANCE:</speaker>
+               <ab><persName ref='#ziegler_thomas'>Mr. Ziegler</persName>, were you called to the <placeName>premises</placeName> when the
+                  deceased was found dead? </ab>
+               
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Yes, what we thought might be a <objectName type="weapon">shot</objectName> or a
-                  muffler explosion, I do not know which.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I was.</ab>
             </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>When did you hear that?</ab>
+               <speaker>NANCE:</speaker>
+               <ab>When did you arrive there?</ab>
+               
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Sometime probably <time when-iso="19:45-20:00">between quarter of eight and eight
-                     o'clock</time> on <date>Wednesday evening</date>.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>A little before <time when-iso="08:30">8 o'clock in the morning</time> of <date>February 2nd.</date> </ab>
+               
             </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Now, at the time you heard this <objectName type="weapon">shot</objectName> did
-                  you go out on the <objectName type="miscellaneous">porch</objectName></ab>
+               <speaker>NANCE:</speaker>
+               <ab>Will you state what you found when you got there?</ab>
+               
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Yes, shortly after *** oh, about, I suppose three or four seconds, maybe a
-                  minute.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I found the deceased, Mr. <persName ref='#taylor_william'>Taylor</persName>, lying just inside of the <objectName type='furniture'>door</objectName>, on his back. His <objectName type='body_part'>hands</objectName>, one of them, apparently to the side of his body, and the other lying outstretched; and <objectName type='body_part'>blood</objectName> pouring from his mouth. He was lying with his head to the east, flat on his back, dead.</ab>
+               
             </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No I did not I just opened my front <objectName type="miscellaneous"
-                     >door</objectName>.</ab>
-            </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Well, what did you say?</ab>
+               <speaker>NANCE:</speaker>
+               <ab>Was his body rigid and cold?</ab>
+               
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>I saw e man had already opened the <objectName type="miscellaneous"
-                     >door</objectName> of <persName ref="#taylor_william">Mr. Taylor</persName>'s
-                     <objectName type="miscellaneous">house</objectName> and was looking towards
-                     <placeName ref="#alvarado">Alverado St.</placeName> *** I didn't see him open
-                  the <objectName type="miscellaneous">door</objectName>; it was already open I
-                  think.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>It was.</ab>
+               
             </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Which way was the screen?</ab>
+               <speaker>NANCE:</speaker>
+               <ab>Indicating he had been dead for some time?</ab>
+               
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>The screen <objectName type="miscellaneous">door</objectName> was open. I think
-                  the screen <objectName type="miscellaneous">door</objectName> was open then I must
-                  have been to have seen his figure as clearly as I did.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes, sir.</ab>
             </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did he shut the <objectName type="miscellaneous">door</objectName>?</ab>
+               <speaker>NANCE:</speaker>
+               <ab>Did you see any evidence of a disturbance in the <placeName>house</placeName>? </ab>
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>It seems like he shut the <objectName type="miscellaneous">door</objectName>. It
-                  seems like he leaned in and pulled it closed. So it must have been opened because
-                  I distinctly saw his <objectName type="clothing">cap</objectName>.</ab>
+               <speaker>ZIEGLER</speaker>
+               <ab>Not any.</ab>
             </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>You are satisfied are you, that the light came from <persName
-                     ref="#taylor_william">Taylor's</persName> apartment out on the street through
-                  the open door?</ab>
+               <speaker>NANCE:</speaker>
+               <ab>Who was there when you arrived there?</ab>
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
+               <speaker>ZIEGLER:</speaker>
+               <ab>The owner of the <placeName>building</placeName>; <persName ref='#maclean_douglas'>Mr. MacLean</persName>; another movie actor <persName ref='#maigne_charles'>[Charles Maigne]</persName>, and <persName ref='#peavey_henry'>Peavey</persName>.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>You mean the owner of the building, <persName ref='#jessurun'>Mr. Jessurun</persName></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes, sir, and <persName ref='#maclean_douglas'>Mr. MacLean</persName> and another man I don't know.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>One of the adjacent tenants of the building?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes sir,living <placeName>next door east</placeName> of <persName ref='#taylor_william'>Mr. Taylor</persName>.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Did you question any of those persons as to whether they had heard any gunshot the <time>night previous</time>?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>I did. I learned that from <persName ref='#maclean_douglas'>Mrs. MacLean</persName>, that along about <time>fifteen or perhaps ten minutes to eight</time>, the night before, she heard a shot. 
+                  She thought it was a gunshot. She went to her front <objectName>door</objectName> and opened the door, and saw a man standing in <persName ref='#taylor_william'>Mr. Taylor's</persName> door. She looked at him, and he stood and looked at her; and he walked down 
+                  the steps, turned to the left, and going around the end of the building, which is to the east; and out into the street.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Into what <placeName>street</placeName>?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>Which is <placeName>Maryland</placeName>, I think.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Did <persName ref='#jessurun'>Mr. Jessurun</persName> tell you he heard a shot?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>I think he did.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Did he say why he didn't try to investigate it?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>He did not. He didn't know but what it was an <objectName>automobile</objectName> making a noise.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Did <persName ref='#maclean_douglas'>Mr. MacLean</persName> endeavor to investigate it?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>Not that I know of, and <persName ref='#maclean_faith'>Mrs. MacLean's</persName> maid also heard a shot.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Did they say why they didn't attempt to investigate the cause of the shot?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>They did not.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Did you find any weapon about the room where the deceased was lying?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>I found a <objectName type="weapon">weapon</objectName> in the <placeName>room above</placeName>.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Where was it?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>In the <placeName>front bedroom in the dresser drawer</placeName>, lying on a sort of <objectName>box</objectName>.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Did you investigate to see whether the <objectName type="clothing">clothing</objectName> was powder burnt or not?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIELGLER:</speaker>
+               <ab>I did not. That was investigated, I understand, later.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Did you ask any of the persons who were called by <persName ref='#peavey_henry'>Henry Peavey</persName>, the valet, whether there was any <objectName type="weapon">weapon</objectName> there when they first came into the room?
+               </ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>Yes, sir. We looked for everything of that kind.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Have you formed any conclusion whether it was possible this shot could have been fired by the deceased himself?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>Impossible.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>THE CORONER:</speaker>
+               <ab>Have you any questions, gentlemen?</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>By a juror: <quote>Was the revolver found <placeName>upstairs</placeName> loaded?</quote></ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>It was. It had five <objectName type="weapon">shells</objectName> in it; it had not been shot of
+                  late.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>Was it the same caliber <objectName type="weapon">bullet</objectName> as was found on the deceased?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
+               <ab>This was a <objectName type="weapon">.32 automatic Savage</objectName>.</ab>
+            </sp>
+            <sp select="question">
+               <speaker>NANCE:</speaker>
+               <ab>In the <objectName type="furniture">drawer</objectName> <placeName>upstairs</placeName>?</ab>
+            </sp>
+            <sp select="answer">
+               <speaker>ZIEGLER:</speaker>
                <ab>Yes.</ab>
             </sp>
-
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did he seem in a hurry?</ab>
+               <speaker>NANCE:</speaker>
+               <ab>What was the number of the <objectName type="weapon">bullet</objectName> that was found?</ab>
             </sp>
-
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No, he was the coolest thing I have ever seen * * *. He turned around and looked
-                  at me and hesitated. Then it seems as if * * * that <persName
-                     ref="#taylor_william">Mr. Taylor</persName> must have spoken to him from inside
-                  the house *** he thought he had spoken and he didn't. Seemed like he pulled the
-                     <objectName type="miscellaneous">door</objectName> shut, then turned around and
-                  looking at me all the time, walked down a couple ot steps that go up to <persName
-                     ref="#taylor_william">Mr. Taylor's</persName> house there.</ab>
+               <speaker>ZIEGLER:</speaker>
+               <ab>I understand that it was a <objectName type="weapon">.38</objectName>. I haven't seen it.</ab>
             </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Do you know whether the man that you saw went to <placeName ref="#alvarado"
-                     >Alvarado St.</placeName> through the open court there?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>He went towards <placeName ref="#maryland">Maryland St.</placeName> and towards
-                  the alley in between the two houses because he was facing that way ready to go
-                  when I closed the <objectName type="miscellaneous">door</objectName>.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>You knew it wasn't <persName ref="#taylor_william">Taylor</persName>.</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Oh, I knew it wasn't <persName ref="#taylor_william">Taylor</persName>.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Could you have recognized the man 1f it had been <persName ref="#taylor_william"
-                     >Mr. Taylor</persName>.</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Oh, yes, positively.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Now, is it possible that it might have been this young man <persName
-                     ref="#fellows_howard">Howard Fellows</persName>, the chauffeur, that you saw
-                  there. Could that be possible.</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>I suppose it could be possible but it doesn't seem to me that he was the boy or
-                  was the man. He doesn't seem the built of that man.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did the man you saw have a <objectName type="body_part">smooth
-                  face</objectName>?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Yes, he did have a <objectName type="body_part">smooth face</objectName>.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did the man you saw have on anything like a chauffeur's uniform?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Well, the only thing I noticed was his <objectName type="clothing"
-                     >cap</objectName>, something tied around his <objectName type="body_part"
-                     >throat</objectName>. I don't know whether the man had an <objectName
-                     type="clothing">over-coat</objectName> or not.</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>His age I don't know but I should judge the man was probably between 30 and 35.
-                  He was about 5 feet nine, just about ***, and he was stocky, not fat, but stocky.
-                  He had on a <objectName type="clothing">cap</objectName>. It seemed like a checked
-                     <objectName type="clothing">cap</objectName> with a plaid in it, and he wore
-                  something around his <objectName type="body_part">throat</objectName>.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab><objectName type="body_part">Smooth shaven</objectName>?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Yes.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Color of his <objectName type="clothing">suit</objectName>?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No, except it was a dark <objectName type="clothing">suit</objectName>.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Now didn't compare in size with <persName ref="#smith">Mr. Smith</persName>, the
-                  reporter here, who is taking this statement? (<persName ref="#smith">Mr.
-                     Smith</persName> was about 5' 7 1/2")</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No, <persName ref="#smith">Mr. Smith</persName> is shorter.</ab>
-            </sp>
-
             <sp>
-               <speaker>NARRATOR</speaker>
-               <ab>(The witness names the following men: <persName ref="#king_henry">Mr. Henry
-                     King</persName>, <persName ref="#hamilton_mahlon">Mr. Mahlon
-                     Hamilton</persName>, <persName ref="#hoyt_arthur">Mr. Arthur Hoyt</persName>,
-                     <persName ref="#berris_nigle">Mr. Berris (first name Nigle?)</persName>,
-                     <persName ref="#ince_thomas">Mr. Ince</persName>, <persName
-                     ref="#neilan_marshal">Mr. Marshal Neilan</persName>. Witness was then asked the
-                  following questions)</ab>
+               <speaker select="question">THE CORONER:</speaker>
+               <ab>That is all, you may be excused. That is all the <objectName type="miscellaneous">evidence</objectName> we will take in this case. All but the Jury will be excused.</ab>
             </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Now then, tell me whether there is any possibility that this man you saw coming
-                  out of there was any of the persons that you have mentioned?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No, I think not. I think I would have recognized any of those people.</ab>
-               <ab>** when he came out he was dressed as my idea of a moving picture burglar**? **
-                  because I remember thinking perhaps he might have been one of the boys in
-                     <persName ref="#taylor_william">Mr. Taylor's</persName> company when they go
-                  out on location. Not well dressed. I don't know as I would say slovenly but I
-                  don't think he was well dressed.</ab>
-            </sp>
+            
          </div>
 
       </body>

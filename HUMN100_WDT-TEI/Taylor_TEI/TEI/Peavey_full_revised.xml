@@ -565,14 +565,14 @@
 
             <sp select="answer">
                <speaker>PEAVEY:</speaker>
-               <ab>Yes, sir. I think <persName>Mr. Desmond</persName> [sic], and <persName>the
+               <ab>Yes, sir. I think <persName ref="#taylor_william">Mr. Desmond</persName> [sic], and <persName ref="#jesserun">the
                      gentleman</persName> who owns the <objectName type="miscellaneous"
                      >court</objectName> was the first.</ab>
             </sp>
 
             <sp select="question">
                <speaker>NANCE:</speaker>
-               <ab>You mean <persName>Mr. Jessurun?</persName></ab>
+               <ab>You mean <persName ref="#jesserun">Mr. Jessurun?</persName></ab>
             </sp>
 
             <sp select="answer">
@@ -601,7 +601,7 @@
             <byline><persName ref="#tait">Christian Tait</persName></byline>
             <sp>
                <speaker>NANCE:</speaker>
-               <ab>You didn't come back there after you had gone away, when <persName>Miss
+               <ab>You didn't come back there after you had gone away, when <persName ref="#normand_mabel">Miss
                      Normand</persName> was there with <persName>Mr. Taylor?</persName></ab>
             </sp>
 

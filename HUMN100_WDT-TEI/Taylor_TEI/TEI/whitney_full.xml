@@ -176,6 +176,9 @@
             <person xml:id="berger_marjorie">
                <persName>Marjorie Berger</persName>
             </person>
+            <person xml:id="blue_monte">
+               <persName>Monte Blue</persName>
+            </person>
             <person xml:id="davies_william">
                <persName>William Davies</persName>
             </person>
@@ -205,6 +208,9 @@
             </person>
             <person xml:id="maigne_charles">
                <persName>Charles Maigne</persName>
+            </person>
+            <person xml:id="mcpherson_jeanne">
+               <persName>Jeanne McPherson</persName>
             </person>
             <person xml:id="miles_juliet">
                <persName>Juliet Miles</persName>
@@ -264,302 +270,272 @@
                <persName>Thomas Ziegler</persName>
             </person>
          </particDesc>
+
+
+
+
+
+         <settingDesc>
+            <place xml:id="alvarado">
+               <placeName>Alvarado Street</placeName>
+            </place>
+         </settingDesc>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
          <!-- please fill out the template below, replacing text in square brackets with the actual information -->
          <head>
-            <title>Witness Statement Provided by Mrs. Faith MacLean</title>
-            <date when-iso="1922-02-09">2-9-22</date>
-            <orgName>Police</orgName>
+            <title> CHARLOTTE WHITNEY</title>
+            <date>Statement taken ll-28-25</date>
+            <orgName> Secretary to Mrs. Shelby</orgName>
          </head>
          <div>
-            <byline><persName ref="#wnek">Christine</persName></byline>
+            <byline><persName ref="Quinn">Meghan Quinn</persName></byline>
             <!-- make sure to add your unique identifier from the header, by adding the @ref attribute in the byline element -->
 
             <!-- Paste your transcription into the structure below, repeating the pattern for each question and answer. -->
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>When did you first learn that <persName ref="#taylor_william">Mr.
-                     Taylor</persName> was dead?</ab>
-            </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab><time when-iso="07:30">7:30</time><date>Thursday morning</date>.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Who was it that brought it to your attention?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>His colored servant came screaming out of the house.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>** and <persName ref="#minter_mary">Mary</persName> stood up and looked at her
+                     <persName ref="#shelby_charlotte">mother</persName> and said, <quote>"Do you
+                     really mean that?"</quote> and Mrs. Shelby said, <quote>"I certainly
+                     do."</quote> She accused her of being intimate with <persName ref="#taylor_william"
+                     >Taylor</persName>and then made other remarks. ** <persName ref="#minter_mary"
+                     >She</persName> locked herself in her <placeName> mother's room </placeName>**
+                  and she got the <objectName type="weapon">gun</objectName> and tried to kill
+                  herself, but there was a safety catch on it and it wouldn't go off. ** <persName
+                     ref="#minter_mary">Mary</persName> was monkeying with this thing and finally the
+                  catch released itself and the darn <objectName type="weapon">gun</objectName> went
+                  off. **</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>What did he say?</ab>
+               <speaker>POLICE:</speaker>
+               <ab>What kind of a <objectName type="weapon">gun</objectName> was that?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>"Help, Police, <persName ref="#taylor_william">Mr. Taylor</persName> is
-                  dead."</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>
+                  <objectName type="weapon">Revolver</objectName>. A little snub-nosed thing.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did the fact that <persName ref="#taylor_william">Mr. Taylor</persName> was dead
-                  remind you of anything that occurred <date when-iso="1922-02-01">the night
-                     before</date> * did you hear a shot.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Was it a black one?</ab>
             </sp>
+
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Yes, what we thought might be a <objectName type="weapon">shot</objectName> or a
-                  muffler explosion, I do not know which.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>When did you hear that?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Sometime probably <time when-iso="19:45-20:00">between quarter of eight and eight
-                     o'clock</time> on <date>Wednesday evening</date>.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Now, at the time you heard this <objectName type="weapon">shot</objectName> did
-                  you go out on the <objectName type="miscellaneous">porch</objectName></ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Yes, shortly after *** oh, about, I suppose three or four seconds, maybe a
-                  minute.</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No I did not I just opened my front <objectName type="miscellaneous"
-                     >door</objectName>.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Well, what did you say?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>I saw e man had already opened the <objectName type="miscellaneous"
-                     >door</objectName> of <persName ref="#taylor_william">Mr. Taylor</persName>'s
-                     <objectName type="miscellaneous">house</objectName> and was looking towards
-                     <placeName ref="#alvarado">Alverado St.</placeName> *** I didn't see him open
-                  the <objectName type="miscellaneous">door</objectName>; it was already open I
-                  think.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Which way was the screen?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>The screen <objectName type="miscellaneous">door</objectName> was open. I think
-                  the screen <objectName type="miscellaneous">door</objectName> was open then I must
-                  have been to have seen his figure as clearly as I did.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did he shut the <objectName type="miscellaneous">door</objectName>?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>It seems like he shut the <objectName type="miscellaneous">door</objectName>. It
-                  seems like he leaned in and pulled it closed. So it must have been opened because
-                  I distinctly saw his <objectName type="clothing">cap</objectName>.</ab>
-            </sp>
-
-            <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>You are satisfied are you, that the light came from <persName
-                     ref="#taylor_william">Taylor's</persName> apartment out on the street through
-                  the open door?</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
+               <speaker>WHITNEY:</speaker>
                <ab>Yes.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did he seem in a hurry?</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Who did the <objectName type="weapon">gun</objectName> belong to?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No, he was the coolest thing I have ever seen * * *. He turned around and looked
-                  at me and hesitated. Then it seems as if * * * that <persName
-                     ref="#taylor_william">Mr. Taylor</persName> must have spoken to him from inside
-                  the house *** he thought he had spoken and he didn't. Seemed like he pulled the
-                     <objectName type="miscellaneous">door</objectName> shut, then turned around and
-                  looking at me all the time, walked down a couple ot steps that go up to <persName
-                     ref="#taylor_william">Mr. Taylor's</persName> house there.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab><persName ref="#shelby_charlotte">Mrs. Shelby</persName>.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Do you know whether the man that you saw went to <placeName ref="#alvarado"
-                     >Alvarado St.</placeName> through the open court there?</ab>
+               <speaker>POLICE: </speaker>
+               <ab>Do you know how long <persName ref="#shelby_charlotte">she</persName> had it?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>He went towards <placeName ref="#maryland">Maryland St.</placeName> and towards
-                  the alley in between the two houses because he was facing that way ready to go
-                  when I closed the <objectName type="miscellaneous">door</objectName>.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>Oh, she always carried a <objectName type="weapon">gun</objectName>. I mean we
+                  always kept one in the <placeName>house</placeName>.</ab>
+            </sp>
+
+
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab><persName ref="#shelby_charlotte">She</persName> knew how to handle a <objectName
+                     type="weapon">gun</objectName>?</ab>
+            </sp>
+
+            <sp select="answer">
+               <speaker>WHITNEY:</speaker>
+               <ab>Oh, I should say so. ** <time>one night</time> when we (witness and Mrs. Shelby)
+                  went down to <placeName>Taylor's</placeName> after <persName ref="#minter_mary">Mary
+                  </persName>, <persName ref="#shelby_charlotte">Mrs. Shelby</persName> took the <objectName
+                     type="weapon">gun</objectName>, but I don't think <persName ref="#shelby_charlotte"
+                     >she</persName> had any intention of using it on <persName ref="#minter_mary"
+                     >Mary</persName>.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>You knew it wasn't <persName ref="#taylor_william">Taylor</persName>.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Did <persName ref="#shelby_charlotte">she</persName> (Shelby) threaten to kill <persName ref="#taylor_william">him</persName> (Taylor)?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Oh, I knew it wasn't <persName ref="#taylor_william">Taylor</persName>.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>Yes. Several people heard that. It was in <placeName>my office</placeName>.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Could you have recognized the man 1f it had been <persName ref="#taylor_william"
-                     >Mr. Taylor</persName>.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>When was <objectName type="weapon">it</objectName> in your office?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Oh, yes, positively.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>That was in <time>1920</time>, in the summer. He (Taylor) had finished directing
+                  with <persName ref="#minter_mary">Mary</persName>. <persName ref="#maigne_charles">Charley Maigne</persName>
+                  was directing her and Charley was in the <placeName>office</placeName>, and
+                     <persName ref="#taylor_william">Taylor</persName> was in the office. **</ab>
+            </sp>
+
+            <sp select="answer">
+               <speaker>WHITNEY:</speaker>
+               <ab>** She said, <quote>"If I ever catch you hanging around Mary again, I will blow
+                     your god damned brains out."</quote>
+                  <persName ref="#maigne_charles">She</persName> walked right up to <persName ref="#taylor_william"
+                     >him</persName>. She was just livid with rage and shook her <objectName
+                     type="body_part">fist</objectName> in his <objectName type="body_part"
+                     >face</objectName> and swore dozens of times.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Now, is it possible that it might have been this young man <persName
-                     ref="#fellows_howard">Howard Fellows</persName>, the chauffeur, that you saw
-                  there. Could that be possible.</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Do you know of an incident that occurred in which <persName ref="#blue_monte">Monte
+                     Blue</persName> was supposed to have been run out of the <placeName>dressing
+                     room</placeName> with a <objectName type="weapon">gun</objectName> by <persName
+                     ref="#shelby_charlotte">Mrs. Shelby</persName>?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>I suppose it could be possible but it doesn't seem to me that he was the boy or
-                  was the man. He doesn't seem the built of that man.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>Well, I don't know that <persName ref="#shelby_charlotte">she</persName> had a <objectName
+                     type="weapon">gun</objectName>, but I know that he was run out of the
+                     <placeName>dressing room</placeName>, because he ran into my
+                     <placeName>office</placeName> from the dressing room. (Referring to incidents
+                  surrounding visit of Mrs. Shelby to Taylor's residence in search of Mary) ** She
+                  (Mrs. Shelby) said, <quote>"I will take my gun, and if I find her there I am going
+                     to kill her."</quote> I begged her not to take it ** She wouldn't do it, so she
+                  went with the <objectName type="weapon">gun.</objectName> **</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did the man you saw have a <objectName type="body_part">smooth
-                  face</objectName>?</ab>
+               <speaker>POLICE:</speaker>
+               <ab>She had the <objectName type="weapon">gun</objectName> with her at that
+                  time?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Yes, he did have a <objectName type="body_part">smooth face</objectName>.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>She had it in her <objectName type="body_part">hand</objectName> and her
+                     <objectName type="clothing">coat sleeve</objectName>; she had big coat sleeves
+                  and the <objectName type="weapon">gun</objectName> was in her <objectName
+                     type="body_part">hand</objectName> hid by her coat sleeve.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Did the man you saw have on anything like a chauffeur's uniform?</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Do you know of any other trouble with <persName ref="#taylor_william">Taylor</persName>
+                  that <persName ref="#shelby_charlotte">Mrs. Shelby</persName> had?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Well, the only thing I noticed was his <objectName type="clothing"
-                     >cap</objectName>, something tied around his <objectName type="body_part"
-                     >throat</objectName>. I don't know whether the man had an <objectName
-                     type="clothing">over-coat</objectName> or not.</ab>
-            </sp>
-
-            <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>His age I don't know but I should judge the man was probably between 30 and 35.
-                  He was about 5 feet nine, just about ***, and he was stocky, not fat, but stocky.
-                  He had on a <objectName type="clothing">cap</objectName>. It seemed like a checked
-                     <objectName type="clothing">cap</objectName> with a plaid in it, and he wore
-                  something around his <objectName type="body_part">throat</objectName>.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>They fought all the time. Always on the <placeName>set</placeName> when he was
+                  directing.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab><objectName type="body_part">Smooth shaven</objectName>?</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Was the situation getting worse a11 the time?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>Yes.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>A11 the time. It was terrible.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Color of his <objectName type="clothing">suit</objectName>?</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Was there anyone else present at any of these battles, that you recall, over
+                     <persName ref="#taylor_william">Mr. Taylor</persName>?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No, except it was a dark <objectName type="clothing">suit</objectName>.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>Well, <persName ref="#stockdale_carl">Earl Stockdale</persName>. I am sure he was
+                  present.</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Now didn't compare in size with <persName ref="#smith">Mr. Smith</persName>, the
-                  reporter here, who is taking this statement? (<persName ref="#smith">Mr.
-                     Smith</persName> was about 5' 7 1/2")</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Do you know any of her servants (Shelby's) at the time of the murder?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No, <persName ref="#smith">Mr. Smith</persName> is shorter.</ab>
-            </sp>
-
-            <sp>
-               <speaker>NARRATOR</speaker>
-               <ab>(The witness names the following men: <persName ref="#king_henry">Mr. Henry
-                     King</persName>, <persName ref="#hamilton_mahlon">Mr. Mahlon
-                     Hamilton</persName>, <persName ref="#hoyt_arthur">Mr. Arthur Hoyt</persName>,
-                     <persName ref="#berris_nigle">Mr. Berris (first name Nigle?)</persName>,
-                     <persName ref="#ince_thomas">Mr. Ince</persName>, <persName
-                     ref="#neilan_marshal">Mr. Marshal Neilan</persName>. Witness was then asked the
-                  following questions)</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>I knew them only by their first names. ** We had a butler named <persName
+                     ref="Frederick">Frederick</persName>., a butler named ­<persName ref="Ernest"
+                     >Ernest</persName>, and a cook named <persName ref="Pauline"
+                  >Pauline</persName>. <persName ref="Stewart">Edith Stewart</persName> was
+                     <persName ref="#minter_mary">Mary's</persName> personal maid at that time</ab>
             </sp>
 
             <sp select="question">
-               <speaker>POLICE</speaker>
-               <ab>Now then, tell me whether there is any possibility that this man you saw coming
-                  out of there was any of the persons that you have mentioned?</ab>
+               <speaker>POLICE:</speaker>
+               <ab>Can you think of any friends of yours, or any acquaintances of <persName
+                     ref="#shelby_charlotte">Shelby</persName>, in any way at all, that were associating with
+                  or closely associated with them immediately prior to, or immediately after,
+                     <persName ref="#taylor_william">Taylor's</persName> murder?</ab>
             </sp>
 
             <sp select="answer">
-               <speaker>Faith MacLean</speaker>
-               <ab>No, I think not. I think I would have recognized any of those people.</ab>
-               <ab>** when he came out he was dressed as my idea of a moving picture burglar**? **
-                  because I remember thinking perhaps he might have been one of the boys in
-                     <persName ref="#taylor_william">Mr. Taylor's</persName> company when they go
-                  out on location. Not well dressed. I don't know as I would say slovenly but I
-                  don't think he was well dressed.</ab>
+               <speaker>WHITNEY:</speaker>
+               <ab>
+                  <persName ref="#periolet_george">M. George Periolet.</persName></ab>
+            </sp>
+
+            <sp select="question">
+               <speaker>WHITNEY:</speaker>
+               <ab>He is at <placeName>Engstrom Apartments, Los Angeles.</placeName> ** Have you
+                  talked to <persName ref="#mcpherson_jeanne">Jeanne McPherson</persName> at all? <persName ref="#mcpherson_jeanne">Jeanne</persName>
+                  knows a great, big, large lot. ** <persName ref="#mcpherson_jeanne">Jeanne</persName> came over to see <persName ref="#minter_mary"
+                     >Mary</persName> a day or so after the murder. She would be a good person for
+                  you to talk to. And her mother , <persName ref="#oneil">Mrs.
+                  O'Neil</persName>.</ab>
+            </sp>
+
+            <sp select="answer">
+               <speaker>POLICE:</speaker>
+               <ab>Well, going back to that old subject of the <objectName type="weapon"
+                     >gun</objectName>, I just wanted to be sure that <persName ref="#shelby_charlotte">Mrs.
+                     Shelby</persName> had it in the <placeName>house</placeName> for a long
+                  time.</ab>
+            </sp>
+
+            <sp select="answer">
+               <speaker>WHITNEY:</speaker>
+               <ab>Oh yes, there was always a <objectName type="weapon">gun</objectName>.</ab>
+            </sp>
+
+            <sp select="question">
+               <speaker>POLICE:</speaker>
+               <ab>If anybody said that <persName ref="#shelby_charlotte">Mrs. She1by</persName> did not know
+                  anything about a <objectName type="weapon">pistol or revolver</objectName>, and
+                  was afraid of one, that would not be true?</ab>
+            </sp>
+
+            <sp select="answer">
+               <speaker>WHITNEY:</speaker>
+               <ab>That's ridiculous. <persName ref="#shelby_charlotte">Mrs. Shelby</persName> was not afraid
+                  of anything.</ab>
             </sp>
          </div>
-
       </body>
    </text>
 </TEI>
